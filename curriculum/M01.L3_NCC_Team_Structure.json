@@ -1,0 +1,104 @@
+{
+ "lesson_id": "M01.L3",
+ "module_id": "M01",
+ "phase_id": "P1",
+ "title": "The NCC Team: Ice, Fire, and Everyone Around You",
+ "version": "0.1",
+ "version_date": "2026-05-15",
+ "duration_min": 20,
+ "delivery_format": ["reading", "diagram_team_tree", "reference_card"],
+ "objectives": [
+ {"verb": "Distinguish", "outcome": "Ice and Fire teams: coverage, patient lists, downgrade pathways"},
+ {"verb": "Describe", "outcome": "Daytime/nighttime/in-house-until-midnight attending coverage"},
+ {"verb": "Identify", "outcome": "Every team role and what each is responsible for"},
+ {"verb": "Select", "outcome": "Correct TigerConnect role for time of day and question type"}
+ ],
+ "prerequisites": ["M01.L1", "M01.L2"],
+ "didactic_sections": [
+ {"heading": "Ice vs. Fire", "table": [
+ {"team": "Ice", "list": "NCC Ice", "day_attending": "Ice", "night_attending": "Fire (via Tigertext)", "downgrades_to": "Blue team"},
+ {"team": "Fire", "list": "NCC Fire", "day_attending": "Fire", "night_attending": "Fire; in-house until ~midnight", "downgrades_to": "Red team"}
+ ]},
+ {"heading": "Attending Coverage", "key_points": [
+ "Rounds 8 AM (or after grand rounds Friday)",
+ "PM rounds at attending discretion",
+ "4:30–5 PM signout touch-base",
+ "Night neurointensivist in-house until ~midnight most weeks",
+ "PCCM attending in-house 24/7"
+ ]},
+ {"heading": "When to Call the Attending", "triggers": [
+ "Change in neuro exam",
+ "Unexpected imaging findings",
+ "Hypotension on pressors, arrhythmia, troponin, transfusion",
+ "Need for central venous access",
+ "Worsening respiratory status, intubation watch, NIV start, peak/plateau changes",
+ "Pre-extubation (also PCCM)",
+ "Pre-antibiotic start",
+ "NSGY plan for emergent OR",
+ "Unplanned/major procedure",
+ "Unexpected death or code blue",
+ "Anything you are unsure of",
+ "Anytime you feel overwhelmed or unsure"
+ ]},
+ {"heading": "Residents", "key_points": [
+ "2 neurology residents per team (Ice 1/2, Fire 1/2)",
+ "1 neurosurgery resident per Ice team typically",
+ "Each resident sees up to 8 patients",
+ "6 off-days per 4-week rotation, 4 per 3-week",
+ "Clinic + Fridays + weekends off-limits as off-days",
+ "Fellows: NCC and epilepsy"
+ ]},
+ {"heading": "Pharmacy / RT / Nursing / EEG / SW / Therapy", "roles": [
+ {"role": "NCC Pharmacist", "responsibilities": ["Med rec review", "HTS, sedation, abx, AC reversal, pentobarbital, PRIS monitoring"]},
+ {"role": "RT", "responsibilities": ["Vent setup", "NIV", "Suctioning", "ETCO2", "Transport with intubated patient"]},
+ {"role": "Bedside RN", "responsibilities": ["ACLS", "Whiteboard updates", "First call for changes"]},
+ {"role": "Charge RN", "responsibilities": ["Bed map", "Staffing", "Code Blue help triage"]},
+ {"role": "EEG tech / Epilepsy fellow", "responsibilities": ["cvEEG setup ~30 min", "Read and report via Ice/Fire+EEG TigerConnect"]},
+ {"role": "Social Work / Case Mgmt", "responsibilities": ["Complex disposition", "DOC long-stay patients"]},
+ {"role": "Acute Therapy", "responsibilities": ["Early OT/PT/ST with DoC flag", "Swallow eval"]}
+ ]},
+ {"heading": "TigerConnect Address Book", "roles": [
+ {"role": "SJHMC NCC Ice Resident 1/2", "use": "Daytime Ice neurology residents"},
+ {"role": "SJHMC NCC Fire Resident 1/2", "use": "Daytime Fire neurology residents"},
+ {"role": "SJHMC Neuro Critical Care - Attending", "use": "Call NCC attending 24/7 for admissions"},
+ {"role": "SJHMC NCC Fire", "use": "Night attending after midnight"},
+ {"role": "NCC Resident", "use": "Cross-cover signout"},
+ {"role": "Ice+EEG / Fire+EEG", "use": "EEG team for that service"},
+ {"role": "Pharmacy", "use": "NCC pharmacist direct"}
+ ]},
+ {"heading": "Note Signature Discipline", "key_points": [
+ "Update progress-note signature each morning",
+ "Include ASCOM #, daytime end time, nighttime contact",
+ "Must match patient whiteboard"
+ ]}
+ ],
+ "linked_protocols": [
+ "Neurocritical Care Orientation PPTX",
+ "Resident responsibilities - neurology",
+ "NCC Downgrade Workflow FL 5.7.25",
+ "NCC Patient Care Roles",
+ "APP Onboarding Checklist",
+ "Status Epilepticus Guideline"
+ ],
+ "nursing_considerations": [
+ "Charge RN is the operational quarterback — loop them in early for bed/cohorting questions",
+ "Bedside RN owns the whiteboard accuracy; verify your name and ASCOM are correct"
+ ],
+ "pharm_considerations": [
+ "NCC pharmacist is on rounds — bring sedation, HTS, AC reversal, and abx questions to that interaction rather than paging mid-day",
+ "Pharmacist owns pentobarbital coma protocol monitoring (q72h LFTs, propylene glycol watch)"
+ ],
+ "visuals": [
+ {"id": "M01.L3.V1", "type": "diagram", "subject": "Ice and Fire team tree with roles", "notes": "Includes APP, residents (neuro and NSGY), fellows, pharmacy, RT, charge, RN, EEG, SW, therapy"},
+ {"id": "M01.L3.V2", "type": "timeline_graphic", "subject": "24-hour attending coverage timeline", "notes": "Shows daytime, evening, in-house-until-midnight, phone-after, PCCM 24/7"},
+ {"id": "M01.L3.V3", "type": "reference_card", "subject": "TigerConnect role cheat sheet", "notes": "Printable wallet card and in-app quick view"},
+ {"id": "M01.L3.V4", "type": "infographic", "subject": "When to call the attending — non-negotiable triggers", "notes": "Used in M01.L3 and revisited in M03.L6"}
+ ],
+ "assessment": [
+ {"item": "Identify TigerConnect role for new admission at 2 AM", "type": "application"},
+ {"item": "Fire team downgrade goes to which general neurology team?", "type": "recall"},
+ {"item": "RN calls re: vent dyssynchrony at 11 PM — who do you notify in addition to NCC?", "type": "application"},
+ {"item": "Pre-extubation notification list", "type": "recall"}
+ ],
+ "competency_tags": ["team_communication", "tigerconnect", "attending_notification"]
+}

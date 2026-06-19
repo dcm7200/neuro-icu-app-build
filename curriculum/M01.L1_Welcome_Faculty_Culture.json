@@ -1,0 +1,71 @@
+{
+ "lesson_id": "M01.L1",
+ "module_id": "M01",
+ "phase_id": "P1",
+ "title": "Welcome, Faculty, and the Culture of Speaking Up",
+ "version": "0.1",
+ "version_date": "2026-05-15",
+ "duration_min": 15,
+ "delivery_format": ["reading", "video"],
+ "objectives": [
+ {"verb": "Identify", "outcome": "Section Head and core NCC faculty and the scope of attending coverage"},
+ {"verb": "Articulate", "outcome": "'Speak-up' expectation and four trigger situations"},
+ {"verb": "Recognize", "outcome": "NCC as a multidisciplinary regionalized team-based service"},
+ {"verb": "Locate", "outcome": "Barrow NCC Resources website and key orientation materials"}
+ ],
+ "prerequisites": [],
+ "didactic_sections": [
+ {"heading": "Why This Lesson Matters", "key_points": ["NCC patients deteriorate fast", "Silence carries clinical cost", "Speak-up culture is institutional, not optional"]},
+ {"heading": "Who You Are Joining", "key_points": [
+ "Section Head: Ruchira Jha, MD MSc",
+ "Core faculty: Fiona Lynch, Patrick Crooks, Nassim Matin, Aditya Kumar",
+ "Broader committee includes Mangalampalli, Nelson, Haller, Phuah, Sisniega",
+ "BNI Handbook 2026-2027 by Mangalampalli/Kumar/Nelson is the pocket reference",
+ "APPs are partners — not coverage — for residents and attendings"
+ ]},
+ {"heading": "Our Culture: Speak Up", "key_points": [
+ "Plan doesn't make sense → ask",
+ "Uncomfortable with something → flag",
+ "Need help → request",
+ "Something went or is about to go wrong → escalate",
+ "Culture violations reportable to APP lead, Section Head, HR"
+ ]},
+ {"heading": "Multidisciplinary by Design", "key_points": [
+ "Cohort primary/co-managed patients on 4NBC",
+ "Consults cohorted if NCC problems dominate",
+ "Outside-hospital transfers never delayed for bed criteria"
+ ]},
+ {"heading": "Where to Find Things", "resources": [
+ {"name": "Barrow NCC Resources website", "path": "OKTA → BNI intranet"},
+ {"name": "NCC orientation deck", "path": "Resources website / Orientation"},
+ {"name": "Institutional protocols", "path": "Resources website / Protocols"},
+ {"name": "BNI NCC Handbook 2026-2027", "path": "Distributed at orientation + Resources website"},
+ {"name": "Amion schedule", "path": "amion.com"},
+ {"name": "APP lead", "path": "Listed in offer letter"}
+ ]}
+ ],
+ "linked_protocols": [
+ "Neurocritical Care Orientation PPTX",
+ "Admission Diagnosis Guidelines for NCC Pod 4NNC",
+ "NCC Patient Care Roles"
+ ],
+ "nursing_considerations": [
+ "RNs on 4NBC are subspecialty-trained for NCC; rely on their pattern recognition for subtle exam changes",
+ "Bedside RN is the first to call you for changes; treat their calls as data, not noise"
+ ],
+ "pharm_considerations": [
+ "Dedicated NCC pharmacy presence enables protocolized drips (hypertonic saline, nicardipine, anesthetic infusions); identify the pharmacist on your first shift"
+ ],
+ "visuals": [
+ {"id": "M01.L1.V1", "type": "photo", "subject": "Faculty headshots with names and titles", "notes": "Update annually"},
+ {"id": "M01.L1.V2", "type": "video", "subject": "2-minute welcome from Section Head", "notes": "Scripted around speak-up culture"},
+ {"id": "M01.L1.V3", "type": "diagram", "subject": "BNI/SJHMC organizational chart for NCC", "notes": "Shows Ice/Fire teams, attending coverage, APP, residents, fellows, pharmacy, RT, RN, charge"}
+ ],
+ "assessment": [
+ {"item": "Identify the Section Head", "type": "recall"},
+ {"item": "List three speak-up triggers", "type": "recall"},
+ {"item": "Explain why patients are cohorted on 4NBC", "type": "comprehension"},
+ {"item": "Locate the institutional ICP protocol", "type": "application"}
+ ],
+ "competency_tags": ["communication_team", "unit_orientation", "culture_safety"]
+}

@@ -1,0 +1,112 @@
+{
+ "lesson_id": "M01.L4",
+ "module_id": "M01",
+ "phase_id": "P1",
+ "title": "NCC Roles by Patient Type: Primary, Co-Managed, Consult",
+ "version": "0.1",
+ "version_date": "2026-05-15",
+ "duration_min": 25,
+ "delivery_format": ["reading", "decision_tree", "case_vignettes"],
+ "objectives": [
+ {"verb": "Differentiate", "outcome": "Primary, Co-managed, Consult roles and authority scope"},
+ {"verb": "List", "outcome": "Typical diagnoses for each role at BNI/SJHMC"},
+ {"verb": "Decide", "outcome": "What you can order, what to coordinate, what is advisory"},
+ {"verb": "Recognize", "outcome": "Gray zones: emergent deteriorations, family meetings"}
+ ],
+ "prerequisites": ["M01.L1", "M01.L2", "M01.L3"],
+ "didactic_sections": [
+ {"heading": "The Three Roles", "roles": [
+ {"role": "Primary", "scope": "Direct overall care, perform procedures, place orders, consult others, discharge from ICU"},
+ {"role": "Co-managing", "scope": "Routine orders within scope; large management decisions require coordination with primary; family meetings shared"},
+ {"role": "Consult", "scope": "Recommendations to primary; orders and family meetings only with primary's expressed permission"}
+ ]},
+ {"heading": "Documentation by role", "table": [
+ {"role": "Primary", "docs": "H&P, daily progress, transfer/discharge, code status, family-meeting notes"},
+ {"role": "Co-managed", "docs": "Daily co-management progress note parallel to primary"},
+ {"role": "Consult", "docs": "Consult note with recommendations + active follow-up notes"}
+ ]},
+ {"heading": "NCC Primary Diagnoses", "list": [
+ "Status epilepticus or at-risk",
+ "Neuromuscular disease (GBS, MG) requiring ICU",
+ "Infectious meningitis requiring ICU",
+ "Autoimmune encephalitis, demyelinating conditions requiring ICU"
+ ]},
+ {"heading": "NCC Co-managed Diagnoses", "list": [
+ {"diagnosis": "Spontaneous SAH", "primary": "Neurosurgery"},
+ {"diagnosis": "Spontaneous ICH without vascular lesion", "primary": "Stroke"},
+ {"diagnosis": "Spontaneous ICH with vascular lesion", "primary": "Neurosurgery"},
+ {"diagnosis": "Elective endovascular complications", "primary": "Endovascular NSGY"},
+ {"diagnosis": "Shunt infection, acute hydrocephalus", "primary": "Neurosurgery"},
+ {"diagnosis": "Suprasellar surgery with DI", "primary": "Neurosurgery"},
+ {"diagnosis": "AIS at high risk for decompensation", "primary": "Stroke"},
+ {"diagnosis": "Large cerebellar or brainstem stroke", "primary": "Stroke"},
+ {"diagnosis": "Intracranial/spinal neoplasms requiring ICU", "primary": "Often Neurosurgery"}
+ ]},
+ {"heading": "NCC Consult Diagnoses", "list": [
+ {"diagnosis": "Moderate/severe TBI", "primary": "TICU"},
+ {"diagnosis": "Cardiac arrest with anoxic brain injury", "primary": "MICU or CTICU"},
+ {"diagnosis": "Toxidromes with seizures or encephalopathy", "primary": "MICU"},
+ {"diagnosis": "ICU/ECMO with AMS", "primary": "MICU, TICU, CTICU"},
+ {"diagnosis": "ECMO with stroke/ICH", "primary": "CTICU"},
+ {"diagnosis": "Severe heatstroke", "primary": "MICU"}
+ ]},
+ {"heading": "Order Authority Matrix", "matrix": [
+ {"order_type": "Sedation drip titration", "primary": "Yes", "comanaged": "Yes (notify primary if major)", "consult": "Recommend only"},
+ {"order_type": "Electrolyte replacement", "primary": "Yes", "comanaged": "Yes", "consult": "Recommend only"},
+ {"order_type": "Fever workup", "primary": "Yes", "comanaged": "Yes (notify primary)", "consult": "Recommend only"},
+ {"order_type": "DVT prophylaxis", "primary": "Yes", "comanaged": "Yes (coordinate timing)", "consult": "Recommend only"},
+ {"order_type": "Antibiotic initiation", "primary": "Yes (notify attending)", "comanaged": "Yes (notify primary + attending)", "consult": "Recommend only"},
+ {"order_type": "Antihypertensive drip", "primary": "Yes", "comanaged": "Yes (coordinate goals)", "consult": "Recommend only"},
+ {"order_type": "Hyperosmolar therapy", "primary": "Yes", "comanaged": "Yes", "consult": "Recommend only (urgent exception)"},
+ {"order_type": "Vasopressor initiation", "primary": "Yes (notify)", "comanaged": "Yes (notify both)", "consult": "Recommend only"},
+ {"order_type": "AC reversal", "primary": "Yes", "comanaged": "Yes (coordinate)", "consult": "Recommend only"},
+ {"order_type": "Surgical consult", "primary": "Yes", "comanaged": "Coordinate first", "consult": "Coordinate with primary"},
+ {"order_type": "Code status / GOC family meeting", "primary": "Yes", "comanaged": "With primary", "consult": "Only with primary's permission"},
+ {"order_type": "ICU discharge / transfer", "primary": "Yes", "comanaged": "With primary", "consult": "Primary decides"}
+ ]},
+ {"heading": "Emergent Gray Zones", "key_points": [
+ "Acute decompensation on a consult patient — act in patient's best interest",
+ "Document time-pressure",
+ "Notify primary team and NCC attending in parallel",
+ "Reset boundaries when primary is at bedside"
+ ]},
+ {"heading": "Family Meetings on Consults", "key_points": [
+ "Do not run independently",
+ "Inform primary team",
+ "Participate if invited",
+ "Answer neurological questions if asked",
+ "Document conversations"
+ ]}
+ ],
+ "case_vignettes": [
+ {"id": "M01.L4.C1", "stem": "56 y/o thalamic ICH, GCS 11, SBP 215", "role": "Co-managed", "correct_action": "Initiate nicardipine per ICH bundle; notify stroke attending; coordinate surgical referral if expansion"},
+ {"id": "M01.L4.C2", "stem": "22 y/o severe TBI, ICP 28, TICU attending elsewhere", "role": "Consult", "correct_action": "Treat ICP per protocol; document urgency; notify TICU and NCC attending in parallel; reset on TICU arrival"},
+ {"id": "M01.L4.C3", "stem": "67 y/o myasthenic crisis on PLEX, husband asks 'should we keep going?'", "role": "Primary", "correct_action": "Sit down, answer, document; schedule formal family meeting if needed"}
+ ],
+ "linked_protocols": [
+ "NCC Patient Care Roles",
+ "Admission Diagnosis Guidelines for NCC Pod 4NNC",
+ "2025 ICH Bundle Algorithm",
+ "ICP Management Protocol",
+ "aSAH Workflow"
+ ],
+ "nursing_considerations": [
+ "On consult patients, communicate clearly to bedside RN that recommendations require primary team order entry",
+ "On co-managed patients, designate who is paging RN in the morning"
+ ],
+ "pharm_considerations": [
+ "On consult patients, pharmacy will route drug-interaction concerns to the primary team unless NCC has been delegated specific authority"
+ ],
+ "visuals": [
+ {"id": "M01.L4.V1", "type": "decision_tree", "subject": "Primary / Co-managed / Consult flowchart by diagnosis", "notes": "Tap a diagnosis to see role and primary team"},
+ {"id": "M01.L4.V2", "type": "table_interactive", "subject": "Order authority matrix by role", "notes": "Filterable by order type"},
+ {"id": "M01.L4.V3", "type": "infographic", "subject": "Emergent gray-zone decision rules", "notes": "Act, document time-pressure, notify in parallel"}
+ ],
+ "assessment": [
+ {"item": "Identify primary vs. NCC role for severe TBI with ICP monitor", "type": "application"},
+ {"item": "Pre-order escalation for induced HTN in SAH co-managed patient", "type": "application"},
+ {"item": "Handling of family prognosis question on consult patient", "type": "application"},
+ {"item": "Matrix recall: vasopressor initiation by role", "type": "recall"}
+ ],
+ "competency_tags": ["role_scope", "co_management", "consult_etiquette", "documentation"]
+}

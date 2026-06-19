@@ -1,0 +1,78 @@
+{
+ "lesson_id": "M01.L2",
+ "module_id": "M01",
+ "phase_id": "P1",
+ "title": "Unit Geography: 4NNB, 4NNC, and Everything Around Them",
+ "version": "0.1",
+ "version_date": "2026-05-15",
+ "duration_min": 20,
+ "delivery_format": ["reading", "video_walking_tour", "interactive_floor_map"],
+ "objectives": [
+ {"verb": "Locate", "outcome": "4NNB and 4NNC pods and bed footprint"},
+ {"verb": "Locate", "outcome": "7 priority spaces: APP office, attending office, Pyxis, conference rooms, lounge, EEG room, Code Blue room"},
+ {"verb": "Locate", "outcome": "ED, Mercy 1st-floor conference room, 6th-floor conference room"},
+ {"verb": "Retrieve", "outcome": "Procedure supplies for emergent intervention within 60 seconds"}
+ ],
+ "prerequisites": ["M01.L1"],
+ "didactic_sections": [
+ {"heading": "The Two NCC Pods", "key_points": [
+ "4NNC = 16 beds, primary NCC patients",
+ "4NNB = variable, co-managed and overflow",
+ "Cohort primary and co-managed to 4NBC when possible",
+ "Cohort consults to 4NBC if NCC issues dominate",
+ "Never delay OSH transfers for bed criteria — board post-hoc"
+ ]},
+ {"heading": "Inside the Unit", "spaces": [
+ {"name": "APP Office", "purpose": "Sit between rounds, locker, printer, TigerConnect role board"},
+ {"name": "Attending Office", "purpose": "Daytime attending; knock first"},
+ {"name": "Supply Pyxis", "purpose": "Cranial access kit, vent pack, CVC tray, A-line, LP, US-IV, ONB tray"},
+ {"name": "Code Blue Room", "purpose": "Rapid response location; ICU vs overhead Code Blue distinction"},
+ {"name": "EEG/Epilepsy Reading Room", "purpose": "Walk-over for urgent EEG questions"},
+ {"name": "4th-floor Barrow Conference Room", "purpose": "Primary case conference and faculty meetings"},
+ {"name": "6th-floor Conference Room", "purpose": "Overflow and didactic"},
+ {"name": "Mercy 1st-floor Conference Room", "purpose": "Cross-SJHMC convening"},
+ {"name": "Barrow Lounge", "purpose": "Decompression, food, shared coffee"}
+ ]},
+ {"heading": "Raumedic Kit Location", "key_points": [
+ "Raumedic Drill Kit CH5, Bolt Kit PTO, and Neurovent-PTO catheter are attached to the Raumedic pole at the bedside",
+ "Cranial access kit and ventriculostomy pack live in the Pyxis"
+ ]},
+ {"heading": "Outside the Unit", "spaces": [
+ {"name": "Emergency Room", "purpose": "Stroke codes, status, deterioration; bring phone + protocols"},
+ {"name": "CT Scanner", "purpose": "Door-to-CT ≤25 min for ICH transfers (M13.L4)"}
+ ]},
+ {"heading": "60-Second Drill", "drill_items": [
+ "Anisocoria + posturing on 4NNC → cranial access kit (Pyxis)",
+ "ICU-only Code Blue → confirm overhead activation",
+ "Find epileptologist → EEG reading room or Ice+EEG / Fire+EEG TigerConnect",
+ "Staff new aSAH → Attending Office or SJHMC NCC Attending TigerConnect role"
+ ]}
+ ],
+ "linked_protocols": [
+ "APP Onboarding Checklist",
+ "Neurocritical Care Orientation PPTX",
+ "Admission Diagnosis Guidelines for NCC Pod 4NNC",
+ "ICU ONLY- Raumedic-ClinicalSource",
+ "2025 ICH Bundle Algorithm"
+ ],
+ "nursing_considerations": [
+ "Charge RN typically knows the current bed map better than anyone — start there for cohorting questions",
+ "RN will help verify overhead Code Blue activation"
+ ],
+ "pharm_considerations": [
+ "Pharmacy maintains the Pyxis stocking; if a high-acuity kit is missing, page pharmacy directly"
+ ],
+ "visuals": [
+ {"id": "M01.L2.V1", "type": "interactive_floor_map", "subject": "Annotated 4NNB/4NNC floor plan", "notes": "Pannable, zoomable; tap each room for description and photo"},
+ {"id": "M01.L2.V2", "type": "video", "subject": "Walking tour led by a senior APP", "notes": "8-10 minutes, narrated, ends at Code Blue room"},
+ {"id": "M01.L2.V3", "type": "photo_carousel", "subject": "Each conference room exterior + interior", "notes": "Captioned with name and floor"},
+ {"id": "M01.L2.V4", "type": "photo", "subject": "Raumedic pole with kits attached", "notes": "Used in M01.L2 and revisited in M09.L3"},
+ {"id": "M01.L2.V5", "type": "infographic", "subject": "ICU Code Blue vs. Overhead Code Blue decision flow", "notes": "Used in M01.L2 and M03.L6"}
+ ],
+ "assessment": [
+ {"item": "ICU Code Blue vs. overhead Code Blue — clinical implication", "type": "application"},
+ {"item": "Location of Raumedic kits at the moment of insertion", "type": "recall"},
+ {"item": "Rationale for cohorting consult patients to 4NBC", "type": "comprehension"}
+ ],
+ "competency_tags": ["unit_orientation", "supply_access", "code_blue"]
+}
