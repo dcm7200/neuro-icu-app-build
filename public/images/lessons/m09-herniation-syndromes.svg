@@ -1,0 +1,97 @@
+<svg width="700" height="460" viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="460" fill="#f8fafc" rx="12"/>
+
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Brain Herniation Syndromes</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Rising ICP displaces brain tissue across fixed dural boundaries. Each pattern = distinct clinical signature.</text>
+
+  <!-- === BRAIN SILHOUETTE (sagittal schematic, center) === -->
+  <!-- Skull outer -->
+  <ellipse cx="350" cy="185" rx="145" ry="130" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2.5"/>
+  <!-- Skull inner (to show skull thickness) -->
+  <ellipse cx="350" cy="185" rx="135" ry="120" fill="#e0e7ff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="none"/>
+
+  <!-- Falx cerebri (vertical midline dural partition) -->
+  <line x1="350" y1="65" x2="350" y2="210" stroke="#475569" stroke-width="3"/>
+  <text x="350" y="62" text-anchor="middle" font-size="9" fill="#475569">Falx cerebri</text>
+
+  <!-- Tentorium cerebelli (horizontal partition) -->
+  <path d="M 225,230 Q 290,215 350,218 Q 410,215 475,230" fill="none" stroke="#475569" stroke-width="3"/>
+  <text x="510" y="232" font-size="9" fill="#475569">Tentorium</text>
+
+  <!-- Cerebral hemispheres (left and right) -->
+  <ellipse cx="305" cy="170" rx="70" ry="80" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+  <ellipse cx="395" cy="170" rx="70" ry="80" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Cerebellum (below tentorium) -->
+  <ellipse cx="350" cy="275" rx="80" ry="55" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5" opacity="0.7"/>
+  <text x="350" y="278" text-anchor="middle" font-size="10" fill="#15803d" font-weight="600">Cerebellum</text>
+
+  <!-- Brainstem -->
+  <rect x="330" y="295" width="40" height="55" rx="8" fill="#fde68a" stroke="#d97706" stroke-width="1.5"/>
+  <text x="350" y="328" text-anchor="middle" font-size="9" fill="#92400e">Brainstem</text>
+
+  <!-- Foramen magnum -->
+  <ellipse cx="350" cy="355" rx="28" ry="12" fill="none" stroke="#7f1d1d" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="350" y="373" text-anchor="middle" font-size="9" fill="#7f1d1d">Foramen magnum</text>
+
+  <!-- === HERNIATION CALLOUTS === -->
+
+  <!-- 1. SUBFALCINE (top left) -->
+  <rect x="10" y="60" width="160" height="76" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="90" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">1. Subfalcine</text>
+  <text x="90" y="94" text-anchor="middle" font-size="10" fill="#1e40af">Cingulate gyrus shifts</text>
+  <text x="90" y="108" text-anchor="middle" font-size="10" fill="#1e40af">under falx cerebri</text>
+  <text x="90" y="122" text-anchor="middle" font-size="10" fill="#334155" font-style="italic">ACA compression</text>
+  <text x="90" y="134" text-anchor="middle" font-size="10" fill="#dc2626">Leg weakness (ipsilateral)</text>
+  <!-- Arrow to brain -->
+  <line x1="170" y1="98" x2="277" y2="140" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#ba)"/>
+
+  <!-- 2. UNCAL (right side) -->
+  <rect x="530" y="95" width="162" height="90" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="611" y="113" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">2. Uncal &#x26A0;</text>
+  <text x="611" y="129" text-anchor="middle" font-size="10" fill="#991b1b">Temporal lobe uncus</text>
+  <text x="611" y="143" text-anchor="middle" font-size="10" fill="#991b1b">over tentorial edge</text>
+  <text x="611" y="157" text-anchor="middle" font-size="10" fill="#334155" font-style="italic">CN III + PCA compression</text>
+  <text x="611" y="171" text-anchor="middle" font-size="10" fill="#dc2626">Blown pupil (ipsi) + contralateral hemi</text>
+  <text x="611" y="183" text-anchor="middle" font-size="9" fill="#dc2626">MOST COMMON herniation</text>
+  <!-- Arrow to brain -->
+  <line x1="530" y1="140" x2="462" y2="200" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#ba)"/>
+
+  <!-- 3. CENTRAL (top right above) -->
+  <rect x="530" y="55" width="162" height="38" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="611" y="69" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">3. Central</text>
+  <text x="611" y="84" text-anchor="middle" font-size="10" fill="#713f12">Diencephalon pushed down</text>
+  <!-- Arrow -->
+  <line x1="530" y1="74" x2="430" y2="130" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#ba)"/>
+
+  <!-- 4. TONSILLAR (bottom) -->
+  <rect x="530" y="280" width="162" height="80" rx="6" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="611" y="298" text-anchor="middle" font-size="11" font-weight="700" fill="#6d28d9">4. Tonsillar &#x26A0;</text>
+  <text x="611" y="314" text-anchor="middle" font-size="10" fill="#5b21b6">Cerebellar tonsils through</text>
+  <text x="611" y="328" text-anchor="middle" font-size="10" fill="#5b21b6">foramen magnum</text>
+  <text x="611" y="342" text-anchor="middle" font-size="10" fill="#334155" font-style="italic">Medulla compression</text>
+  <text x="611" y="356" text-anchor="middle" font-size="10" fill="#dc2626">Apnea, bradycardia, death</text>
+  <!-- Arrow to brain -->
+  <line x1="530" y1="320" x2="430" y2="330" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#ba)"/>
+
+  <!-- Cushing's Triad box -->
+  <rect x="10" y="150" width="160" height="80" rx="6" fill="#fff1f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="90" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">&#x26A0; Cushing's Triad</text>
+  <text x="90" y="184" text-anchor="middle" font-size="10" fill="#7f1d1d">Hypertension (widened PP)</text>
+  <text x="90" y="198" text-anchor="middle" font-size="10" fill="#7f1d1d">Bradycardia</text>
+  <text x="90" y="212" text-anchor="middle" font-size="10" fill="#7f1d1d">Irregular respirations</text>
+  <text x="90" y="226" text-anchor="middle" font-size="9" fill="#991b1b">= imminent brainstem death</text>
+
+  <!-- Bottom bar -->
+  <rect x="10" y="400" width="680" height="48" rx="8" fill="#1e3a5f"/>
+  <text x="350" y="418" text-anchor="middle" font-size="11" font-weight="700" fill="#fbbf24">Clinical Priority Order: Uncal &gt; Central &gt; Tonsillar &gt; Subfalcine</text>
+  <text x="175" y="438" text-anchor="middle" font-size="10" fill="#93c5fd">Blown pupil = uncal until proven otherwise</text>
+  <text x="350" y="438" text-anchor="middle" font-size="10" fill="#e2e8f0">|</text>
+  <text x="525" y="438" text-anchor="middle" font-size="10" fill="#93c5fd">Treat empirically — do not wait for CT if clinical signs present</text>
+
+  <defs>
+    <marker id="ba" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

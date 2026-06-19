@@ -1,0 +1,130 @@
+<svg width="700" height="420" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="420" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Glasgow Coma Scale (GCS)</text>
+  <text x="350" y="50" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Score each component. Report as E__V__M__, not just total. Min=3, Max=15.</text>
+
+  <!-- === EYE OPENING === -->
+  <rect x="20" y="62" width="210" height="220" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="20" y="62" width="210" height="34" rx="8" fill="#3b82f6"/>
+  <rect x="20" y="84" width="210" height="12" fill="#3b82f6"/>
+  <text x="125" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="white">EYE OPENING (E)</text>
+
+  <text x="38" y="112" font-size="12" fill="#1e3a5f">4</text>
+  <text x="56" y="112" font-size="12" fill="#334155">Spontaneous</text>
+  <line x1="30" y1="118" x2="220" y2="118" stroke="#dbeafe" stroke-width="1"/>
+
+  <text x="38" y="135" font-size="12" fill="#1e3a5f">3</text>
+  <text x="56" y="135" font-size="12" fill="#334155">To voice</text>
+  <line x1="30" y1="141" x2="220" y2="141" stroke="#dbeafe" stroke-width="1"/>
+
+  <text x="38" y="158" font-size="12" fill="#1e3a5f">2</text>
+  <text x="56" y="158" font-size="12" fill="#334155">To pain</text>
+  <line x1="30" y1="164" x2="220" y2="164" stroke="#dbeafe" stroke-width="1"/>
+
+  <text x="38" y="181" font-size="12" fill="#1e3a5f">1</text>
+  <text x="56" y="181" font-size="12" fill="#334155">None</text>
+  <line x1="30" y1="187" x2="220" y2="187" stroke="#dbeafe" stroke-width="1"/>
+
+  <text x="38" y="204" font-size="11" fill="#6b7280" font-style="italic">NT</text>
+  <text x="56" y="204" font-size="11" fill="#6b7280" font-style="italic">Not testable (swelling/trauma)</text>
+
+  <!-- Clinical tip -->
+  <rect x="28" y="214" width="194" height="60" rx="4" fill="#dbeafe"/>
+  <text x="125" y="230" text-anchor="middle" font-size="10" font-weight="700" fill="#1d4ed8">&#x26A0; NCC tip</text>
+  <text x="125" y="245" text-anchor="middle" font-size="10" fill="#1e40af">Distinguish eye opening</text>
+  <text x="125" y="259" text-anchor="middle" font-size="10" fill="#1e40af">to pain vs. grimace alone</text>
+  <text x="125" y="273" text-anchor="middle" font-size="10" fill="#1e40af">(don't credit eyes for grimace)</text>
+
+  <!-- === VERBAL RESPONSE === -->
+  <rect x="246" y="62" width="210" height="220" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <rect x="246" y="62" width="210" height="34" rx="8" fill="#22c55e"/>
+  <rect x="246" y="84" width="210" height="12" fill="#22c55e"/>
+  <text x="351" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="white">VERBAL (V)</text>
+
+  <text x="264" y="112" font-size="12" fill="#1e3a5f">5</text>
+  <text x="282" y="112" font-size="12" fill="#334155">Oriented</text>
+  <line x1="256" y1="118" x2="446" y2="118" stroke="#dcfce7" stroke-width="1"/>
+
+  <text x="264" y="135" font-size="12" fill="#1e3a5f">4</text>
+  <text x="282" y="135" font-size="12" fill="#334155">Confused</text>
+  <line x1="256" y1="141" x2="446" y2="141" stroke="#dcfce7" stroke-width="1"/>
+
+  <text x="264" y="158" font-size="12" fill="#1e3a5f">3</text>
+  <text x="282" y="158" font-size="12" fill="#334155">Inappropriate words</text>
+  <line x1="256" y1="164" x2="446" y2="164" stroke="#dcfce7" stroke-width="1"/>
+
+  <text x="264" y="181" font-size="12" fill="#1e3a5f">2</text>
+  <text x="282" y="181" font-size="12" fill="#334155">Incomprehensible sounds</text>
+  <line x1="256" y1="187" x2="446" y2="187" stroke="#dcfce7" stroke-width="1"/>
+
+  <text x="264" y="204" font-size="12" fill="#1e3a5f">1</text>
+  <text x="282" y="204" font-size="12" fill="#334155">None</text>
+  <line x1="256" y1="210" x2="446" y2="210" stroke="#dcfce7" stroke-width="1"/>
+
+  <rect x="254" y="218" width="194" height="56" rx="4" fill="#dcfce7"/>
+  <text x="351" y="234" text-anchor="middle" font-size="10" font-weight="700" fill="#15803d">&#x26A0; Intubated patients</text>
+  <text x="351" y="249" text-anchor="middle" font-size="10" fill="#166534">Score as V=1T (intubated)</text>
+  <text x="351" y="264" text-anchor="middle" font-size="10" fill="#166534">Do not guess — document NT</text>
+  <text x="351" y="279" text-anchor="middle" font-size="10" fill="#166534">if trached/aphasic</text>
+
+  <!-- === MOTOR RESPONSE === -->
+  <rect x="472" y="62" width="210" height="220" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="472" y="62" width="210" height="34" rx="8" fill="#f59e0b"/>
+  <rect x="472" y="84" width="210" height="12" fill="#f59e0b"/>
+  <text x="577" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="white">MOTOR (M)</text>
+
+  <text x="490" y="112" font-size="12" fill="#1e3a5f">6</text>
+  <text x="508" y="112" font-size="12" fill="#334155">Obeys commands</text>
+  <line x1="482" y1="118" x2="672" y2="118" stroke="#fef3c7" stroke-width="1" stroke-dasharray="none"/>
+
+  <text x="490" y="131" font-size="12" fill="#1e3a5f">5</text>
+  <text x="508" y="131" font-size="12" fill="#334155">Localizes pain</text>
+  <line x1="482" y1="137" x2="672" y2="137" stroke="#fde68a" stroke-width="1"/>
+
+  <text x="490" y="150" font-size="12" fill="#1e3a5f">4</text>
+  <text x="508" y="150" font-size="12" fill="#334155">Withdraws (normal)</text>
+  <line x1="482" y1="156" x2="672" y2="156" stroke="#fde68a" stroke-width="1"/>
+
+  <text x="490" y="169" font-size="12" fill="#1e3a5f">3</text>
+  <text x="508" y="169" font-size="12" fill="#ef4444" font-weight="600">Abnormal flexion</text>
+  <text x="508" y="181" font-size="10" fill="#ef4444" font-style="italic">(decorticate)</text>
+  <line x1="482" y1="186" x2="672" y2="186" stroke="#fde68a" stroke-width="1"/>
+
+  <text x="490" y="200" font-size="12" fill="#1e3a5f">2</text>
+  <text x="508" y="200" font-size="12" fill="#dc2626" font-weight="600">Extension</text>
+  <text x="508" y="212" font-size="10" fill="#dc2626" font-style="italic">(decerebrate)</text>
+  <line x1="482" y1="217" x2="672" y2="217" stroke="#fde68a" stroke-width="1"/>
+
+  <text x="490" y="231" font-size="12" fill="#1e3a5f">1</text>
+  <text x="508" y="231" font-size="12" fill="#334155">None</text>
+
+  <rect x="480" y="244" width="194" height="30" rx="4" fill="#fde68a"/>
+  <text x="577" y="259" text-anchor="middle" font-size="10" font-weight="700" fill="#78350f">Best motor = prognostic anchor</text>
+  <text x="577" y="272" text-anchor="middle" font-size="10" fill="#92400e">Test bilateral — use best response</text>
+
+  <!-- Score interpretation bar -->
+  <rect x="20" y="295" width="660" height="48" rx="8" fill="#1e3a5f"/>
+  <text x="350" y="313" text-anchor="middle" font-size="12" font-weight="700" fill="#fbbf24">GCS Score Interpretation</text>
+
+  <!-- Color coded bands -->
+  <rect x="30" y="322" width="155" height="14" rx="3" fill="#22c55e"/>
+  <text x="107" y="333" text-anchor="middle" font-size="10" font-weight="700" fill="white">13-15: Mild</text>
+
+  <rect x="195" y="322" width="155" height="14" rx="3" fill="#f59e0b"/>
+  <text x="272" y="333" text-anchor="middle" font-size="10" font-weight="700" fill="white">9-12: Moderate</text>
+
+  <rect x="360" y="322" width="155" height="14" rx="3" fill="#ef4444"/>
+  <text x="437" y="333" text-anchor="middle" font-size="10" font-weight="700" fill="white">&#x2264;8: Severe — intubation threshold</text>
+
+  <rect x="525" y="322" width="145" height="14" rx="3" fill="#7f1d1d"/>
+  <text x="597" y="333" text-anchor="middle" font-size="10" font-weight="700" fill="white">3: No response</text>
+
+  <!-- Key point -->
+  <rect x="20" y="355" width="660" height="52" rx="8" fill="#0f172a"/>
+  <text x="350" y="374" text-anchor="middle" font-size="11" fill="#93c5fd">&#x26A0; NCC Practice Pearls</text>
+  <text x="165" y="392" text-anchor="middle" font-size="10" fill="#e2e8f0">Report E__V__M__ each time</text>
+  <text x="350" y="392" text-anchor="middle" font-size="10" fill="#e2e8f0">Trend &gt; single value</text>
+  <text x="535" y="392" text-anchor="middle" font-size="10" fill="#e2e8f0">Acute drop &#x2265;2pts = call attending</text>
+</svg>

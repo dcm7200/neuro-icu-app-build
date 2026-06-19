@@ -1,0 +1,110 @@
+<svg width="700" height="420" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="400" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Cerebral Autoregulation</text>
+  <text x="350" y="50" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">CBF remains constant across a range of CPP in the healthy brain</text>
+
+  <!-- Axes -->
+  <!-- Y axis -->
+  <line x1="90" y1="60" x2="90" y2="320" stroke="#334155" stroke-width="2"/>
+  <!-- X axis -->
+  <line x1="90" y1="320" x2="650" y2="320" stroke="#334155" stroke-width="2"/>
+
+  <!-- Y label -->
+  <text x="22" y="195" text-anchor="middle" font-size="12" fill="#334155" font-weight="600" transform="rotate(-90 22 195)">CBF (mL/100g/min)</text>
+  <text x="22" y="215" text-anchor="middle" font-size="10" fill="#64748b" transform="rotate(-90 22 215)">relative</text>
+
+  <!-- X label -->
+  <text x="370" y="360" text-anchor="middle" font-size="13" fill="#334155" font-weight="600">CPP (mmHg)</text>
+
+  <!-- X axis ticks and labels -->
+  <!-- CPP 40 → x=130, CPP 60 → x=196, CPP 80 → x=263, CPP 100 → x=330, CPP 120 → x=396, CPP 140 → x=463, CPP 160 → x=530 -->
+  <!-- Scale: 0 mmHg = x=97, each 10mmHg = ~16.7px, so CPP=40 → x=97+40*16.7/10=97+66.8=164... -->
+  <!-- Let me use: x = 90 + (CPP-30)*4.3 so CPP=40→x=133, CPP=60→x=219, CPP=80→x=305, CPP=100→x=390, CPP=120→x=476, CPP=140→x=562, CPP=150→x=605 -->
+  <!-- Let's simplify: range 30-160 mapped to x=90 to x=650, so scale=(650-90)/(160-30)=560/130=4.31 px/mmHg -->
+  <!-- x = 90 + (CPP-30)*4.31 -->
+  <!-- CPP=30: x=90 -->
+  <!-- CPP=60: x=90+30*4.31=90+129=219 -->
+  <!-- CPP=80: x=90+50*4.31=90+215=305 -->
+  <!-- CPP=100: x=90+70*4.31=90+302=392 -->
+  <!-- CPP=120: x=90+90*4.31=90+388=478 -->
+  <!-- CPP=150: x=90+120*4.31=90+517=607 -->
+  <!-- CPP=160: x=90+130*4.31=90+560=650 -->
+
+  <line x1="219" y1="320" x2="219" y2="326" stroke="#64748b" stroke-width="1.5"/>
+  <text x="219" y="338" text-anchor="middle" font-size="11" fill="#64748b">60</text>
+
+  <line x1="305" y1="320" x2="305" y2="326" stroke="#64748b" stroke-width="1.5"/>
+  <text x="305" y="338" text-anchor="middle" font-size="11" fill="#64748b">80</text>
+
+  <line x1="392" y1="320" x2="392" y2="326" stroke="#64748b" stroke-width="1.5"/>
+  <text x="392" y="338" text-anchor="middle" font-size="11" fill="#64748b">100</text>
+
+  <line x1="478" y1="320" x2="478" y2="326" stroke="#64748b" stroke-width="1.5"/>
+  <text x="478" y="338" text-anchor="middle" font-size="11" fill="#64748b">120</text>
+
+  <line x1="565" y1="320" x2="565" y2="326" stroke="#64748b" stroke-width="1.5"/>
+  <text x="565" y="338" text-anchor="middle" font-size="11" fill="#64748b">140</text>
+
+  <line x1="607" y1="320" x2="607" y2="326" stroke="#64748b" stroke-width="1.5"/>
+  <text x="607" y="338" text-anchor="middle" font-size="11" fill="#64748b">150</text>
+
+  <!-- Y axis ticks -->
+  <line x1="84" y1="190" x2="90" y2="190" stroke="#64748b" stroke-width="1.5"/>
+  <text x="78" y="194" text-anchor="end" font-size="11" fill="#64748b">50</text>
+  <line x1="84" y1="125" x2="90" y2="125" stroke="#64748b" stroke-width="1.5"/>
+  <text x="78" y="129" text-anchor="end" font-size="11" fill="#64748b">80</text>
+  <text x="78" y="75" text-anchor="end" font-size="11" fill="#64748b">100</text>
+  <line x1="84" y1="70" x2="90" y2="70" stroke="#64748b" stroke-width="1.5"/>
+
+  <!-- Danger zones shading -->
+  <!-- Low CPP danger zone (left of 60) -->
+  <rect x="90" y="60" width="129" height="260" fill="#fde68a" opacity="0.4" rx="0"/>
+  <!-- High CPP danger zone (right of 150) -->
+  <rect x="607" y="60" width="43" height="260" fill="#fde68a" opacity="0.4" rx="0"/>
+
+  <!-- Autoregulation plateau zone (60-150) -->
+  <rect x="219" y="60" width="388" height="260" fill="#d1fae5" opacity="0.35" rx="0"/>
+
+  <!-- NORMAL autoregulation curve: steep drop from 30→60, flat plateau 60→150, steep rise 150→160 -->
+  <!-- Points: (90,290), (130,260), (219,125), (392,125), (478,125), (607,125), (650,80) -->
+  <!-- Actually let me think: at CPP=30 (x=90), CBF is very low, say y=295 -->
+  <!-- steep rise from CPP30 to CPP60, then flat at CPP60-150, then breakthrough at 150+ -->
+  <path d="M 90,295 C 130,295 180,125 219,120 L 607,120 C 625,115 640,85 650,70"
+        stroke="#2563eb" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- IMPAIRED autoregulation curve (linear, shifted right) -->
+  <path d="M 90,310 L 650,60"
+        stroke="#dc2626" stroke-width="2.5" fill="none" stroke-dasharray="8,5"/>
+
+  <!-- Legend -->
+  <rect x="100" y="68" width="14" height="4" fill="#2563eb" rx="2"/>
+  <text x="120" y="75" font-size="11" fill="#1d4ed8" font-weight="600">Normal autoregulation</text>
+
+  <line x1="100" y1="93" x2="114" y2="93" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <text x="120" y="97" font-size="11" fill="#dc2626" font-weight="600">Impaired (TBI, severe HTN, hypoxia)</text>
+
+  <!-- Zone labels -->
+  <text x="154" y="230" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">ISCHEMIA</text>
+  <text x="154" y="248" text-anchor="middle" font-size="10" fill="#b45309">CBF falls</text>
+  <text x="154" y="264" text-anchor="middle" font-size="10" fill="#b45309">with CPP</text>
+
+  <text x="413" y="108" text-anchor="middle" font-size="12" font-weight="700" fill="#15803d">AUTOREGULATION</text>
+  <text x="413" y="124" text-anchor="middle" font-size="11" fill="#15803d">CBF stable despite CPP changes</text>
+
+  <text x="628" y="175" text-anchor="middle" font-size="10" font-weight="700" fill="#b45309">HYPER-</text>
+  <text x="628" y="189" text-anchor="middle" font-size="10" fill="#b45309">PERFUSION</text>
+
+  <!-- Vertical markers at 60 and 150 -->
+  <line x1="219" y1="60" x2="219" y2="320" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="219" y="57" text-anchor="middle" font-size="10" font-weight="700" fill="#0284c7">LLA</text>
+
+  <line x1="607" y1="60" x2="607" y2="320" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="607" y="57" text-anchor="middle" font-size="10" font-weight="700" fill="#0284c7">ULA</text>
+
+  <!-- Clinical note box -->
+  <rect x="90" y="350" width="560" height="38" rx="6" fill="#1e3a5f"/>
+  <text x="370" y="363" text-anchor="middle" font-size="11" fill="#93c5fd">&#x26A0; In TBI, autoregulation may shift right or fail entirely</text>
+  <text x="370" y="379" text-anchor="middle" font-size="11" font-weight="700" fill="white">Target CPP 60-70 mmHg (TBI) | Avoid hypotension (SBP &lt;90) | Avoid extreme hypertension</text>
+</svg>

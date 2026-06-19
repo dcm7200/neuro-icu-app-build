@@ -1,0 +1,58 @@
+<svg width="700" height="500" viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="500" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Status Epilepticus: Treatment Escalation Ladder</text>
+  <text x="350" y="50" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Convulsive SE: treat aggressively. Goal — seizure termination within 60 min of onset.</text>
+
+  <!-- Time axis (left) -->
+  <text x="38" y="88" text-anchor="middle" font-size="10" font-weight="700" fill="#64748b">TIME</text>
+  <text x="38" y="120" text-anchor="middle" font-size="10" fill="#64748b">0 min</text>
+  <text x="38" y="185" text-anchor="middle" font-size="10" fill="#64748b">5 min</text>
+  <text x="38" y="250" text-anchor="middle" font-size="10" fill="#b45309">20 min</text>
+  <text x="38" y="320" text-anchor="middle" font-size="10" fill="#dc2626">30-60</text>
+  <text x="38" y="335" text-anchor="middle" font-size="10" fill="#dc2626">min</text>
+  <text x="38" y="415" text-anchor="middle" font-size="10" fill="#7f1d1d">&gt;60 min</text>
+  <line x1="58" y1="95" x2="58" y2="450" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- PHASE 1: Stabilization (0-5 min) -->
+  <rect x="70" y="68" width="610" height="68" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="90" y="90" font-size="13" font-weight="700" fill="#1d4ed8">PHASE 1 — Stabilization (0-5 min)</text>
+  <text x="90" y="108" font-size="11" fill="#1e3a5f">&#x2022; ABC, O&#x2082; to maintain SpO&#x2082; &gt;94%, IV access &#x2022; POC glucose — treat hypoglycemia immediately</text>
+  <text x="90" y="124" font-size="11" fill="#1e3a5f">&#x2022; Thiamine 100 mg IV if alcohol/malnutrition suspected &#x2022; EEG monitoring if available &#x2022; Labs: BMP, CBC, LFT, AED levels, tox screen, LP if indicated</text>
+
+  <!-- Arrow -->
+  <text x="350" y="153" text-anchor="middle" font-size="16" fill="#64748b">&#x2193;</text>
+  <text x="350" y="167" text-anchor="middle" font-size="10" fill="#64748b">Still seizing at 5 min</text>
+
+  <!-- PHASE 2: Initial therapy (5-20 min) -->
+  <rect x="70" y="172" width="610" height="68" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="90" y="194" font-size="13" font-weight="700" fill="#15803d">PHASE 2 — Initial Therapy (5-20 min)</text>
+  <text x="90" y="212" font-size="11" fill="#1e3a5f">&#x2022; Lorazepam 0.1 mg/kg IV (max 4 mg/dose) — may repeat &#x00D7;1</text>
+  <text x="90" y="228" font-size="11" fill="#1e3a5f">&#x2022; No IV: Midazolam 10 mg IM (preferred prehospital) OR Diazepam 10 mg PR OR Midazolam 10 mg IN</text>
+
+  <!-- Arrow -->
+  <text x="350" y="253" text-anchor="middle" font-size="16" fill="#64748b">&#x2193;</text>
+  <text x="350" y="267" text-anchor="middle" font-size="10" fill="#b45309">Still seizing at 20 min — URGENT</text>
+
+  <!-- PHASE 3: Second-line (20-40 min) -->
+  <rect x="70" y="272" width="610" height="80" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="90" y="294" font-size="13" font-weight="700" fill="#92400e">PHASE 3 — Second-Line AEDs (20-40 min)</text>
+  <text x="90" y="312" font-size="11" fill="#1e3a5f">&#x2022; Levetiracetam 60 mg/kg IV (max 4,500 mg) over 10 min  — OR —</text>
+  <text x="90" y="328" font-size="11" fill="#1e3a5f">&#x2022; Valproate 40 mg/kg IV (max 3,000 mg) over 10 min  — OR —</text>
+  <text x="90" y="344" font-size="11" fill="#1e3a5f">&#x2022; Fosphenytoin 20 mg PE/kg IV (max 1,500 mg PE) at 150 mg PE/min — BP/ECG monitor required</text>
+
+  <!-- Arrow -->
+  <text x="350" y="368" text-anchor="middle" font-size="16" fill="#dc2626">&#x2193;</text>
+  <text x="350" y="382" text-anchor="middle" font-size="10" fill="#dc2626">Refractory SE — still seizing at 30-60 min</text>
+
+  <!-- PHASE 4: Refractory SE -->
+  <rect x="70" y="387" width="610" height="70" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="90" y="408" font-size="13" font-weight="700" fill="#991b1b">PHASE 4 — Refractory SE (intubate + ICU)</text>
+  <text x="90" y="426" font-size="11" fill="#7f1d1d">&#x2022; Intubate &#x2022; Continuous EEG monitoring &#x2022; Midazolam 0.2 mg/kg load → 0.05-2 mg/kg/hr infusion</text>
+  <text x="90" y="442" font-size="11" fill="#7f1d1d">&#x2022; Propofol 2 mg/kg load → 20-200 mcg/kg/min infusion &#x2022; Pentobarbital 5-15 mg/kg load → 0.5-5 mg/kg/hr</text>
+
+  <!-- Super-refractory label -->
+  <rect x="70" y="466" width="610" height="24" rx="6" fill="#1e3a5f"/>
+  <text x="350" y="480" text-anchor="middle" font-size="11" fill="#fbbf24" font-weight="700">&#x26A0; Super-Refractory SE (&gt;24h): Consider ketamine, phenobarbital, MAD, hypothermia, immunotherapy</text>
+</svg>

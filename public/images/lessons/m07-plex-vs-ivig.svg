@@ -1,0 +1,54 @@
+<svg width="700" height="320" viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="320" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">PLEX vs IVIG — Neuroimmunology Decision Guide</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Both equally effective in GBS and MG crisis. Choose based on availability, access, and contraindications.</text>
+
+  <!-- PLEX column -->
+  <rect x="20" y="60" width="310" height="230" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="20" y="60" width="310" height="30" rx="8" fill="#2563eb"/>
+  <rect x="20" y="78" width="310" height="12" fill="#2563eb"/>
+  <text x="175" y="81" text-anchor="middle" font-size="14" font-weight="700" fill="white">PLEX (Plasmapheresis)</text>
+
+  <text x="38" y="108" font-size="11" font-weight="700" fill="#1d4ed8">Mechanism:</text>
+  <text x="38" y="124" font-size="10" fill="#1e3a5f">Removes pathogenic antibodies and</text>
+  <text x="38" y="138" font-size="10" fill="#1e3a5f">complement from plasma directly</text>
+
+  <text x="38" y="158" font-size="11" font-weight="700" fill="#1d4ed8">Regimen:</text>
+  <text x="38" y="174" font-size="10" fill="#1e3a5f">5 exchanges over 7-14 days</text>
+  <text x="38" y="188" font-size="10" fill="#1e3a5f">~1 plasma volume per exchange</text>
+
+  <text x="38" y="208" font-size="11" font-weight="700" fill="#1d4ed8">Prefer PLEX when:</text>
+  <text x="38" y="224" font-size="10" fill="#1e3a5f">&#x2022; IgA deficiency (IVIG contraindicated)</text>
+  <text x="38" y="238" font-size="10" fill="#1e3a5f">&#x2022; Renal failure (IVIG nephrotoxic)</text>
+  <text x="38" y="252" font-size="10" fill="#1e3a5f">&#x2022; Severe MG crisis (faster initial effect)</text>
+  <text x="38" y="266" font-size="11" font-weight="700" fill="#dc2626">Avoid if:</text>
+  <text x="38" y="280" font-size="10" fill="#7f1d1d">Hemodynamic instability, active sepsis,</text>
+  <text x="175" y="280" text-anchor="middle" font-size="10" fill="#7f1d1d"/>
+  <text x="38" y="294" font-size="10" fill="#7f1d1d">no central access, coagulopathy</text>
+
+  <!-- IVIG column -->
+  <rect x="370" y="60" width="310" height="230" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="370" y="60" width="310" height="30" rx="8" fill="#16a34a"/>
+  <rect x="370" y="78" width="310" height="12" fill="#16a34a"/>
+  <text x="525" y="81" text-anchor="middle" font-size="14" font-weight="700" fill="white">IVIG (IV Immunoglobulin)</text>
+
+  <text x="388" y="108" font-size="11" font-weight="700" fill="#15803d">Mechanism:</text>
+  <text x="388" y="124" font-size="10" fill="#1e3a5f">Modulates Fc receptors, neutralizes</text>
+  <text x="388" y="138" font-size="10" fill="#1e3a5f">antibodies, inhibits complement</text>
+
+  <text x="388" y="158" font-size="11" font-weight="700" fill="#15803d">Regimen:</text>
+  <text x="388" y="174" font-size="10" fill="#1e3a5f">2g/kg total dose over 5 days</text>
+  <text x="388" y="188" font-size="10" fill="#1e3a5f">(0.4g/kg/day × 5 days)</text>
+
+  <text x="388" y="208" font-size="11" font-weight="700" fill="#15803d">Prefer IVIG when:</text>
+  <text x="388" y="224" font-size="10" fill="#1e3a5f">&#x2022; No central access available</text>
+  <text x="388" y="238" font-size="10" fill="#1e3a5f">&#x2022; Hemodynamically unstable</text>
+  <text x="388" y="252" font-size="10" fill="#1e3a5f">&#x2022; Easier outpatient/step-down administration</text>
+  <text x="388" y="266" font-size="11" font-weight="700" fill="#dc2626">Avoid if:</text>
+  <text x="388" y="280" font-size="10" fill="#7f1d1d">IgA deficiency (anaphylaxis risk), severe</text>
+  <text x="388" y="294" font-size="10" fill="#7f1d1d">renal failure, hyperviscosity syndrome</text>
+
+  <!-- Bottom key -->
+  <rect x="20" y="298" width="660" height="18" rx="4" fill="#1e3a5f"/>
+  <text x="350" y="311" text-anchor="middle" font-size="10" fill="white" font-weight="600">Do NOT combine PLEX + IVIG (PLEX removes IVIG). Choose one. Can repeat course if relapse.</text>
+</svg>

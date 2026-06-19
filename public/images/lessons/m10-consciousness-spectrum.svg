@@ -1,0 +1,107 @@
+<svg width="700" height="360" viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="360" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Disorders of Consciousness — Spectrum</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Precise diagnosis requires structured exam (CRS-R). Misdiagnosis of VS occurs in up to 40% of cases.</text>
+
+  <!-- Spectrum bar gradient -->
+  <defs>
+    <linearGradient id="specGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7f1d1d;stop-opacity:1"/>
+      <stop offset="25%" style="stop-color:#ef4444;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:1"/>
+      <stop offset="75%" style="stop-color:#22c55e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="30" y="62" width="640" height="20" rx="4" fill="url(#specGrad)"/>
+  <text x="30" y="96" font-size="10" fill="#7f1d1d" font-weight="700">← Less conscious</text>
+  <text x="670" y="96" text-anchor="end" font-size="10" fill="#2563eb" font-weight="700">More conscious →</text>
+
+  <!-- State boxes -->
+  <!-- COMA -->
+  <rect x="20" y="105" width="118" height="175" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <rect x="20" y="105" width="118" height="28" rx="8" fill="#dc2626"/>
+  <rect x="20" y="121" width="118" height="12" fill="#dc2626"/>
+  <text x="79" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="white">COMA</text>
+  <text x="79" y="148" text-anchor="middle" font-size="10" fill="#7f1d1d">No eye opening</text>
+  <text x="79" y="162" text-anchor="middle" font-size="10" fill="#7f1d1d">No commands</text>
+  <text x="79" y="176" text-anchor="middle" font-size="10" fill="#7f1d1d">No verbal output</text>
+  <text x="79" y="192" text-anchor="middle" font-size="10" fill="#7f1d1d">No purposeful</text>
+  <text x="79" y="206" text-anchor="middle" font-size="10" fill="#7f1d1d">movement</text>
+  <rect x="28" y="220" width="102" height="18" rx="3" fill="#fee2e2"/>
+  <text x="79" y="233" text-anchor="middle" font-size="9" fill="#991b1b">GCS: 3-8</text>
+  <text x="79" y="252" text-anchor="middle" font-size="9" fill="#64748b">Hours–weeks</text>
+  <text x="79" y="265" text-anchor="middle" font-size="9" fill="#64748b">Evolves or dies</text>
+  <text x="79" y="279" text-anchor="middle" font-size="9" fill="#64748b">Brain death possible</text>
+
+  <!-- VS / UWS -->
+  <rect x="148" y="105" width="128" height="175" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <rect x="148" y="105" width="128" height="28" rx="8" fill="#ea580c"/>
+  <rect x="148" y="121" width="128" height="12" fill="#ea580c"/>
+  <text x="212" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="white">VS / UWS</text>
+  <text x="212" y="142" text-anchor="middle" font-size="9" fill="#9a3412">Vegetative State /</text>
+  <text x="212" y="155" text-anchor="middle" font-size="9" fill="#9a3412">Unresponsive Wakefulness</text>
+  <text x="212" y="172" text-anchor="middle" font-size="10" fill="#7c2d12">Eyes open (sleep-wake)</text>
+  <text x="212" y="186" text-anchor="middle" font-size="10" fill="#7c2d12">No command following</text>
+  <text x="212" y="200" text-anchor="middle" font-size="10" fill="#7c2d12">No purposeful movement</text>
+  <text x="212" y="214" text-anchor="middle" font-size="10" fill="#7c2d12">Reflexive responses only</text>
+  <rect x="156" y="228" width="112" height="18" rx="3" fill="#ffedd5"/>
+  <text x="212" y="241" text-anchor="middle" font-size="9" fill="#9a3412">CRS-R: 0-7</text>
+  <text x="212" y="258" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="600">⚠️ 40% misdiagnosed</text>
+  <text x="212" y="272" text-anchor="middle" font-size="9" fill="#64748b">Persistent = &gt;1 month</text>
+  <text x="212" y="285" text-anchor="middle" font-size="9" fill="#64748b">Permanent = &gt;3-12 months</text>
+
+  <!-- MCS -->
+  <rect x="286" y="105" width="128" height="175" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <rect x="286" y="105" width="128" height="28" rx="8" fill="#ca8a04"/>
+  <rect x="286" y="121" width="128" height="12" fill="#ca8a04"/>
+  <text x="350" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="white">MCS</text>
+  <text x="350" y="142" text-anchor="middle" font-size="9" fill="#713f12">Minimally Conscious State</text>
+  <text x="350" y="160" text-anchor="middle" font-size="10" fill="#713f12">Inconsistent command following</text>
+  <text x="350" y="174" text-anchor="middle" font-size="10" fill="#713f12">Purposeful behavior (some)</text>
+  <text x="350" y="188" text-anchor="middle" font-size="10" fill="#713f12">Meaningful vocalization</text>
+  <text x="350" y="202" text-anchor="middle" font-size="10" fill="#713f12">Object recognition possible</text>
+  <rect x="293" y="218" width="114" height="28" rx="3" fill="#fef9c3" stroke="#ca8a04" stroke-width="1"/>
+  <text x="350" y="231" text-anchor="middle" font-size="9" fill="#92400e">MCS- (motor only)</text>
+  <text x="350" y="245" text-anchor="middle" font-size="9" fill="#92400e">MCS+ (language-based)</text>
+  <text x="350" y="261" text-anchor="middle" font-size="9" fill="#64748b">Better prognosis than VS</text>
+  <text x="350" y="275" text-anchor="middle" font-size="9" fill="#64748b">Amantadine trial: 100mg BID</text>
+
+  <!-- EMCS -->
+  <rect x="424" y="105" width="128" height="175" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <rect x="424" y="105" width="128" height="28" rx="8" fill="#16a34a"/>
+  <rect x="424" y="121" width="128" height="12" fill="#16a34a"/>
+  <text x="488" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="white">EMCS</text>
+  <text x="488" y="142" text-anchor="middle" font-size="9" fill="#14532d">Emerged from MCS</text>
+  <text x="488" y="160" text-anchor="middle" font-size="10" fill="#166534">Reliable command following</text>
+  <text x="488" y="174" text-anchor="middle" font-size="10" fill="#166534">Functional communication</text>
+  <text x="488" y="188" text-anchor="middle" font-size="10" fill="#166534">Functional object use</text>
+  <text x="488" y="202" text-anchor="middle" font-size="10" fill="#166534">CRS-R: ≥23</text>
+  <rect x="432" y="218" width="112" height="18" rx="3" fill="#bbf7d0"/>
+  <text x="488" y="231" text-anchor="middle" font-size="9" fill="#14532d">Recovery potential</text>
+  <text x="488" y="249" text-anchor="middle" font-size="9" fill="#166534">Needs rehab referral</text>
+  <text x="488" y="263" text-anchor="middle" font-size="9" fill="#166534">Communication device eval</text>
+  <text x="488" y="277" text-anchor="middle" font-size="9" fill="#166534">Goals of care discussion</text>
+
+  <!-- Locked-In -->
+  <rect x="562" y="105" width="118" height="175" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="562" y="105" width="118" height="28" rx="8" fill="#2563eb"/>
+  <rect x="562" y="121" width="118" height="12" fill="#2563eb"/>
+  <text x="621" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="white">LOCKED-IN</text>
+  <text x="621" y="148" text-anchor="middle" font-size="10" fill="#1e40af">Fully conscious</text>
+  <text x="621" y="162" text-anchor="middle" font-size="10" fill="#1e40af">Quadriplegic</text>
+  <text x="621" y="176" text-anchor="middle" font-size="10" fill="#1e40af">Anarthric</text>
+  <text x="621" y="192" text-anchor="middle" font-size="10" fill="#1e40af">Vertical eye movement</text>
+  <text x="621" y="206" text-anchor="middle" font-size="10" fill="#1e40af">preserved (code)</text>
+  <rect x="570" y="220" width="102" height="18" rx="3" fill="#dbeafe"/>
+  <text x="621" y="233" text-anchor="middle" font-size="9" fill="#1d4ed8">Basilar artery occlusion</text>
+  <text x="621" y="251" text-anchor="middle" font-size="9" fill="#1e40af">NOT unconscious —</text>
+  <text x="621" y="265" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="600">talk TO the patient</text>
+  <text x="621" y="279" text-anchor="middle" font-size="9" fill="#1e40af">Eye-tracking AAC device</text>
+
+  <!-- Bottom -->
+  <rect x="20" y="290" width="660" height="56" rx="8" fill="#1e3a5f"/>
+  <text x="350" y="307" text-anchor="middle" font-size="11" font-weight="700" fill="#fbbf24">Coma Recovery Scale-Revised (CRS-R) is the gold-standard bedside tool</text>
+  <text x="350" y="323" text-anchor="middle" font-size="10" fill="#93c5fd">Score 6 domains: auditory, visual, motor, oromotor, communication, arousal</text>
+  <text x="350" y="339" text-anchor="middle" font-size="10" fill="#e2e8f0">Order fMRI/EEG-based covert cognition testing if FMRI available — detects command following in some "VS" patients</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg width="700" height="420" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="420" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Neuroanatomical Localization: Deficit → Location</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Localize first — then image. Cortical vs subcortical vs brainstem vs spinal changes management.</text>
+
+  <!-- Brain lateral view schematic -->
+  <!-- Skull outline -->
+  <ellipse cx="260" cy="200" rx="165" ry="140" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Lobes color-coded -->
+  <!-- Frontal lobe (anterior) -->
+  <path d="M 120,170 Q 140,100 200,90 Q 240,85 270,105 Q 250,150 240,185 Q 200,195 160,190 Z" fill="#bfdbfe" opacity="0.75" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="192" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">FRONTAL</text>
+
+  <!-- Parietal lobe -->
+  <path d="M 270,105 Q 310,90 355,105 Q 370,140 360,185 Q 320,195 280,190 Q 250,180 240,185 Q 250,150 270,105 Z" fill="#bbf7d0" opacity="0.75" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="312" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">PARIETAL</text>
+
+  <!-- Temporal lobe (inferior) -->
+  <path d="M 160,190 Q 200,195 240,185 Q 270,220 260,265 Q 230,280 190,270 Q 155,250 145,220 Z" fill="#fde68a" opacity="0.75" stroke="#d97706" stroke-width="1.5"/>
+  <text x="208" y="235" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">TEMPORAL</text>
+
+  <!-- Occipital lobe (posterior) -->
+  <path d="M 355,105 Q 400,115 415,160 Q 415,205 395,240 Q 370,255 345,245 Q 330,220 330,195 Q 345,160 360,185 Q 370,140 355,105 Z" fill="#e9d5ff" opacity="0.75" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="378" y="185" text-anchor="middle" font-size="11" font-weight="700" fill="#6d28d9">OCCIP.</text>
+
+  <!-- Cerebellum -->
+  <ellipse cx="225" cy="310" rx="55" ry="40" fill="#fecaca" opacity="0.75" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="225" y="313" text-anchor="middle" font-size="10" font-weight="700" fill="#991b1b">CEREBELLUM</text>
+
+  <!-- Brainstem -->
+  <rect x="308" y="255" width="35" height="65" rx="8" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="325" y="292" text-anchor="middle" font-size="9" font-weight="700" fill="#78350f">BRAIN-</text>
+  <text x="325" y="305" text-anchor="middle" font-size="9" font-weight="700" fill="#78350f">STEM</text>
+
+  <!-- Central sulcus line (motor/sensory divide) -->
+  <line x1="265" y1="90" x2="245" y2="200" stroke="#475569" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="256" y="86" text-anchor="middle" font-size="8" fill="#475569">central</text>
+  <text x="256" y="96" text-anchor="middle" font-size="8" fill="#475569">sulcus</text>
+
+  <!-- Sylvian fissure -->
+  <line x1="155" y1="190" x2="340" y2="205" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Lobe labels pointing right side -->
+  <!-- FRONTAL -->
+  <rect x="448" y="62" width="235" height="70" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="565" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">Frontal Lobe</text>
+  <text x="460" y="94" font-size="10" fill="#1e3a5f">&#x2022; Contralateral motor weakness</text>
+  <text x="460" y="108" font-size="10" fill="#1e3a5f">&#x2022; Broca's area (L): expressive aphasia</text>
+  <text x="460" y="122" font-size="10" fill="#1e3a5f">&#x2022; Personality change, disinhibition, abulia</text>
+  <line x1="415" y1="140" x2="448" y2="115" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- PARIETAL -->
+  <rect x="448" y="142" width="235" height="58" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="565" y="158" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">Parietal Lobe</text>
+  <text x="460" y="174" font-size="10" fill="#1e3a5f">&#x2022; Contralateral sensory loss</text>
+  <text x="460" y="188" font-size="10" fill="#1e3a5f">&#x2022; Neglect (R parietal), Wernicke's (L)</text>
+  <line x1="355" y1="145" x2="448" y2="162" stroke="#16a34a" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- TEMPORAL -->
+  <rect x="448" y="210" width="235" height="58" rx="6" fill="#fefce8" stroke="#d97706" stroke-width="1.5"/>
+  <text x="565" y="226" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">Temporal Lobe</text>
+  <text x="460" y="242" font-size="10" fill="#1e3a5f">&#x2022; Wernicke's aphasia (L posterior)</text>
+  <text x="460" y="256" font-size="10" fill="#1e3a5f">&#x2022; Memory loss, seizure focus, visual field cut</text>
+  <line x1="265" y1="238" x2="448" y2="240" stroke="#d97706" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- OCCIPITAL -->
+  <rect x="448" y="278" width="235" height="46" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="565" y="294" text-anchor="middle" font-size="11" font-weight="700" fill="#6d28d9">Occipital Lobe</text>
+  <text x="460" y="310" font-size="10" fill="#1e3a5f">&#x2022; Contralateral homonymous hemianopia</text>
+  <text x="460" y="324" font-size="10" fill="#1e3a5f">&#x2022; Visual agnosia, cortical blindness (bilateral)</text>
+  <line x1="405" y1="200" x2="448" y2="298" stroke="#7c3aed" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- BRAINSTEM -->
+  <rect x="448" y="334" width="235" height="58" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="565" y="350" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">Brainstem</text>
+  <text x="460" y="366" font-size="10" fill="#1e3a5f">&#x2022; Crossed deficits: ipsi CN + contra body</text>
+  <text x="460" y="380" font-size="10" fill="#1e3a5f">&#x2022; Pinpoint pupils, gaze palsy, apnea</text>
+  <text x="460" y="394" font-size="10" fill="#dc2626" font-weight="600">&#x2022; Bilateral = brainstem — EMERGENCY</text>
+
+  <!-- Bottom -->
+  <rect x="20" y="398" width="420" height="16" rx="4" fill="#1e3a5f"/>
+  <text x="230" y="410" text-anchor="middle" font-size="10" fill="white" font-weight="600">Crossed deficit (ipsilateral CN + contralateral body) = brainstem localization</text>
+</svg>

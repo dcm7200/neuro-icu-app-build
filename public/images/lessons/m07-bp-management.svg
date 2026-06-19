@@ -1,0 +1,66 @@
+<svg width="700" height="340" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="340" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Post-Stroke BP Management Targets</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Wrong BP target = infarct extension, hemorrhagic transformation, or re-occlusion. Know the scenario.</text>
+
+  <!-- Column headers -->
+  <rect x="20" y="58" width="660" height="26" rx="4" fill="#1e3a5f"/>
+  <text x="135" y="75" text-anchor="middle" font-size="11" font-weight="700" fill="white">Scenario</text>
+  <text x="330" y="75" text-anchor="middle" font-size="11" font-weight="700" fill="white">BP Target</text>
+  <text x="555" y="75" text-anchor="middle" font-size="11" font-weight="700" fill="white">Rationale / Preferred Agent</text>
+  <line x1="245" y1="58" x2="245" y2="314" stroke="#334155" stroke-width="1"/>
+  <line x1="415" y1="58" x2="415" y2="314" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: tPA given -->
+  <rect x="20" y="84" width="660" height="46" fill="#dbeafe"/>
+  <text x="135" y="103" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">AIS — tPA given</text>
+  <text x="135" y="118" text-anchor="middle" font-size="10" fill="#1e40af">post-lytics, first 24h</text>
+  <text x="330" y="101" text-anchor="middle" font-size="13" font-weight="700" fill="#1d4ed8">&lt;180/105</text>
+  <text x="330" y="118" text-anchor="middle" font-size="10" fill="#1e40af">Strict — treat anything above</text>
+  <text x="555" y="103" text-anchor="middle" font-size="10" fill="#1e3a5f">Labetalol 10-20mg IV q10-20min</text>
+  <text x="555" y="118" text-anchor="middle" font-size="10" fill="#1e3a5f">Nicardipine 5mg/h gtt, titrate up</text>
+  <line x1="20" y1="130" x2="680" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Row 2: No tPA, no LVO -->
+  <rect x="20" y="130" width="660" height="46" fill="#f8fafc"/>
+  <text x="135" y="149" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">AIS — no tPA, no LVO</text>
+  <text x="135" y="164" text-anchor="middle" font-size="10" fill="#64748b">conservative management</text>
+  <text x="330" y="149" text-anchor="middle" font-size="13" font-weight="700" fill="#64748b">Allow up to 220/120</text>
+  <text x="330" y="164" text-anchor="middle" font-size="10" fill="#64748b">Permissive HTN for penumbra</text>
+  <text x="555" y="149" text-anchor="middle" font-size="10" fill="#334155">Treat only if &gt;220/120 or end-organ</text>
+  <text x="555" y="164" text-anchor="middle" font-size="10" fill="#334155">Lower by &lt;15% in first 24h</text>
+  <line x1="20" y1="176" x2="680" y2="176" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Row 3: Post thrombectomy -->
+  <rect x="20" y="176" width="660" height="46" fill="#f0fdf4"/>
+  <text x="135" y="195" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">Post-Thrombectomy</text>
+  <text x="135" y="210" text-anchor="middle" font-size="10" fill="#166534">successful recanalization</text>
+  <text x="330" y="195" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d">&lt;180/105</text>
+  <text x="330" y="210" text-anchor="middle" font-size="10" fill="#166534">Or &lt;160 if HT present</text>
+  <text x="555" y="195" text-anchor="middle" font-size="10" fill="#1e3a5f">Reperfusion injury risk — tight control</text>
+  <text x="555" y="210" text-anchor="middle" font-size="10" fill="#1e3a5f">Nicardipine gtt preferred</text>
+  <line x1="20" y1="222" x2="680" y2="222" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Row 4: Hemorrhagic transformation -->
+  <rect x="20" y="222" width="660" height="46" fill="#fff1f2"/>
+  <text x="135" y="241" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">Hemorrhagic</text>
+  <text x="135" y="256" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">Transformation (HT)</text>
+  <text x="330" y="241" text-anchor="middle" font-size="13" font-weight="700" fill="#dc2626">&lt;140 SBP</text>
+  <text x="330" y="256" text-anchor="middle" font-size="10" fill="#991b1b">Aggressive — like ICH protocol</text>
+  <text x="555" y="241" text-anchor="middle" font-size="10" fill="#7f1d1d">Reverse anticoagulation if applicable</text>
+  <text x="555" y="256" text-anchor="middle" font-size="10" fill="#7f1d1d">Nicardipine / clevidipine gtt</text>
+  <line x1="20" y1="268" x2="680" y2="268" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Row 5: Basilar/LVO no recanalization -->
+  <rect x="20" y="268" width="660" height="46" fill="#fef9c3"/>
+  <text x="135" y="285" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">LVO — no recanalization</text>
+  <text x="135" y="300" text-anchor="middle" font-size="10" fill="#713f12">or occlusion ongoing</text>
+  <text x="330" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">Allow up to 220</text>
+  <text x="330" y="300" text-anchor="middle" font-size="10" fill="#713f12">Perfusion-pressure dependent</text>
+  <text x="555" y="285" text-anchor="middle" font-size="10" fill="#713f12">Avoid aggressive lowering</text>
+  <text x="555" y="300" text-anchor="middle" font-size="10" fill="#713f12">May need pressors if MAP low</text>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="318" width="660" height="18" rx="4" fill="#1e3a5f"/>
+  <text x="350" y="331" text-anchor="middle" font-size="10" fill="white" font-weight="600">Document target in orders and communicate to nursing — BP changes can happen fast post-intervention</text>
+</svg>

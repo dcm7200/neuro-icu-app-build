@@ -1,0 +1,115 @@
+<svg width="700" height="460" viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="460" fill="#f8fafc" rx="12"/>
+
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Circle of Willis — Arterial Territories</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Basal view. Know the territory — predict the deficit. LVO most commonly involves MCA (M1/M2).</text>
+
+  <!-- Brain silhouette (basal view, inferior surface) -->
+  <ellipse cx="350" cy="230" rx="175" ry="160" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Territory shading -->
+  <!-- ACA territory: medial/superior — top of ellipse -->
+  <path d="M 280,100 Q 350,70 420,100 Q 380,155 350,170 Q 320,155 280,100 Z" fill="#bfdbfe" opacity="0.6"/>
+  <!-- MCA territory: lateral — sides -->
+  <path d="M 180,190 Q 220,130 280,100 Q 320,155 350,170 Q 320,200 280,250 Q 220,260 180,230 Z" fill="#bbf7d0" opacity="0.6"/>
+  <path d="M 520,190 Q 480,130 420,100 Q 380,155 350,170 Q 380,200 420,250 Q 480,260 520,230 Z" fill="#bbf7d0" opacity="0.6"/>
+  <!-- PCA territory: posterior/inferior -->
+  <path d="M 280,250 Q 320,200 350,170 Q 380,200 420,250 Q 390,330 350,350 Q 310,330 280,250 Z" fill="#e9d5ff" opacity="0.6"/>
+
+  <!-- === CIRCLE OF WILLIS VESSELS === -->
+
+  <!-- ICA left -->
+  <line x1="248" y1="380" x2="248" y2="290" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <line x1="248" y1="290" x2="248" y2="245" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+  <!-- ICA right -->
+  <line x1="452" y1="380" x2="452" y2="290" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <line x1="452" y1="290" x2="452" y2="245" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Vertebral arteries -->
+  <line x1="320" y1="420" x2="335" y2="370" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <line x1="380" y1="420" x2="365" y2="370" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Basilar artery -->
+  <line x1="335" y1="370" x2="350" y2="360" stroke="#7c3aed" stroke-width="5" stroke-linecap="round"/>
+  <line x1="365" y1="370" x2="350" y2="360" stroke="#7c3aed" stroke-width="5" stroke-linecap="round"/>
+  <line x1="350" y1="360" x2="350" y2="290" stroke="#7c3aed" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Posterior communicating arteries (PComm) -->
+  <line x1="248" y1="290" x2="308" y2="290" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-dasharray="6,3"/>
+  <line x1="452" y1="290" x2="392" y2="290" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-dasharray="6,3"/>
+
+  <!-- PCA left and right -->
+  <path d="M 308,290 Q 270,260 235,235" fill="none" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 392,290 Q 430,260 465,235" fill="none" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- MCA left and right -->
+  <path d="M 248,245 Q 215,225 185,205" fill="none" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M 452,245 Q 485,225 515,205" fill="none" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- ACA left and right -->
+  <path d="M 248,245 Q 290,215 320,200" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 452,245 Q 410,215 380,200" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- AComm -->
+  <line x1="320" y1="200" x2="380" y2="200" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-dasharray="5,3"/>
+
+  <!-- ACA continuation superiorly -->
+  <path d="M 320,200 Q 340,175 350,155" fill="none" stroke="#2563eb" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 380,200 Q 360,175 350,155" fill="none" stroke="#2563eb" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- === LABELS === -->
+  <!-- ACA -->
+  <text x="350" y="148" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">ACA</text>
+  <text x="350" y="161" text-anchor="middle" font-size="9" fill="#1d4ed8">Ant. Cerebral A.</text>
+
+  <!-- AComm -->
+  <text x="350" y="196" text-anchor="middle" font-size="9" fill="#2563eb">AComm</text>
+
+  <!-- MCA left -->
+  <text x="162" y="202" text-anchor="end" font-size="11" font-weight="700" fill="#15803d">MCA</text>
+  <text x="162" y="215" text-anchor="end" font-size="9" fill="#15803d">Mid. Cerebral A.</text>
+  <!-- MCA right -->
+  <text x="538" y="202" font-size="11" font-weight="700" fill="#15803d">MCA</text>
+  <text x="538" y="215" font-size="9" fill="#15803d">Mid. Cerebral A.</text>
+
+  <!-- PCA -->
+  <text x="215" y="235" text-anchor="end" font-size="10" font-weight="700" fill="#6d28d9">PCA</text>
+  <text x="485" y="235" font-size="10" font-weight="700" fill="#6d28d9">PCA</text>
+
+  <!-- PComm -->
+  <text x="278" y="285" text-anchor="middle" font-size="9" fill="#7c3aed">PComm</text>
+  <text x="422" y="285" text-anchor="middle" font-size="9" fill="#7c3aed">PComm</text>
+
+  <!-- ICA -->
+  <text x="235" y="395" text-anchor="end" font-size="10" font-weight="700" fill="#dc2626">ICA</text>
+  <text x="235" y="408" text-anchor="end" font-size="9" fill="#dc2626">Int. Carotid A.</text>
+  <text x="465" y="395" font-size="10" font-weight="700" fill="#dc2626">ICA</text>
+  <text x="465" y="408" font-size="9" fill="#dc2626">Int. Carotid A.</text>
+
+  <!-- Basilar -->
+  <text x="362" y="335" font-size="10" font-weight="700" fill="#6d28d9">Basilar A.</text>
+
+  <!-- Vertebrals -->
+  <text x="308" y="425" text-anchor="middle" font-size="9" fill="#7c3aed">Vertebral A.</text>
+  <text x="392" y="425" text-anchor="middle" font-size="9" fill="#7c3aed">Vertebral A.</text>
+
+  <!-- Territory legend -->
+  <rect x="10" y="55" width="140" height="80" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="80" y="72" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Territory Key</text>
+  <rect x="18" y="80" width="14" height="10" rx="2" fill="#bfdbfe" opacity="0.9"/>
+  <text x="38" y="91" font-size="10" fill="#1d4ed8">ACA — medial</text>
+  <rect x="18" y="98" width="14" height="10" rx="2" fill="#bbf7d0" opacity="0.9"/>
+  <text x="38" y="109" font-size="10" fill="#15803d">MCA — lateral</text>
+  <rect x="18" y="116" width="14" height="10" rx="2" fill="#e9d5ff" opacity="0.9"/>
+  <text x="38" y="127" font-size="10" fill="#6d28d9">PCA — posterior</text>
+
+  <!-- LVO pearl -->
+  <rect x="10" y="390" width="160" height="52" rx="6" fill="#fff1f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="90" y="407" text-anchor="middle" font-size="10" font-weight="700" fill="#dc2626">&#x26A0; LVO Pearls</text>
+  <text x="90" y="422" text-anchor="middle" font-size="9" fill="#7f1d1d">MCA M1: aphasia + dense hemi</text>
+  <text x="90" y="436" text-anchor="middle" font-size="9" fill="#7f1d1d">Basilar: coma, quadriplegia, death</text>
+
+  <!-- Bottom note -->
+  <rect x="175" y="440" width="350" height="14" rx="4" fill="#1e3a5f"/>
+  <text x="350" y="451" text-anchor="middle" font-size="9" fill="#93c5fd">Dashed = communicating arteries (collateral pathway)</text>
+</svg>

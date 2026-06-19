@@ -1,0 +1,57 @@
+<svg width="700" height="460" viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="460" fill="#f8fafc" rx="12"/>
+
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Brain Death Determination: Clinical Sequence</text>
+  <text x="350" y="50" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">All prerequisites must be met before clinical exam. Two examiners required (BNI protocol).</text>
+
+  <!-- Step 1: Prerequisites -->
+  <rect x="30" y="62" width="640" height="80" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <rect x="30" y="62" width="640" height="28" rx="8" fill="#0284c7"/>
+  <rect x="30" y="78" width="640" height="12" fill="#0284c7"/>
+  <text x="350" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="white">STEP 1 — Prerequisites (MUST be met — no exceptions)</text>
+  <text x="50" y="106" font-size="11" fill="#0c4a6e">&#x2022; Known irreversible catastrophic brain injury (etiology established)</text>
+  <text x="50" y="121" font-size="11" fill="#0c4a6e">&#x2022; Core temp &#x2265;36&#xB0;C &#x2022; SBP &#x2265;100 mmHg &#x2022; No sedatives/paralytics (>5 half-lives) &#x2022; No severe metabolic derangement</text>
+  <text x="50" y="136" font-size="11" fill="#0c4a6e">&#x2022; No CNS-depressant drugs (confirm with tox screen if uncertain) &#x2022; No neuromuscular blockade</text>
+
+  <line x1="350" y1="144" x2="350" y2="162" stroke="#94a3b8" stroke-width="2" marker-end="url(#a2)"/>
+
+  <!-- Step 2: Clinical exam -->
+  <rect x="30" y="163" width="640" height="90" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="30" y="163" width="640" height="28" rx="8" fill="#16a34a"/>
+  <rect x="30" y="179" width="640" height="12" fill="#16a34a"/>
+  <text x="350" y="183" text-anchor="middle" font-size="12" font-weight="700" fill="white">STEP 2 — Clinical Exam (all must be absent)</text>
+
+  <text x="50" y="206" font-size="11" fill="#14532d">&#x2022; Coma: no response to noxious stimuli (nail bed, supraorbital)</text>
+  <text x="50" y="221" font-size="11" fill="#14532d">&#x2022; Pupillary light reflex (CN II/III) &#x2022; Corneal reflex (CN V/VII) &#x2022; Oculocephalic (doll's eyes) &#x2022; Oculovestibular (cold calorics)</text>
+  <text x="50" y="236" font-size="11" fill="#14532d">&#x2022; Gag reflex &#x2022; Cough to deep suctioning &#x2022; No spontaneous respirations</text>
+  <text x="50" y="248" font-size="10" fill="#166534" font-style="italic">&#x26A0; Spinal reflexes (Lazarus sign) may persist — these do NOT indicate brain function</text>
+
+  <line x1="350" y1="257" x2="350" y2="275" stroke="#94a3b8" stroke-width="2" marker-end="url(#a2)"/>
+
+  <!-- Step 3: Apnea test -->
+  <rect x="30" y="276" width="640" height="80" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <rect x="30" y="276" width="640" height="28" rx="8" fill="#ca8a04"/>
+  <rect x="30" y="292" width="640" height="12" fill="#ca8a04"/>
+  <text x="350" y="296" text-anchor="middle" font-size="12" font-weight="700" fill="white">STEP 3 — Apnea Test</text>
+  <text x="50" y="320" font-size="11" fill="#713f12">&#x2022; Pre-oxygenate 100% O&#x2082; &#x2022; Baseline ABG: PaCO&#x2082; 35-45 mmHg &#x2022; Disconnect vent — deliver passive O&#x2082; via cannula</text>
+  <text x="50" y="335" font-size="11" fill="#713f12">&#x2022; Observe 8-10 min for ANY respiratory effort &#x2022; Check ABG: PaCO&#x2082; must rise &#x2265;20 mmHg AND reach &#x2265;60 mmHg</text>
+  <text x="50" y="350" font-size="11" font-weight="700" fill="#92400e">&#x2022; Positive test (confirms BD): NO respiratory effort with adequate CO&#x2082; stimulus</text>
+
+  <line x1="350" y1="358" x2="350" y2="375" stroke="#94a3b8" stroke-width="2" marker-end="url(#a2)"/>
+
+  <!-- Step 4: Declaration -->
+  <rect x="150" y="376" width="400" height="56" rx="8" fill="#7f1d1d" stroke="#dc2626" stroke-width="2"/>
+  <text x="350" y="397" text-anchor="middle" font-size="13" font-weight="700" fill="white">BRAIN DEATH DECLARED</text>
+  <text x="350" y="415" text-anchor="middle" font-size="11" fill="#fca5a5">Time of declaration = time apnea test completed</text>
+  <text x="350" y="430" text-anchor="middle" font-size="10" fill="#fecaca">Two attending physicians required &#x2022; Notify OPO (organ donation)</text>
+
+  <!-- Ancillary box -->
+  <rect x="30" y="440" width="640" height="16" rx="4" fill="#334155"/>
+  <text x="350" y="452" text-anchor="middle" font-size="10" fill="#94a3b8">If apnea test cannot be completed: EEG (isoelectric), nuclear scan (no flow), or cerebral angiography as ancillary confirmatory test</text>
+
+  <defs>
+    <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

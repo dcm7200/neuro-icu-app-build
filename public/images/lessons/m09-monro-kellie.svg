@@ -1,0 +1,98 @@
+<svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="400" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <text x="350" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Monro-Kellie Doctrine</text>
+  <text x="350" y="54" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Skull is a rigid, fixed-volume container. Volume of contents is constant.</text>
+
+  <!-- NORMAL STATE box -->
+  <rect x="30" y="75" width="190" height="220" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="125" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#0369a1">NORMAL</text>
+
+  <!-- Brain 80% -->
+  <rect x="42" y="103" width="166" height="88" rx="4" fill="#3b82f6" opacity="0.85"/>
+  <text x="125" y="144" text-anchor="middle" font-size="13" font-weight="700" fill="white">Brain</text>
+  <text x="125" y="162" text-anchor="middle" font-size="12" fill="#dbeafe">~80%</text>
+
+  <!-- Blood 10% -->
+  <rect x="42" y="196" width="166" height="44" rx="4" fill="#ef4444" opacity="0.8"/>
+  <text x="125" y="214" text-anchor="middle" font-size="12" font-weight="700" fill="white">Blood</text>
+  <text x="125" y="230" text-anchor="middle" font-size="11" fill="#fee2e2">~10%</text>
+
+  <!-- CSF 10% -->
+  <rect x="42" y="245" width="166" height="38" rx="4" fill="#22c55e" opacity="0.75"/>
+  <text x="125" y="260" text-anchor="middle" font-size="12" font-weight="700" fill="white">CSF</text>
+  <text x="125" y="276" text-anchor="middle" font-size="11" fill="#dcfce7">~10%</text>
+
+  <text x="125" y="310" text-anchor="middle" font-size="11" fill="#475569">ICP: 5-15 mmHg</text>
+  <text x="125" y="325" text-anchor="middle" font-size="11" fill="#475569">CPP adequate</text>
+
+  <!-- Arrow -->
+  <line x1="238" y1="185" x2="272" y2="185" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="255" y="177" text-anchor="middle" font-size="11" fill="#64748b">ICP</text>
+  <text x="255" y="195" text-anchor="middle" font-size="15" fill="#0ea5e9">&#x2191;</text>
+
+  <!-- COMPENSATED box -->
+  <rect x="258" y="75" width="190" height="220" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="353" y="95" text-anchor="middle" font-size="12" font-weight="700" fill="#92400e">COMPENSATED</text>
+
+  <!-- Brain same -->
+  <rect x="270" y="103" width="166" height="88" rx="4" fill="#3b82f6" opacity="0.85"/>
+  <text x="353" y="144" text-anchor="middle" font-size="13" font-weight="700" fill="white">Brain</text>
+  <text x="353" y="162" text-anchor="middle" font-size="12" fill="#dbeafe">&#x2191; (edema)</text>
+
+  <!-- Blood compressed -->
+  <rect x="270" y="196" width="166" height="28" rx="4" fill="#ef4444" opacity="0.8"/>
+  <text x="353" y="207" text-anchor="middle" font-size="11" font-weight="700" fill="white">Blood &#x2193; (displaced)</text>
+  <text x="353" y="220" text-anchor="middle" font-size="10" fill="#fee2e2">venous compressed</text>
+
+  <!-- CSF compressed -->
+  <rect x="270" y="229" width="166" height="18" rx="4" fill="#22c55e" opacity="0.75"/>
+  <text x="353" y="242" text-anchor="middle" font-size="10" font-weight="700" fill="white">CSF &#x2193; (absorbed/displaced)</text>
+
+  <!-- Increased volume -->
+  <rect x="270" y="252" width="166" height="31" rx="4" fill="#a78bfa" opacity="0.75"/>
+  <text x="353" y="264" text-anchor="middle" font-size="11" font-weight="700" fill="white">&#x2191; Volume</text>
+  <text x="353" y="278" text-anchor="middle" font-size="10" fill="#ede9fe">(edema / mass / blood)</text>
+
+  <text x="353" y="310" text-anchor="middle" font-size="11" fill="#92400e">ICP: 15-20 mmHg</text>
+  <text x="353" y="325" text-anchor="middle" font-size="11" fill="#92400e">Compliance reduced</text>
+
+  <!-- Arrow 2 -->
+  <line x1="465" y1="185" x2="499" y2="185" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="482" y="177" text-anchor="middle" font-size="11" fill="#64748b">exceed</text>
+  <text x="482" y="195" text-anchor="middle" font-size="10" fill="#64748b">reserve</text>
+
+  <!-- DECOMPENSATED box -->
+  <rect x="485" y="75" width="190" height="220" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="580" y="92" text-anchor="middle" font-size="12" font-weight="700" fill="#991b1b">DECOMPENSATED</text>
+  <text x="580" y="107" text-anchor="middle" font-size="10" fill="#dc2626">&#x26A0; Herniation Risk</text>
+
+  <!-- Brain herniated -->
+  <rect x="497" y="113" width="166" height="108" rx="4" fill="#3b82f6" opacity="0.85"/>
+  <text x="580" y="160" text-anchor="middle" font-size="13" font-weight="700" fill="white">Brain</text>
+  <text x="580" y="178" text-anchor="middle" font-size="11" fill="#dbeafe">&#x2191;&#x2191; (severe edema)</text>
+  <text x="580" y="194" text-anchor="middle" font-size="10" fill="#bfdbfe">herniation begins</text>
+
+  <!-- Blood/CSF gone -->
+  <rect x="497" y="226" width="166" height="14" rx="4" fill="#ef4444" opacity="0.5"/>
+  <text x="580" y="237" text-anchor="middle" font-size="9" fill="white">Blood — minimal</text>
+  <rect x="497" y="244" width="166" height="10" rx="4" fill="#22c55e" opacity="0.4"/>
+  <text x="580" y="253" text-anchor="middle" font-size="9" fill="white">CSF — minimal</text>
+
+  <text x="580" y="284" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">ICP &gt; 20 mmHg</text>
+  <text x="580" y="299" text-anchor="middle" font-size="11" fill="#dc2626">CPP = MAP - ICP</text>
+  <text x="580" y="314" text-anchor="middle" font-size="11" font-weight="700" fill="#991b1b">&#x2193;CPP = ischemia</text>
+
+  <!-- Formula bar at bottom -->
+  <rect x="30" y="355" width="640" height="36" rx="6" fill="#1e3a5f"/>
+  <text x="350" y="368" text-anchor="middle" font-size="12" fill="#93c5fd">Key formula:</text>
+  <text x="350" y="384" text-anchor="middle" font-size="13" font-weight="700" fill="white">CPP = MAP - ICP    |    Target CPP &gt; 60 mmHg    |    Normal ICP &lt; 20 mmHg</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

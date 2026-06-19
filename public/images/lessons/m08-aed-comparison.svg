@@ -1,0 +1,92 @@
+<svg width="700" height="380" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="380" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">AED Quick Reference — NCC Common Agents</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Know your drug, its monitoring, and the one contraindication that matters most in neuro.</text>
+
+  <!-- Header -->
+  <rect x="20" y="58" width="660" height="24" rx="4" fill="#1e3a5f"/>
+  <text x="82" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="white">Drug</text>
+  <text x="190" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="white">IV Load</text>
+  <text x="310" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="white">Maintenance</text>
+  <text x="440" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="white">Monitor</text>
+  <text x="590" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="white">Key Caution</text>
+  <line x1="140" y1="58" x2="140" y2="350" stroke="#334155" stroke-width="1"/>
+  <line x1="245" y1="58" x2="245" y2="350" stroke="#334155" stroke-width="1"/>
+  <line x1="375" y1="58" x2="375" y2="350" stroke="#334155" stroke-width="1"/>
+  <line x1="505" y1="58" x2="505" y2="350" stroke="#334155" stroke-width="1"/>
+
+  <!-- LEV -->
+  <rect x="20" y="82" width="660" height="44" fill="#eff6ff"/>
+  <text x="82" y="99" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">Levetiracetam</text>
+  <text x="82" y="113" text-anchor="middle" font-size="9" fill="#3b82f6">(Keppra) — 1st line</text>
+  <text x="193" y="101" text-anchor="middle" font-size="10" fill="#334155">60 mg/kg IV</text>
+  <text x="193" y="115" text-anchor="middle" font-size="10" fill="#334155">max 4,500mg/10 min</text>
+  <text x="310" y="101" text-anchor="middle" font-size="10" fill="#334155">500-1500mg BID IV/PO</text>
+  <text x="310" y="115" text-anchor="middle" font-size="10" fill="#334155">renally dosed</text>
+  <text x="440" y="101" text-anchor="middle" font-size="10" fill="#334155">BMP (renal), level optional</text>
+  <text x="440" y="115" text-anchor="middle" font-size="9" fill="#64748b">No therapeutic range</text>
+  <text x="590" y="101" text-anchor="middle" font-size="10" fill="#64748b">Behavioral changes (rage)</text>
+  <text x="590" y="115" text-anchor="middle" font-size="10" fill="#64748b">Dose-reduce in CKD</text>
+  <line x1="20" y1="126" x2="680" y2="126" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- VPA -->
+  <rect x="20" y="126" width="660" height="44" fill="#f8fafc"/>
+  <text x="82" y="143" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">Valproate</text>
+  <text x="82" y="157" text-anchor="middle" font-size="9" fill="#22c55e">(Depakote) — 1st line</text>
+  <text x="193" y="143" text-anchor="middle" font-size="10" fill="#334155">40 mg/kg IV</text>
+  <text x="193" y="157" text-anchor="middle" font-size="10" fill="#334155">max 3,000mg/10 min</text>
+  <text x="310" y="143" text-anchor="middle" font-size="10" fill="#334155">500-1500mg TID IV/PO</text>
+  <text x="310" y="157" text-anchor="middle" font-size="10" fill="#334155">hepatically metabolized</text>
+  <text x="440" y="143" text-anchor="middle" font-size="10" fill="#334155">Level 50-100 mcg/mL</text>
+  <text x="440" y="157" text-anchor="middle" font-size="10" fill="#334155">LFTs, ammonia, CBC</text>
+  <text x="590" y="143" text-anchor="middle" font-size="10" fill="#dc2626">AVOID pregnancy</text>
+  <text x="590" y="157" text-anchor="middle" font-size="10" fill="#64748b">Thrombocytopenia, hyperammonemia</text>
+  <line x1="20" y1="170" x2="680" y2="170" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Fosphenytoin -->
+  <rect x="20" y="170" width="660" height="44" fill="#eff6ff"/>
+  <text x="82" y="187" text-anchor="middle" font-size="11" font-weight="700" fill="#6d28d9">Fosphenytoin</text>
+  <text x="82" y="201" text-anchor="middle" font-size="9" fill="#7c3aed">(Cerebyx) — 1st line</text>
+  <text x="193" y="183" text-anchor="middle" font-size="10" fill="#334155">20 mg PE/kg IV</text>
+  <text x="193" y="197" text-anchor="middle" font-size="10" fill="#334155">max 150 PE/min, ECG</text>
+  <text x="310" y="183" text-anchor="middle" font-size="10" fill="#334155">4-6 mg PE/kg/day</text>
+  <text x="310" y="197" text-anchor="middle" font-size="10" fill="#334155">divided BID-TID</text>
+  <text x="440" y="183" text-anchor="middle" font-size="10" fill="#334155">Level 10-20 mcg/mL</text>
+  <text x="440" y="197" text-anchor="middle" font-size="10" fill="#334155">Continuous ECG during load</text>
+  <text x="590" y="187" text-anchor="middle" font-size="10" fill="#dc2626">Cardiac: bradycardia, QTc</text>
+  <text x="590" y="201" text-anchor="middle" font-size="10" fill="#64748b">Purple glove syndrome (IV site)</text>
+  <line x1="20" y1="214" x2="680" y2="214" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Lacosamide -->
+  <rect x="20" y="214" width="660" height="44" fill="#f8fafc"/>
+  <text x="82" y="231" text-anchor="middle" font-size="11" font-weight="700" fill="#0891b2">Lacosamide</text>
+  <text x="82" y="245" text-anchor="middle" font-size="9" fill="#0891b2">(Vimpat) — adjunct</text>
+  <text x="193" y="231" text-anchor="middle" font-size="10" fill="#334155">200-400mg IV over 15 min</text>
+  <text x="193" y="245" text-anchor="middle" font-size="10" fill="#334155">or 15 min infusion</text>
+  <text x="310" y="231" text-anchor="middle" font-size="10" fill="#334155">100-200mg BID IV/PO</text>
+  <text x="310" y="245" text-anchor="middle" font-size="10" fill="#334155">max 400mg/day</text>
+  <text x="440" y="231" text-anchor="middle" font-size="10" fill="#334155">PR interval (cardiac)</text>
+  <text x="440" y="245" text-anchor="middle" font-size="10" fill="#334155">No therapeutic level</text>
+  <text x="590" y="231" text-anchor="middle" font-size="10" fill="#d97706">PR prolongation / AV block</text>
+  <text x="590" y="245" text-anchor="middle" font-size="10" fill="#64748b">Useful: no drug interactions</text>
+  <line x1="20" y1="258" x2="680" y2="258" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Phenobarbital -->
+  <rect x="20" y="258" width="660" height="44" fill="#fff7ed"/>
+  <text x="82" y="275" text-anchor="middle" font-size="11" font-weight="700" fill="#9a3412">Phenobarbital</text>
+  <text x="82" y="289" text-anchor="middle" font-size="9" fill="#ea580c">refractory / last resort</text>
+  <text x="193" y="275" text-anchor="middle" font-size="10" fill="#334155">20 mg/kg IV</text>
+  <text x="193" y="289" text-anchor="middle" font-size="10" fill="#334155">max 60 mg/min</text>
+  <text x="310" y="275" text-anchor="middle" font-size="10" fill="#334155">1-3 mg/kg/day</text>
+  <text x="310" y="289" text-anchor="middle" font-size="10" fill="#334155">hepatically metabolized</text>
+  <text x="440" y="275" text-anchor="middle" font-size="10" fill="#334155">Level 20-40 mcg/mL</text>
+  <text x="440" y="289" text-anchor="middle" font-size="10" fill="#334155">Resp rate, sedation level</text>
+  <text x="590" y="275" text-anchor="middle" font-size="10" fill="#dc2626">Resp depression, hypotension</text>
+  <text x="590" y="289" text-anchor="middle" font-size="10" fill="#64748b">Long half-life: 80-120h</text>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="312" width="660" height="58" rx="6" fill="#1e3a5f"/>
+  <text x="350" y="330" text-anchor="middle" font-size="11" font-weight="700" fill="#fbbf24">Checking Levels: Phenytoin/fosphenytoin — free level in hypoalbuminemia</text>
+  <text x="350" y="346" text-anchor="middle" font-size="10" fill="#93c5fd">Corrected phenytoin = measured ÷ [(0.2 × albumin) + 0.1]  |  Target free phenytoin: 1-2 mcg/mL</text>
+  <text x="350" y="362" text-anchor="middle" font-size="10" fill="#e2e8f0">LEV = Levetiracetam preferred in most NCC patients — minimal drug interactions, no hepatic metabolism</text>
+</svg>

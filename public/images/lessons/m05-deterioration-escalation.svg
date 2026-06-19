@@ -1,0 +1,88 @@
+<svg width="700" height="420" viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="420" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Neurological Deterioration: When to Escalate</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Any acute change from documented baseline = escalate. Never wait to see if it improves.</text>
+
+  <!-- Header row -->
+  <rect x="20" y="58" width="660" height="28" rx="4" fill="#1e3a5f"/>
+  <text x="130" y="77" text-anchor="middle" font-size="12" font-weight="700" fill="white">Finding</text>
+  <text x="360" y="77" text-anchor="middle" font-size="12" font-weight="700" fill="white">Threshold / Definition</text>
+  <text x="588" y="77" text-anchor="middle" font-size="12" font-weight="700" fill="white">Action</text>
+  <line x1="240" y1="58" x2="240" y2="390" stroke="#334155" stroke-width="1"/>
+  <line x1="480" y1="58" x2="480" y2="390" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row 1: GCS -->
+  <rect x="20" y="86" width="660" height="38" fill="#fee2e2"/>
+  <text x="130" y="101" text-anchor="middle" font-size="11" font-weight="700" fill="#991b1b">GCS Drop</text>
+  <text x="130" y="116" text-anchor="middle" font-size="10" fill="#7f1d1d">Motor or eye opening</text>
+  <text x="360" y="105" text-anchor="middle" font-size="11" fill="#7f1d1d">Decrease ≥ 2 points from baseline</text>
+  <text x="588" y="101" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">CALL ATTENDING NOW</text>
+  <text x="588" y="116" text-anchor="middle" font-size="10" fill="#7f1d1d">Stat CT head</text>
+  <line x1="20" y1="124" x2="680" y2="124" stroke="#fca5a5" stroke-width="1"/>
+
+  <!-- Row 2: Pupil -->
+  <rect x="20" y="124" width="660" height="38" fill="#fee2e2"/>
+  <text x="130" y="139" text-anchor="middle" font-size="11" font-weight="700" fill="#991b1b">New Pupil Asymmetry</text>
+  <text x="130" y="154" text-anchor="middle" font-size="10" fill="#7f1d1d">or fixed dilation</text>
+  <text x="360" y="143" text-anchor="middle" font-size="11" fill="#7f1d1d">Asymmetry &gt; 1mm OR new non-reactivity</text>
+  <text x="588" y="139" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">HERNIATION PROTOCOL</text>
+  <text x="588" y="154" text-anchor="middle" font-size="10" fill="#7f1d1d">HOB 30°, Mannitol/HTS, call</text>
+  <line x1="20" y1="162" x2="680" y2="162" stroke="#fca5a5" stroke-width="1"/>
+
+  <!-- Row 3: New focal deficit -->
+  <rect x="20" y="162" width="660" height="38" fill="#ffedd5"/>
+  <text x="130" y="177" text-anchor="middle" font-size="11" font-weight="700" fill="#9a3412">New Focal Deficit</text>
+  <text x="130" y="192" text-anchor="middle" font-size="10" fill="#7c2d12">Hemi, aphasia, gaze dev.</text>
+  <text x="360" y="181" text-anchor="middle" font-size="11" fill="#7c2d12">Any NEW focal finding not present on prior exam</text>
+  <text x="588" y="177" text-anchor="middle" font-size="11" font-weight="700" fill="#ea580c">Call attending stat</text>
+  <text x="588" y="192" text-anchor="middle" font-size="10" fill="#7c2d12">CT/CTA, stroke alert if AIS suspected</text>
+  <line x1="20" y1="200" x2="680" y2="200" stroke="#fed7aa" stroke-width="1"/>
+
+  <!-- Row 4: Posturing -->
+  <rect x="20" y="200" width="660" height="38" fill="#fee2e2"/>
+  <text x="130" y="215" text-anchor="middle" font-size="11" font-weight="700" fill="#991b1b">Abnormal Posturing</text>
+  <text x="130" y="230" text-anchor="middle" font-size="10" fill="#7f1d1d">Decorticate or decerebrate</text>
+  <text x="360" y="219" text-anchor="middle" font-size="11" fill="#7f1d1d">New flexion or extension to stimulation</text>
+  <text x="588" y="215" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">CALL NOW — herniation</text>
+  <text x="588" y="230" text-anchor="middle" font-size="10" fill="#7f1d1d">Immediate ICP intervention</text>
+  <line x1="20" y1="238" x2="680" y2="238" stroke="#fca5a5" stroke-width="1"/>
+
+  <!-- Row 5: Seizure -->
+  <rect x="20" y="238" width="660" height="38" fill="#fef3c7"/>
+  <text x="130" y="253" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">New Seizure</text>
+  <text x="130" y="268" text-anchor="middle" font-size="10" fill="#713f12">Clinical or EEG-confirmed</text>
+  <text x="360" y="257" text-anchor="middle" font-size="11" fill="#713f12">Any convulsive activity OR EEG seizure pattern</text>
+  <text x="588" y="253" text-anchor="middle" font-size="11" font-weight="700" fill="#d97706">Benzodiazepine, call</text>
+  <text x="588" y="268" text-anchor="middle" font-size="10" fill="#713f12">Lorazepam 2-4mg IV, AED load</text>
+  <line x1="20" y1="276" x2="680" y2="276" stroke="#fde68a" stroke-width="1"/>
+
+  <!-- Row 6: ICP -->
+  <rect x="20" y="276" width="660" height="38" fill="#ffedd5"/>
+  <text x="130" y="291" text-anchor="middle" font-size="11" font-weight="700" fill="#9a3412">ICP Elevation</text>
+  <text x="130" y="306" text-anchor="middle" font-size="10" fill="#7c2d12">If monitored</text>
+  <text x="360" y="295" text-anchor="middle" font-size="11" fill="#7c2d12">ICP &gt;20 mmHg sustained &gt;5 min OR CPP &lt;60</text>
+  <text x="588" y="291" text-anchor="middle" font-size="11" font-weight="700" fill="#ea580c">Tier 1 protocol</text>
+  <text x="588" y="306" text-anchor="middle" font-size="10" fill="#7c2d12">Osmotherapy ± CSF drainage</text>
+  <line x1="20" y1="314" x2="680" y2="314" stroke="#fed7aa" stroke-width="1"/>
+
+  <!-- Row 7: Cushing's -->
+  <rect x="20" y="314" width="660" height="38" fill="#fee2e2"/>
+  <text x="130" y="329" text-anchor="middle" font-size="11" font-weight="700" fill="#991b1b">Cushing's Triad</text>
+  <text x="130" y="344" text-anchor="middle" font-size="10" fill="#7f1d1d">HTN + brady + irreg resp</text>
+  <text x="360" y="333" text-anchor="middle" font-size="11" fill="#7f1d1d">Any two of three = act immediately</text>
+  <text x="588" y="329" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">CODE-LEVEL RESPONSE</text>
+  <text x="588" y="344" text-anchor="middle" font-size="10" fill="#7f1d1d">Imminent brainstem herniation</text>
+  <line x1="20" y1="352" x2="680" y2="352" stroke="#fca5a5" stroke-width="1"/>
+
+  <!-- Row 8: Vitals + temp -->
+  <rect x="20" y="352" width="660" height="38" fill="#f8fafc"/>
+  <text x="130" y="367" text-anchor="middle" font-size="11" font-weight="600" fill="#334155">Hyperthermia</text>
+  <text x="130" y="382" text-anchor="middle" font-size="10" fill="#64748b">Temp spike in neuro pt</text>
+  <text x="360" y="371" text-anchor="middle" font-size="11" fill="#334155">Temp &gt;38.3°C — aggressively treat to &lt;37.5°C</text>
+  <text x="588" y="367" text-anchor="middle" font-size="11" fill="#334155">Cooling blanket, acetaminophen</text>
+  <text x="588" y="382" text-anchor="middle" font-size="10" fill="#64748b">Each 1°C = ↑ brain metabolic demand 10%</text>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="396" width="660" height="18" rx="4" fill="#1e3a5f"/>
+  <text x="350" y="409" text-anchor="middle" font-size="10" fill="white" font-weight="600">Rule of thumb: when in doubt, call. It is never wrong to communicate a change — it is wrong to stay silent.</text>
+</svg>

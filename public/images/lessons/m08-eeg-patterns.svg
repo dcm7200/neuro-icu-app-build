@@ -1,0 +1,64 @@
+<svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="400" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Key EEG Patterns in the NCC</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Continuous EEG (cEEG) is the only monitor for NCSE. Know these patterns — report to neurology immediately.</text>
+
+  <!-- Pattern 1: Normal background -->
+  <rect x="20" y="60" width="320" height="80" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="110" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">Normal Background</text>
+  <text x="110" y="93" text-anchor="middle" font-size="9" fill="#64748b">Alpha (8-13Hz) awake, Delta/Theta in sedation</text>
+  <!-- Waveform: smooth rhythmic -->
+  <polyline points="180,110 195,95 205,125 215,95 225,120 235,98 245,118 255,97 265,115 275,98 285,112 295,100 305,110 315,105 325,110" fill="none" stroke="#22c55e" stroke-width="2" stroke-linejoin="round"/>
+  <text x="110" y="135" text-anchor="middle" font-size="10" fill="#15803d">✓ Organized, reactive to stimulation</text>
+
+  <!-- Pattern 2: Burst suppression -->
+  <rect x="360" y="60" width="320" height="80" rx="6" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="450" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">Burst Suppression</text>
+  <text x="450" y="93" text-anchor="middle" font-size="9" fill="#64748b">Alternating bursts of activity with flat periods</text>
+  <!-- Flat line then burst then flat -->
+  <polyline points="380,112 400,112 405,98 408,125 412,90 416,120 420,105 424,112 450,112 480,112 485,95 488,128 492,88 496,122 500,108 504,112 520,112 560,112 620,112 670,112" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round"/>
+  <text x="450" y="135" text-anchor="middle" font-size="10" fill="#92400e">Pentobarbital/propofol coma. Target: 6-12 bursts/min</text>
+
+  <!-- Pattern 3: Seizure -->
+  <rect x="20" y="158" width="320" height="80" rx="6" fill="white" stroke="#dc2626" stroke-width="2"/>
+  <text x="110" y="176" text-anchor="middle" font-size="11" font-weight="700" fill="#dc2626">Electrographic Seizure ⚠️</text>
+  <text x="110" y="191" text-anchor="middle" font-size="9" fill="#64748b">Rhythmic, evolving, &gt;10 sec</text>
+  <!-- Build-up waveform: increasing amplitude/frequency -->
+  <polyline points="35,215 50,215 55,210 60,220 65,208 70,222 75,205 80,225 88,200 96,228 104,196 112,230 120,190 128,232 136,185 144,235 152,182 160,237 168,185 176,235 185,215 200,215 220,215" fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="round"/>
+  <text x="110" y="233" text-anchor="middle" font-size="10" fill="#dc2626">Treat immediately — benzodiazepine + AED load</text>
+
+  <!-- Pattern 4: GPDs / LPDs -->
+  <rect x="360" y="158" width="320" height="80" rx="6" fill="white" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="450" y="176" text-anchor="middle" font-size="11" font-weight="700" fill="#6d28d9">GPDs / LPDs (Periodic Discharges)</text>
+  <text x="450" y="191" text-anchor="middle" font-size="9" fill="#64748b">Generalized or lateralized repetitive sharp waves</text>
+  <!-- Periodic sharp wave pattern -->
+  <polyline points="375,215 390,215 395,205 398,228 401,215 425,215 430,205 433,228 436,215 460,215 465,205 468,228 471,215 495,215 500,205 503,228 506,215 530,215 535,205 538,228 541,215 565,215 570,205 573,228 576,215 600,215 620,215 670,215" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linejoin="round"/>
+  <text x="450" y="233" text-anchor="middle" font-size="10" fill="#6d28d9">Ictal-interictal continuum — neurology consult urgently</text>
+
+  <!-- Pattern 5: Isoelectric (flat) -->
+  <rect x="20" y="256" width="320" height="80" rx="6" fill="white" stroke="#334155" stroke-width="1.5"/>
+  <text x="110" y="274" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Electrocerebral Silence</text>
+  <text x="110" y="289" text-anchor="middle" font-size="9" fill="#64748b">Flat / isoelectric (confirm: sensitivity, no artifact)</text>
+  <!-- Flat line -->
+  <line x1="35" y1="313" x2="330" y2="313" stroke="#334155" stroke-width="2.5"/>
+  <text x="110" y="331" text-anchor="middle" font-size="10" fill="#334155">Brain death ancillary testing. Also: high-dose barbiturates.</text>
+
+  <!-- Pattern 6: Spike-wave -->
+  <rect x="360" y="256" width="320" height="80" rx="6" fill="white" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="450" y="274" text-anchor="middle" font-size="11" font-weight="700" fill="#9a3412">3Hz Spike-and-Wave</text>
+  <text x="450" y="289" text-anchor="middle" font-size="9" fill="#64748b">Classic absence or NCSE pattern</text>
+  <!-- Sharp spike then dome -->
+  <polyline points="375,315 385,315 387,295 389,325 392,305 396,315 410,315 412,295 414,325 417,305 421,315 435,315 437,295 439,325 442,305 446,315 460,315 462,295 464,325 467,305 471,315 485,315 487,295 489,325 492,305 496,315 510,315 530,315 550,315 570,315 590,315 620,315 670,315" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round"/>
+  <text x="450" y="331" text-anchor="middle" font-size="10" fill="#9a3412">Treat as NCSE if clinical ALOC. Valproate preferred.</text>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="346" width="660" height="46" rx="6" fill="#1e3a5f"/>
+  <text x="350" y="362" text-anchor="middle" font-size="11" font-weight="700" fill="#fbbf24">ACNS Terminology: "Ictal" = active seizure | "Interictal" = between seizures | "Ictal-interictal continuum" = treat</text>
+  <text x="350" y="380" text-anchor="middle" font-size="10" fill="#e2e8f0">Any rhythmic evolving pattern &gt;10 sec on cEEG = call neurology. NCSE = EEG seizure without convulsions.</text>
+
+  <defs>
+    <marker id="ca" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

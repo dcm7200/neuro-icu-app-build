@@ -1,0 +1,57 @@
+<svg width="700" height="360" viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="360" fill="#f8fafc" rx="12"/>
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Organ Donation Pathway — DBD (Brain Death)</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">OPO notification is mandatory at imminent death. Family communication is separate from donation request.</text>
+
+  <!-- Step 1: Brain death -->
+  <rect x="250" y="60" width="200" height="36" rx="6" fill="#7f1d1d"/>
+  <text x="350" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="white">Brain Death Declared</text>
+  <text x="350" y="92" text-anchor="middle" font-size="9" fill="#fca5a5">Time of death documented</text>
+  <line x1="350" y1="96" x2="350" y2="112" stroke="#94a3b8" stroke-width="2" marker-end="url(#oa)"/>
+
+  <!-- Step 2: OPO Notification -->
+  <rect x="200" y="113" width="300" height="36" rx="6" fill="#1d4ed8"/>
+  <text x="350" y="129" text-anchor="middle" font-size="12" font-weight="700" fill="white">&#x1F4DE; Notify OPO — MANDATORY</text>
+  <text x="350" y="143" text-anchor="middle" font-size="9" fill="#bfdbfe">Do not wait — call at time of declaration or anticipated death</text>
+  <line x1="350" y1="149" x2="350" y2="165" stroke="#94a3b8" stroke-width="2" marker-end="url(#oa)"/>
+
+  <!-- Step 3: OPO evaluation -->
+  <rect x="150" y="166" width="400" height="44" rx="6" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350" y="183" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">OPO Coordinator Evaluates Suitability</text>
+  <text x="350" y="198" text-anchor="middle" font-size="10" fill="#1e40af">Reviews PMH, age, infections, cancer hx, labs | No absolute age limit for donation</text>
+  <text x="350" y="210" text-anchor="middle" font-size="9" fill="#64748b">OPO makes the donation request — NOT the clinical team</text>
+  <line x1="350" y1="210" x2="350" y2="225" stroke="#94a3b8" stroke-width="2" marker-end="url(#oa)"/>
+
+  <!-- Step 4: Family communication split -->
+  <rect x="20" y="226" width="290" height="72" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="165" y="244" text-anchor="middle" font-size="11" font-weight="700" fill="#15803d">Family: Grief Support First</text>
+  <text x="165" y="260" text-anchor="middle" font-size="10" fill="#166534">Medical team communicates death</text>
+  <text x="165" y="274" text-anchor="middle" font-size="10" fill="#166534">separately from donation discussion</text>
+  <text x="165" y="288" text-anchor="middle" font-size="10" fill="#166534">OPO coordinator makes donation request</text>
+  <text x="165" y="302" text-anchor="middle" font-size="9" fill="#64748b">Decoupled approach → higher consent rates</text>
+
+  <rect x="390" y="226" width="290" height="72" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="535" y="244" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">Medical: Donor Management</text>
+  <text x="535" y="260" text-anchor="middle" font-size="10" fill="#713f12">MAP ≥60, CVP 6-10, maintain UO</text>
+  <text x="535" y="274" text-anchor="middle" font-size="10" fill="#713f12">Vasopressin + norepinephrine if needed</text>
+  <text x="535" y="288" text-anchor="middle" font-size="10" fill="#713f12">Thyroid hormone + steroids (protocol)</text>
+  <text x="535" y="302" text-anchor="middle" font-size="9" fill="#64748b">Goal: preserve organ function pre-procurement</text>
+
+  <!-- Consent arrow down -->
+  <line x1="165" y1="298" x2="165" y2="315" stroke="#94a3b8" stroke-width="2" marker-end="url(#oa)"/>
+  <rect x="55" y="316" width="220" height="28" rx="6" fill="#16a34a"/>
+  <text x="165" y="334" text-anchor="middle" font-size="11" font-weight="700" fill="white">Authorization Obtained → OR</text>
+
+  <!-- DCD note -->
+  <rect x="390" y="316" width="290" height="28" rx="6" fill="#334155"/>
+  <text x="535" y="332" text-anchor="middle" font-size="10" fill="white" font-weight="600">DCD (Cardiac Death): WLST → arrest → procurement</text>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="350" width="660" height="0" rx="4" fill="#1e3a5f"/>
+
+  <defs>
+    <marker id="oa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
