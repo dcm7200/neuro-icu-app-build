@@ -8,12 +8,10 @@ workflows:
       app_store_connect: Codemagic Admin Key
 
     environment:
-      ios_signing:
-        distribution_type: app_store        # for TestFlight + App Store
-        bundle_identifier: org.barrowneuro.nccapp
       vars:
         XCODE_PROJECT: "ios/App/App.xcodeproj"
         XCODE_SCHEME: "App"
+        BUNDLE_ID: "org.barrowneuro.nccapp"
 
     scripts:
       - name: Install Node dependencies
@@ -24,9 +22,20 @@ workflows:
         script: |
           npx cap sync ios
 
-      - name: Set Xcode version
+      - name: Set up keychain
+        script: keychain initialize
+
+      - name: Fetch or create signing files
         script: |
-          xcode-select --print-path
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
+
+      - name: Add certificates to keychain
+        script: keychain add-certificates
+
+      - name: Set up code signing in Xcode
+        script: xcode-project use-profiles
 
       - name: Install CocoaPods
         script: |
@@ -45,7 +54,7 @@ workflows:
 
     publishing:
       app_store_connect:
-        auth: integration          # uses your Apple Developer credentials from Codemagic dashboard
+        auth: integration
         submit_to_testflight: true
         beta_groups:
           - NCC Team
