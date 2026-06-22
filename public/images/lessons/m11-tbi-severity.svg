@@ -1,0 +1,127 @@
+<svg width="700" height="380" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="380" fill="#f8fafc" rx="12"/>
+
+  <!-- Title / Subtitle -->
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">TBI Severity Classification and Secondary Injury Prevention</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">GCS classifies severity. Secondary injury prevention determines outcome.</text>
+  <line x1="16" y1="57" x2="684" y2="57" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ── TOP ROW: Severity Boxes ── -->
+  <!-- Mild -->
+  <rect x="16" y="64" width="210" height="72" fill="#f0fdf4" rx="8" stroke="#22c55e" stroke-width="2"/>
+  <text x="121" y="83" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d">MILD TBI</text>
+  <text x="121" y="100" text-anchor="middle" font-size="24" font-weight="800" fill="#22c55e">GCS 13–15</text>
+  <text x="121" y="117" text-anchor="middle" font-size="10" fill="#64748b">Concussion · Brief LOC · Amnesia</text>
+  <text x="121" y="129" text-anchor="middle" font-size="10" fill="#64748b">CT may be normal</text>
+
+  <!-- Moderate -->
+  <rect x="244" y="64" width="212" height="72" fill="#fefce8" rx="8" stroke="#f59e0b" stroke-width="2"/>
+  <text x="350" y="83" text-anchor="middle" font-size="13" font-weight="700" fill="#b45309">MODERATE TBI</text>
+  <text x="350" y="100" text-anchor="middle" font-size="24" font-weight="800" fill="#f59e0b">GCS 9–12</text>
+  <text x="350" y="117" text-anchor="middle" font-size="10" fill="#64748b">Prolonged LOC · Follow commands</text>
+  <text x="350" y="129" text-anchor="middle" font-size="10" fill="#64748b">ICU admission, frequent recheck</text>
+
+  <!-- Severe -->
+  <rect x="474" y="64" width="210" height="72" fill="#fef2f2" rx="8" stroke="#ef4444" stroke-width="2"/>
+  <text x="579" y="83" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c">SEVERE TBI</text>
+  <text x="579" y="100" text-anchor="middle" font-size="24" font-weight="800" fill="#ef4444">GCS 3–8</text>
+  <text x="579" y="117" text-anchor="middle" font-size="10" fill="#64748b">No eye opening · No commands</text>
+  <text x="579" y="129" text-anchor="middle" font-size="10" fill="#64748b">Intubate · ICP monitoring consider</text>
+
+  <!-- ── MIDDLE: GCS Table ── -->
+  <text x="350" y="153" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a5f">Glasgow Coma Scale (E+V+M = 3–15)</text>
+
+  <!-- GCS header -->
+  <rect x="16" y="158" width="672" height="20" fill="#1e3a5f" rx="4"/>
+  <text x="80" y="171" text-anchor="middle" font-size="10" font-weight="700" fill="white">Eye Opening (1–4)</text>
+  <text x="290" y="171" text-anchor="middle" font-size="10" font-weight="700" fill="white">Verbal Response (1–5)</text>
+  <text x="530" y="171" text-anchor="middle" font-size="10" font-weight="700" fill="white">Motor Response (1–6)</text>
+
+  <!-- GCS row 1 -->
+  <rect x="16" y="178" width="672" height="18" fill="#f8fafc"/>
+  <text x="26" y="190" font-size="9.5" fill="#1e3a5f">4 — Spontaneous</text>
+  <text x="168" y="190" font-size="9.5" fill="#64748b">|</text>
+  <text x="180" y="190" font-size="9.5" fill="#1e3a5f">5 — Oriented × 3</text>
+  <text x="397" y="190" font-size="9.5" fill="#64748b">|</text>
+  <text x="410" y="190" font-size="9.5" fill="#1e3a5f">6 — Follows commands</text>
+
+  <!-- GCS row 2 -->
+  <rect x="16" y="196" width="672" height="18" fill="white"/>
+  <text x="26" y="208" font-size="9.5" fill="#1e3a5f">3 — To voice</text>
+  <text x="168" y="208" font-size="9.5" fill="#64748b">|</text>
+  <text x="180" y="208" font-size="9.5" fill="#1e3a5f">4 — Confused</text>
+  <text x="397" y="208" font-size="9.5" fill="#64748b">|</text>
+  <text x="410" y="208" font-size="9.5" fill="#1e3a5f">5 — Localizes pain</text>
+
+  <!-- GCS row 3 -->
+  <rect x="16" y="214" width="672" height="18" fill="#f8fafc"/>
+  <text x="26" y="226" font-size="9.5" fill="#1e3a5f">2 — To pain</text>
+  <text x="168" y="226" font-size="9.5" fill="#64748b">|</text>
+  <text x="180" y="226" font-size="9.5" fill="#1e3a5f">3 — Inappropriate words</text>
+  <text x="397" y="226" font-size="9.5" fill="#64748b">|</text>
+  <text x="410" y="226" font-size="9.5" fill="#1e3a5f">4 — Withdrawal</text>
+
+  <!-- GCS row 4 -->
+  <rect x="16" y="232" width="672" height="18" fill="white"/>
+  <text x="26" y="244" font-size="9.5" fill="#1e3a5f">1 — None</text>
+  <text x="168" y="244" font-size="9.5" fill="#64748b">|</text>
+  <text x="180" y="244" font-size="9.5" fill="#1e3a5f">2 — Incomprehensible</text>
+  <text x="397" y="244" font-size="9.5" fill="#64748b">|</text>
+  <text x="410" y="244" font-size="9.5" fill="#1e3a5f">3 — Flexion (decorticate)</text>
+
+  <!-- GCS row 5 -->
+  <rect x="16" y="250" width="672" height="18" fill="#f8fafc"/>
+  <text x="26" y="262" font-size="9.5" fill="#64748b">(intubated = 1T)</text>
+  <text x="168" y="262" font-size="9.5" fill="#64748b">|</text>
+  <text x="180" y="262" font-size="9.5" fill="#1e3a5f">1 — None</text>
+  <text x="397" y="262" font-size="9.5" fill="#64748b">|</text>
+  <text x="410" y="262" font-size="9.5" fill="#1e3a5f">2 — Extension (decerebrate) · 1 — None</text>
+
+  <!-- GCS border -->
+  <rect x="16" y="158" width="672" height="110" fill="none" stroke="#e2e8f0" stroke-width="1" rx="4"/>
+  <line x1="168" y1="158" x2="168" y2="268" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="397" y1="158" x2="397" y2="268" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ── BOTTOM ROW: Secondary Injury Prevention ── -->
+  <text x="350" y="286" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a5f">Secondary Injury Prevention Targets</text>
+
+  <!-- SBP -->
+  <rect x="16" y="292" width="100" height="52" fill="#eff6ff" rx="8" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="66" y="308" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">SBP</text>
+  <text x="66" y="323" text-anchor="middle" font-size="11" font-weight="700" fill="#3b82f6">&gt;90 mmHg</text>
+  <text x="66" y="338" text-anchor="middle" font-size="9" fill="#64748b">Avoid hypotension</text>
+
+  <!-- SpO2 -->
+  <rect x="124" y="292" width="100" height="52" fill="#f0fdf4" rx="8" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="174" y="308" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">SpO₂</text>
+  <text x="174" y="323" text-anchor="middle" font-size="11" font-weight="700" fill="#22c55e">&gt;94%</text>
+  <text x="174" y="338" text-anchor="middle" font-size="9" fill="#64748b">Avoid hypoxia</text>
+
+  <!-- PaCO2 -->
+  <rect x="232" y="292" width="100" height="52" fill="#fef3c7" rx="8" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="282" y="308" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">PaCO₂</text>
+  <text x="282" y="323" text-anchor="middle" font-size="11" font-weight="700" fill="#f59e0b">35–40 mmHg</text>
+  <text x="282" y="338" text-anchor="middle" font-size="9" fill="#64748b">Normoventilate</text>
+
+  <!-- Glucose -->
+  <rect x="340" y="292" width="100" height="52" fill="#f5f3ff" rx="8" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="390" y="308" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">Glucose</text>
+  <text x="390" y="323" text-anchor="middle" font-size="11" font-weight="700" fill="#7c3aed">140–180 mg/dL</text>
+  <text x="390" y="338" text-anchor="middle" font-size="9" fill="#64748b">Tight normoglycemia</text>
+
+  <!-- Temp -->
+  <rect x="448" y="292" width="100" height="52" fill="#fff7ed" rx="8" stroke="#f97316" stroke-width="1.5"/>
+  <text x="498" y="308" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">Temperature</text>
+  <text x="498" y="323" text-anchor="middle" font-size="11" font-weight="700" fill="#f97316">Normothermia</text>
+  <text x="498" y="338" text-anchor="middle" font-size="9" fill="#64748b">36–37.5°C goal</text>
+
+  <!-- CPP -->
+  <rect x="556" y="292" width="128" height="52" fill="#fef2f2" rx="8" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="620" y="308" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">CPP Target</text>
+  <text x="620" y="323" text-anchor="middle" font-size="11" font-weight="700" fill="#ef4444">60–70 mmHg</text>
+  <text x="620" y="338" text-anchor="middle" font-size="9" fill="#64748b">MAP − ICP = CPP</text>
+
+  <!-- Bottom note -->
+  <rect x="16" y="352" width="668" height="20" fill="#1e3a5f" rx="6"/>
+  <text x="350" y="365" text-anchor="middle" font-size="10" fill="white">Each episode of SBP &lt;90 or SpO₂ &lt;90 doubles mortality in severe TBI — monitor continuously</text>
+</svg>

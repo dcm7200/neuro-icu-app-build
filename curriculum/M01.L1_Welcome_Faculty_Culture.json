@@ -3,8 +3,8 @@
  "module_id": "M01",
  "phase_id": "P1",
  "title": "Welcome, Faculty, and the Culture of Speaking Up",
- "version": "0.1",
- "version_date": "2026-05-15",
+ "version": "0.2",
+ "version_date": "2026-06-19",
  "duration_min": 15,
  "delivery_format": ["reading", "video"],
  "objectives": [
@@ -18,8 +18,8 @@
  {"heading": "Why This Lesson Matters", "key_points": ["NCC patients deteriorate fast", "Silence carries clinical cost", "Speak-up culture is institutional, not optional"]},
  {"heading": "Who You Are Joining", "key_points": [
  "Section Head: Ruchira Jha, MD MSc",
- "Core faculty: Fiona Lynch, Patrick Crooks, Nassim Matin, Aditya Kumar",
- "Broader committee includes Mangalampalli, Nelson, Haller, Phuah, Sisniega",
+ "Core faculty: Fiona Lynch, Patrick Crooks, Nassim Matin, Aditya Kumar, Daniella Sisniega",
+ "Broader committee includes Mangalampalli, Nelson, Haller, Phuah",
  "BNI Handbook 2026-2027 by Mangalampalli/Kumar/Nelson is the pocket reference",
  "APPs are partners — not coverage — for residents and attendings"
  ]},

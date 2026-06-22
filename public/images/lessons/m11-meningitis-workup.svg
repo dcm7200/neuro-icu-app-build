@@ -1,0 +1,117 @@
+<svg width="700" height="420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="420" fill="#f8fafc" rx="12"/>
+
+  <!-- Title / Subtitle -->
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Bacterial Meningitis: LP Workup and Empiric Coverage</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Don't delay antibiotics for LP. Treat first, investigate simultaneously.</text>
+  <line x1="16" y1="57" x2="684" y2="57" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- ── LEFT COLUMN: CSF Findings ── -->
+  <text x="175" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a5f">CSF Findings by Etiology</text>
+
+  <!-- Table header -->
+  <rect x="16" y="79" width="324" height="22" fill="#1e3a5f" rx="4"/>
+  <text x="26" y="94" font-size="10" font-weight="700" fill="white">Parameter</text>
+  <text x="130" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="#fca5a5">Bacterial</text>
+  <text x="225" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="#86efac">Viral</text>
+  <text x="325" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="#94a3b8">Normal</text>
+
+  <!-- Row 1 WBC -->
+  <rect x="16" y="101" width="324" height="21" fill="#fef2f2"/>
+  <text x="26" y="115" font-size="10" font-weight="600" fill="#1e3a5f">WBC (cells/μL)</text>
+  <text x="130" y="115" text-anchor="middle" font-size="9.5" fill="#ef4444">1000–10k PMN</text>
+  <text x="225" y="115" text-anchor="middle" font-size="9.5" fill="#16a34a">10–1000 lymph</text>
+  <text x="325" y="115" text-anchor="middle" font-size="9.5" fill="#64748b">&lt;5</text>
+
+  <!-- Row 2 Glucose -->
+  <rect x="16" y="122" width="324" height="21" fill="white"/>
+  <text x="26" y="136" font-size="10" font-weight="600" fill="#1e3a5f">Glucose</text>
+  <text x="130" y="136" text-anchor="middle" font-size="9.5" fill="#ef4444">LOW (&lt;0.6 ratio)</text>
+  <text x="225" y="136" text-anchor="middle" font-size="9.5" fill="#16a34a">Normal</text>
+  <text x="325" y="136" text-anchor="middle" font-size="9.5" fill="#64748b">Normal</text>
+
+  <!-- Row 3 Protein -->
+  <rect x="16" y="143" width="324" height="21" fill="#fef2f2"/>
+  <text x="26" y="157" font-size="10" font-weight="600" fill="#1e3a5f">Protein (mg/dL)</text>
+  <text x="130" y="157" text-anchor="middle" font-size="9.5" fill="#ef4444">HIGH &gt;200</text>
+  <text x="225" y="157" text-anchor="middle" font-size="9.5" fill="#f59e0b">Mildly elevated</text>
+  <text x="325" y="157" text-anchor="middle" font-size="9.5" fill="#64748b">15–45</text>
+
+  <!-- Row 4 Lactate -->
+  <rect x="16" y="164" width="324" height="21" fill="white"/>
+  <text x="26" y="178" font-size="10" font-weight="600" fill="#1e3a5f">Lactate (mmol/L)</text>
+  <text x="130" y="178" text-anchor="middle" font-size="9.5" fill="#ef4444">&gt;3.5</text>
+  <text x="225" y="178" text-anchor="middle" font-size="9.5" fill="#16a34a">Normal</text>
+  <text x="325" y="178" text-anchor="middle" font-size="9.5" fill="#64748b">&lt;2.2</text>
+
+  <!-- Row 5 Gram stain -->
+  <rect x="16" y="185" width="324" height="21" fill="#fef2f2"/>
+  <text x="26" y="199" font-size="10" font-weight="600" fill="#1e3a5f">Gram Stain</text>
+  <text x="130" y="199" text-anchor="middle" font-size="9.5" fill="#ef4444">70–80% positive</text>
+  <text x="225" y="199" text-anchor="middle" font-size="9.5" fill="#64748b">Negative</text>
+  <text x="325" y="199" text-anchor="middle" font-size="9.5" fill="#64748b">Negative</text>
+
+  <!-- Table border + column dividers -->
+  <rect x="16" y="79" width="324" height="127" fill="none" stroke="#e2e8f0" stroke-width="1" rx="4"/>
+  <line x1="99" y1="79" x2="99" y2="206" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="183" y1="79" x2="183" y2="206" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="268" y1="79" x2="268" y2="206" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Opening pressure card -->
+  <rect x="16" y="212" width="324" height="52" fill="#eff6ff" rx="8" stroke="#3b82f6" stroke-width="1"/>
+  <text x="26" y="228" font-size="11" font-weight="700" fill="#1e3a5f">Opening Pressure (normal 70–180 mmH₂O)</text>
+  <text x="26" y="244" font-size="10" fill="#1e3a5f">Bacterial: usually &gt;250 mmH₂O (often 400–600)</text>
+  <text x="26" y="258" font-size="10" fill="#1e3a5f">Viral: 100–250 mmH₂O   |   Fungal: very high, cryptococcal</text>
+
+  <!-- Send all card -->
+  <rect x="16" y="270" width="324" height="52" fill="#fef3c7" rx="8" stroke="#f59e0b" stroke-width="1"/>
+  <text x="26" y="286" font-size="11" font-weight="700" fill="#92400e">Send Simultaneously on LP:</text>
+  <text x="26" y="300" font-size="10" fill="#1e3a5f">Cell count+diff · Glucose · Protein · Lactate · Gram stain</text>
+  <text x="26" y="314" font-size="10" fill="#1e3a5f">Culture · HSV/VZV/EV PCR · Cryptococcal Ag · Cytology</text>
+
+  <!-- CT before LP -->
+  <rect x="16" y="328" width="324" height="76" fill="#f1f5f9" rx="8" stroke="#64748b" stroke-width="1"/>
+  <text x="26" y="344" font-size="11" font-weight="700" fill="#1e3a5f">CT Before LP? Only if ANY of these present:</text>
+  <text x="26" y="358" font-size="10" fill="#1e3a5f">• Focal neurological deficit</text>
+  <text x="26" y="372" font-size="10" fill="#1e3a5f">• New-onset seizure · Papilledema · Altered LOC</text>
+  <text x="26" y="386" font-size="10" fill="#1e3a5f">• Immunocompromised · Age &gt;60</text>
+  <text x="26" y="400" font-size="10" fill="#ef4444" font-weight="600">→ Never delay antibiotics waiting for CT or LP result</text>
+
+  <!-- ── RIGHT COLUMN: Empiric Antibiotics ── -->
+  <line x1="350" y1="60" x2="350" y2="410" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="525" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a5f">Empiric Antibiotic Coverage</text>
+
+  <!-- Default regimen -->
+  <rect x="360" y="79" width="324" height="58" fill="#1e3a5f" rx="8"/>
+  <text x="522" y="97" text-anchor="middle" font-size="12" font-weight="700" fill="white">Standard Adult — Default Regimen</text>
+  <text x="522" y="113" text-anchor="middle" font-size="13" font-weight="700" fill="#60a5fa">Vancomycin + Ceftriaxone 2g IV q12h</text>
+  <text x="522" y="128" text-anchor="middle" font-size="10" fill="#cbd5e1">Vanco: 25–30 mg/kg load → AUC-guided dosing (target AUC 400–600)</text>
+
+  <!-- Add Ampicillin -->
+  <rect x="360" y="144" width="324" height="62" fill="#f0fdf4" rx="8" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="370" y="160" font-size="11" font-weight="700" fill="#15803d">+ AMPICILLIN 2g IV q4h — add if ANY of the following:</text>
+  <text x="378" y="175" font-size="10" fill="#1e3a5f">• Age &gt;50 years</text>
+  <text x="478" y="175" font-size="10" fill="#1e3a5f">• Chronic alcoholism</text>
+  <text x="378" y="190" font-size="10" fill="#1e3a5f">• Immunocompromised / pregnancy</text>
+  <text x="378" y="202" font-size="10" fill="#64748b" font-style="italic">→ Covers Listeria monocytogenes</text>
+
+  <!-- Post-neurosurgery -->
+  <rect x="360" y="213" width="324" height="55" fill="#f5f3ff" rx="8" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="370" y="229" font-size="11" font-weight="700" fill="#7c3aed">Post-Neurosurgery / VP Shunt / Hospital-acquired:</text>
+  <text x="370" y="245" font-size="10" fill="#1e3a5f">Replace Ceftriaxone → Cefepime 2g IV q8h</text>
+  <text x="370" y="259" font-size="10" fill="#64748b" font-style="italic">Covers Pseudomonas aeruginosa + nosocomial gram-negatives</text>
+
+  <!-- Dexamethasone -->
+  <rect x="360" y="275" width="324" height="60" fill="#fef3c7" rx="8" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="370" y="291" font-size="11" font-weight="700" fill="#92400e">Dexamethasone 10mg IV q6h × 4 days:</text>
+  <text x="370" y="306" font-size="10" fill="#1e3a5f">Give 15–20 min BEFORE or WITH first antibiotic dose</text>
+  <text x="370" y="320" font-size="10" fill="#1e3a5f">Proven benefit: Pneumococcal meningitis (↓ mortality + hearing loss)</text>
+  <text x="370" y="331" font-size="10" fill="#64748b" font-style="italic">Discontinue if non-pneumococcal confirmed</text>
+
+  <!-- Warning: Pip/tazo -->
+  <rect x="360" y="342" width="324" height="62" fill="#fef2f2" rx="8" stroke="#ef4444" stroke-width="2"/>
+  <text x="522" y="360" text-anchor="middle" font-size="12" font-weight="700" fill="#ef4444">⚠ CRITICAL WARNING</text>
+  <text x="522" y="377" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c">Pip/Tazo does NOT penetrate the CNS</text>
+  <text x="522" y="392" text-anchor="middle" font-size="10" fill="#1e3a5f">Piperacillin-tazobactam is NEVER appropriate</text>
+  <text x="522" y="404" text-anchor="middle" font-size="10" fill="#1e3a5f">monotherapy for bacterial meningitis</text>
+</svg>

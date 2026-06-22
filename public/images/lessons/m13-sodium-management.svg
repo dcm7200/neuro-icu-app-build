@@ -1,0 +1,127 @@
+<svg width="700" height="420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="420" fill="#f8fafc" rx="12"/>
+
+  <!-- Title / Subtitle -->
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Hyponatremia in the Neuro ICU: SIADH vs CSW vs Treatment</text>
+  <text x="350" y="48" text-anchor="middle" font-size="11" fill="#64748b" font-style="italic">Both SIADH and CSW treated the same in neuro ICU — IV fluids + HTS + fludrocortisone. Never fluid restrict.</text>
+  <line x1="16" y1="57" x2="684" y2="57" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <rect x="16" y="62" width="208" height="24" fill="#f59e0b" rx="6"/>
+  <text x="120" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="white">SIADH</text>
+
+  <rect x="240" y="62" width="220" height="24" fill="#3b82f6" rx="6"/>
+  <text x="350" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="white">TREATMENT (Both)</text>
+
+  <rect x="476" y="62" width="208" height="24" fill="#7c3aed" rx="6"/>
+  <text x="580" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="white">CSW</text>
+
+  <!-- ── LEFT: SIADH ── -->
+  <rect x="16" y="92" width="208" height="190" fill="#fffbeb" rx="8" stroke="#f59e0b" stroke-width="1.5"/>
+
+  <!-- Volume status -->
+  <rect x="24" y="100" width="192" height="20" fill="#fef3c7" rx="4"/>
+  <text x="120" y="113" text-anchor="middle" font-size="10" font-weight="700" fill="#92400e">Volume Status</text>
+  <text x="120" y="128" text-anchor="middle" font-size="10" fill="#1e3a5f">Euvolemic or Hypervolemic</text>
+
+  <line x1="24" y1="134" x2="216" y2="134" stroke="#fde68a" stroke-width="1"/>
+
+  <text x="30" y="148" font-size="10" font-weight="600" fill="#1e3a5f">Urine Na:</text>
+  <text x="210" y="148" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">HIGH (&gt;20 mEq/L)</text>
+
+  <text x="30" y="163" font-size="10" font-weight="600" fill="#1e3a5f">Urine Osm:</text>
+  <text x="210" y="163" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">HIGH (&gt;100 mOsm/kg)</text>
+
+  <text x="30" y="178" font-size="10" font-weight="600" fill="#1e3a5f">Serum Na:</text>
+  <text x="210" y="178" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">LOW (&lt;135 mEq/L)</text>
+
+  <text x="30" y="193" font-size="10" font-weight="600" fill="#1e3a5f">Serum Osm:</text>
+  <text x="210" y="193" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">LOW (&lt;275 mOsm/kg)</text>
+
+  <text x="30" y="208" font-size="10" font-weight="600" fill="#1e3a5f">BUN/Cr:</text>
+  <text x="210" y="208" text-anchor="end" font-size="10" fill="#22c55e">Normal</text>
+
+  <text x="30" y="223" font-size="10" font-weight="600" fill="#1e3a5f">Uric Acid:</text>
+  <text x="210" y="223" text-anchor="end" font-size="10" fill="#ef4444">Low (↓ reabsorption)</text>
+
+  <line x1="24" y1="230" x2="216" y2="230" stroke="#fde68a" stroke-width="1"/>
+  <text x="120" y="244" text-anchor="middle" font-size="9" fill="#92400e" font-weight="600">Mechanism: ADH excess →</text>
+  <text x="120" y="257" text-anchor="middle" font-size="9" fill="#92400e">water retention → dilutional hypoNa</text>
+  <text x="120" y="270" text-anchor="middle" font-size="9" fill="#64748b">Causes: SAH, TBI, pneumonia,</text>
+  <text x="120" y="282" text-anchor="middle" font-size="9" fill="#64748b">drugs, malignancy</text>
+
+  <!-- ── MIDDLE: Treatment ── -->
+  <rect x="240" y="92" width="220" height="228" fill="#eff6ff" rx="8" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="248" y="100" width="204" height="20" fill="#3b82f6" rx="4"/>
+  <text x="350" y="113" text-anchor="middle" font-size="10" font-weight="700" fill="white">Active Management</text>
+
+  <text x="255" y="131" font-size="10" fill="#1e3a5f">1. <tspan font-weight="700">IV Isotonic (0.9% NaCl)</tspan> — maintain euvolemia</text>
+  <text x="255" y="147" font-size="10" fill="#1e3a5f">2. <tspan font-weight="700">3% HTS (hypertonic saline)</tspan></text>
+  <text x="265" y="160" font-size="9" fill="#64748b">   Infuse at 30–50 mL/h; bolus 100–150 mL</text>
+  <text x="265" y="172" font-size="9" fill="#64748b">   if sx: seizures, herniation</text>
+
+  <text x="255" y="187" font-size="10" fill="#1e3a5f">3. <tspan font-weight="700">Fludrocortisone</tspan> 0.1–0.2 mg daily</text>
+  <text x="265" y="199" font-size="9" fill="#64748b">   Mineralocorticoid → ↑ Na reabsorption</text>
+
+  <text x="255" y="214" font-size="10" fill="#1e3a5f">4. <tspan font-weight="700">Salt tablets</tspan> 1–2 g TID (PO/NGT)</text>
+
+  <text x="255" y="229" font-size="10" fill="#1e3a5f">5. High-sodium diet / supplements</text>
+
+  <line x1="248" y1="236" x2="452" y2="236" stroke="#bfdbfe" stroke-width="1"/>
+
+  <rect x="248" y="242" width="204" height="20" fill="#dbeafe" rx="4"/>
+  <text x="350" y="255" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Monitor Na q6h initially</text>
+
+  <text x="255" y="272" font-size="9" fill="#1e3a5f">Target correction: 4–6 mEq/L in first 6h</text>
+  <text x="255" y="285" font-size="9" fill="#1e3a5f">Then slow: ≤8–10 mEq/L per 24h total</text>
+  <text x="255" y="298" font-size="9" fill="#1e3a5f">Check urine Na, urine Osm, fluid balance</text>
+  <text x="255" y="311" font-size="9" fill="#64748b">Hold 3% HTS when Na &gt;130 mEq/L</text>
+
+  <!-- ── RIGHT: CSW ── -->
+  <rect x="476" y="92" width="208" height="190" fill="#f5f3ff" rx="8" stroke="#7c3aed" stroke-width="1.5"/>
+
+  <rect x="484" y="100" width="192" height="20" fill="#ede9fe" rx="4"/>
+  <text x="580" y="113" text-anchor="middle" font-size="10" font-weight="700" fill="#7c3aed">Volume Status</text>
+  <text x="580" y="128" text-anchor="middle" font-size="10" fill="#1e3a5f">HYPOVOLEMIC</text>
+
+  <line x1="484" y1="134" x2="676" y2="134" stroke="#ddd6fe" stroke-width="1"/>
+
+  <text x="490" y="148" font-size="10" font-weight="600" fill="#1e3a5f">Urine Na:</text>
+  <text x="676" y="148" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">HIGH (&gt;20 mEq/L)</text>
+
+  <text x="490" y="163" font-size="10" font-weight="600" fill="#1e3a5f">Urine Osm:</text>
+  <text x="676" y="163" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">HIGH</text>
+
+  <text x="490" y="178" font-size="10" font-weight="600" fill="#1e3a5f">Serum Na:</text>
+  <text x="676" y="178" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">LOW</text>
+
+  <text x="490" y="193" font-size="10" font-weight="600" fill="#1e3a5f">Serum Osm:</text>
+  <text x="676" y="193" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">LOW</text>
+
+  <text x="490" y="208" font-size="10" font-weight="600" fill="#1e3a5f">BUN/Cr:</text>
+  <text x="676" y="208" text-anchor="end" font-size="10" font-weight="700" fill="#ef4444">Elevated (pre-renal)</text>
+
+  <text x="490" y="223" font-size="10" font-weight="600" fill="#1e3a5f">Uric Acid:</text>
+  <text x="676" y="223" text-anchor="end" font-size="10" fill="#22c55e">Normal/High</text>
+
+  <line x1="484" y1="230" x2="676" y2="230" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="580" y="244" text-anchor="middle" font-size="9" fill="#7c3aed" font-weight="600">Mechanism: ANP/BNP → renal</text>
+  <text x="580" y="257" text-anchor="middle" font-size="9" fill="#7c3aed">Na wasting → volume depletion</text>
+  <text x="580" y="270" text-anchor="middle" font-size="9" fill="#64748b">Classic setting: SAH (intracranial</text>
+  <text x="580" y="282" text-anchor="middle" font-size="9" fill="#64748b">natriuretic peptide release)</text>
+
+  <!-- Warning boxes at bottom -->
+  <rect x="16" y="330" width="326" height="52" fill="#fef2f2" rx="8" stroke="#ef4444" stroke-width="2"/>
+  <text x="30" y="348" font-size="12" font-weight="700" fill="#ef4444">⚠ OVERCORRECTION DANGER</text>
+  <text x="30" y="364" font-size="10" fill="#1e3a5f">Max correction: <tspan font-weight="700">8–10 mEq/L per 24h</tspan> (6 mEq/L if chronic)</text>
+  <text x="30" y="378" font-size="10" fill="#1e3a5f">Overcorrection → Osmotic Demyelination Syndrome (ODS/CPM)</text>
+
+  <rect x="358" y="330" width="326" height="52" fill="#f0fdf4" rx="8" stroke="#22c55e" stroke-width="2"/>
+  <text x="372" y="348" font-size="12" font-weight="700" fill="#22c55e">✓ NEURO ICU RULE</text>
+  <text x="372" y="364" font-size="10" fill="#1e3a5f">NEVER fluid restrict SAH or neuro patients</text>
+  <text x="372" y="378" font-size="10" fill="#1e3a5f">Fluid restriction → volume depletion → vasospasm → infarct</text>
+
+  <!-- Key differentiator note -->
+  <rect x="16" y="390" width="668" height="22" fill="#1e3a5f" rx="6"/>
+  <text x="350" y="404" text-anchor="middle" font-size="10" fill="white">Key differentiator: SIADH = euvolemic/hypervolemic | CSW = hypovolemic with ↑ BUN (pre-renal signs)</text>
+</svg>

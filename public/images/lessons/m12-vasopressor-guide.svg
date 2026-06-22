@@ -1,0 +1,113 @@
+<svg width="700" height="380" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="380" fill="#f8fafc" rx="12"/>
+
+  <!-- Title / Subtitle -->
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Vasopressor and Inotrope Quick Reference</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Start peripherally — do NOT wait for central line. MAP &gt;65 mmHg is the goal.</text>
+  <line x1="16" y1="57" x2="684" y2="57" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Table header -->
+  <rect x="16" y="62" width="668" height="22" fill="#1e3a5f" rx="4"/>
+  <text x="80"  y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">Drug</text>
+  <text x="175" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">Dose Range</text>
+  <text x="275" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">CO Effect</text>
+  <text x="355" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">MAP Effect</text>
+  <text x="437" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">SVR Effect</text>
+  <text x="565" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">Best Use / Notes</text>
+
+  <!-- Column dividers x positions: 136, 216, 316, 396, 476 -->
+
+  <!-- Row 1: Norepinephrine -->
+  <rect x="16" y="84" width="668" height="34" fill="white"/>
+  <rect x="16" y="84" width="120" height="34" fill="#eff6ff" rx="0"/>
+  <text x="76" y="97" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Norepinephrine</text>
+  <text x="76" y="111" text-anchor="middle" font-size="9" fill="#64748b">(Levophed)</text>
+  <text x="176" y="105" text-anchor="middle" font-size="10" fill="#1e3a5f">0–50 mcg/min</text>
+  <text x="275" y="105" text-anchor="middle" font-size="11" font-weight="700" fill="#64748b">+/−</text>
+  <text x="355" y="105" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">+++</text>
+  <text x="437" y="105" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">+++</text>
+  <rect x="484" y="88" width="192" height="24" fill="#22c55e" rx="4"/>
+  <text x="580" y="104" text-anchor="middle" font-size="10" font-weight="700" fill="white">FIRST-LINE all shock types</text>
+
+  <!-- Row 2: Vasopressin -->
+  <rect x="16" y="118" width="668" height="34" fill="#f8fafc"/>
+  <rect x="16" y="118" width="120" height="34" fill="#f5f3ff" rx="0"/>
+  <text x="76" y="131" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Vasopressin</text>
+  <text x="76" y="145" text-anchor="middle" font-size="9" fill="#64748b">(Pitressin)</text>
+  <text x="176" y="138" text-anchor="middle" font-size="10" fill="#1e3a5f">0.03–0.04 units/min</text>
+  <text x="275" y="138" text-anchor="middle" font-size="11" font-weight="700" fill="#64748b">−−</text>
+  <text x="355" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">+++</text>
+  <text x="437" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">+++</text>
+  <text x="580" y="135" text-anchor="middle" font-size="10" fill="#1e3a5f">Adjunct / NE-sparing</text>
+  <text x="580" y="148" text-anchor="middle" font-size="9" fill="#64748b">Septic shock (fixed dose)</text>
+
+  <!-- Row 3: Epinephrine -->
+  <rect x="16" y="152" width="668" height="34" fill="white"/>
+  <rect x="16" y="152" width="120" height="34" fill="#fef2f2" rx="0"/>
+  <text x="76" y="165" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Epinephrine</text>
+  <text x="76" y="179" text-anchor="middle" font-size="9" fill="#64748b">(Adrenalin)</text>
+  <text x="176" y="172" text-anchor="middle" font-size="10" fill="#1e3a5f">0–50 mcg/min</text>
+  <text x="275" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">++</text>
+  <text x="355" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">++</text>
+  <text x="437" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">+++</text>
+  <text x="580" y="169" text-anchor="middle" font-size="10" fill="#1e3a5f">Anaphylaxis · Refractory shock</text>
+  <text x="580" y="182" text-anchor="middle" font-size="9" fill="#64748b">Cardiac arrest (1mg IV/IO q3-5min)</text>
+
+  <!-- Row 4: Phenylephrine -->
+  <rect x="16" y="186" width="668" height="40" fill="#fef2f2"/>
+  <rect x="16" y="186" width="120" height="40" fill="#fee2e2" rx="0"/>
+  <text x="76" y="200" text-anchor="middle" font-size="10" font-weight="700" fill="#ef4444">Phenylephrine</text>
+  <text x="76" y="214" text-anchor="middle" font-size="9" fill="#ef4444">(Neosynephrine)</text>
+  <text x="76" y="222" text-anchor="middle" font-size="8" fill="#64748b">pure α1-agonist</text>
+  <text x="176" y="209" text-anchor="middle" font-size="10" fill="#1e3a5f">0–360 mcg/min</text>
+  <text x="275" y="209" text-anchor="middle" font-size="13" font-weight="700" fill="#ef4444">↓↓</text>
+  <text x="355" y="209" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">++</text>
+  <text x="437" y="209" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">+++</text>
+  <text x="580" y="204" text-anchor="middle" font-size="10" fill="#1e3a5f">Pure vasoconstriction only</text>
+  <text x="580" y="218" text-anchor="middle" font-size="10" font-weight="700" fill="#ef4444">AVOID in cardiogenic shock</text>
+
+  <!-- Row 5: Dopamine -->
+  <rect x="16" y="226" width="668" height="34" fill="white"/>
+  <rect x="16" y="226" width="120" height="34" fill="#fef3c7" rx="0"/>
+  <text x="76" y="239" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Dopamine</text>
+  <text x="76" y="253" text-anchor="middle" font-size="9" fill="#64748b">(Intropin)</text>
+  <text x="176" y="246" text-anchor="middle" font-size="10" fill="#1e3a5f">5–20 mcg/kg/min</text>
+  <text x="275" y="246" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">++</text>
+  <text x="355" y="246" text-anchor="middle" font-size="13" font-weight="700" fill="#f59e0b">+</text>
+  <text x="437" y="246" text-anchor="middle" font-size="13" font-weight="700" fill="#f59e0b">++</text>
+  <text x="580" y="243" text-anchor="middle" font-size="10" fill="#1e3a5f">Bradycardic distributive shock</text>
+  <text x="580" y="256" text-anchor="middle" font-size="9" fill="#64748b">More arrhythmic risk than NE</text>
+
+  <!-- Row 6: Dobutamine -->
+  <rect x="16" y="260" width="668" height="34" fill="#f8fafc"/>
+  <rect x="16" y="260" width="120" height="34" fill="#ecfdf5" rx="0"/>
+  <text x="76" y="273" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Dobutamine</text>
+  <text x="76" y="287" text-anchor="middle" font-size="9" fill="#64748b">(Dobutrex)</text>
+  <text x="176" y="280" text-anchor="middle" font-size="10" fill="#1e3a5f">0–20 mcg/kg/min</text>
+  <text x="275" y="280" text-anchor="middle" font-size="13" font-weight="700" fill="#22c55e">+++</text>
+  <text x="355" y="280" text-anchor="middle" font-size="11" font-weight="700" fill="#64748b">+/−</text>
+  <text x="437" y="280" text-anchor="middle" font-size="11" font-weight="700" fill="#64748b">−−</text>
+  <text x="580" y="277" text-anchor="middle" font-size="10" fill="#1e3a5f">Cardiogenic shock — add to NE</text>
+  <text x="580" y="290" text-anchor="middle" font-size="9" fill="#64748b">Pure inotrope; ↓ afterload, may↓ BP</text>
+
+  <!-- Table border and column lines -->
+  <rect x="16" y="62" width="668" height="232" fill="none" stroke="#e2e8f0" stroke-width="1" rx="4"/>
+  <line x1="136" y1="62" x2="136" y2="294" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="216" y1="62" x2="216" y2="294" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="316" y1="62" x2="316" y2="294" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="396" y1="62" x2="396" y2="294" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="476" y1="62" x2="476" y2="294" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Row dividers -->
+  <line x1="16" y1="118" x2="684" y2="118" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16" y1="152" x2="684" y2="152" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16" y1="186" x2="684" y2="186" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16" y1="226" x2="684" y2="226" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16" y1="260" x2="684" y2="260" stroke="#e2e8f0" stroke-width="0.75"/>
+
+  <!-- WARNING: Phenylephrine -->
+  <rect x="16" y="302" width="668" height="54" fill="#fef2f2" rx="8" stroke="#ef4444" stroke-width="2"/>
+  <text x="36" y="320" font-size="12" font-weight="700" fill="#ef4444">⚠ PHENYLEPHRINE: AVOID IN CARDIOGENIC SHOCK</text>
+  <text x="36" y="338" font-size="11" fill="#1e3a5f">Increases SVR (afterload) → worsens pump failure → ↓ cardiac output → clinical deterioration</text>
+  <text x="36" y="352" font-size="10" fill="#64748b">Safe use: anesthesia-induced hypotension (normal cardiac function), spinal shock, OR setting with normal EF</text>
+</svg>

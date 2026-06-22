@@ -1,0 +1,108 @@
+<svg width="700" height="420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="420" fill="#f8fafc" rx="12"/>
+
+  <!-- Title / Subtitle -->
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">MRI Sequences for Neuro ICU — Quick Reference</text>
+  <text x="350" y="45" text-anchor="middle" font-size="11" fill="#64748b" font-style="italic">DWI bright + ADC dark = true restriction = acute stroke/abscess. Bright DWI + Bright ADC = T2 shine-through.</text>
+  <line x1="16" y1="55" x2="684" y2="55" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Table header -->
+  <rect x="16" y="60" width="668" height="22" fill="#1e3a5f" rx="4"/>
+  <text x="68"  y="74" text-anchor="middle" font-size="10" font-weight="700" fill="white">Sequence</text>
+  <text x="225" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="#fde68a">Bright (High Signal)</text>
+  <text x="395" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="#cbd5e1">Dark (Low Signal)</text>
+  <text x="575" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="white">Best Use / Clinical Value</text>
+
+  <!-- Dividers at x: 120, 330, 462 -->
+
+  <!-- Row 1: T1 -->
+  <rect x="16"  y="82" width="668" height="44" fill="white"/>
+  <rect x="16"  y="82" width="104" height="44" fill="#e0f2fe"/>
+  <text x="68"  y="98"  text-anchor="middle" font-size="11" font-weight="700" fill="#0369a1">T1</text>
+  <text x="68"  y="113" text-anchor="middle" font-size="9"  fill="#64748b">Anatomy / Post-Gd</text>
+  <text x="225" y="93"  text-anchor="middle" font-size="9.5" fill="#1e3a5f">Fat · Subacute blood (Met-Hgb)</text>
+  <text x="225" y="107" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Gadolinium enhancement</text>
+  <text x="225" y="121" text-anchor="middle" font-size="9" fill="#64748b">Protein-rich fluid · Melanin</text>
+  <text x="395" y="93"  text-anchor="middle" font-size="9.5" fill="#1e3a5f">Water (dark) · Acute blood</text>
+  <text x="395" y="107" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Cortical bone · Air</text>
+  <text x="575" y="93"  text-anchor="middle" font-size="9.5" fill="#1e3a5f">Anatomy · Enhancement (tumor/abscess/MS)</text>
+  <text x="575" y="107" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Subacute blood · Leptomeningeal disease</text>
+
+  <!-- Row 2: T2/FLAIR -->
+  <rect x="16"  y="126" width="668" height="44" fill="#f8fafc"/>
+  <rect x="16"  y="126" width="104" height="44" fill="#e0f2fe"/>
+  <text x="68"  y="141" text-anchor="middle" font-size="11" font-weight="700" fill="#0369a1">T2 / FLAIR</text>
+  <text x="68"  y="157" text-anchor="middle" font-size="9"  fill="#64748b">Edema / Pathology</text>
+  <text x="225" y="137" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Water · Edema · Gliosis</text>
+  <text x="225" y="151" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Demyelination · Infection</text>
+  <text x="225" y="165" text-anchor="middle" font-size="9" fill="#64748b">Chronic infarct · Tumor</text>
+  <text x="395" y="137" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Fat (FLAIR suppresses CSF)</text>
+  <text x="395" y="151" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Cortical bone · Flow voids</text>
+  <text x="575" y="137" text-anchor="middle" font-size="9.5" fill="#1e3a5f">White matter disease · Vasogenic edema</text>
+  <text x="575" y="151" text-anchor="middle" font-size="9.5" fill="#1e3a5f">FLAIR: SAH (sulcal hyperintensity)</text>
+  <text x="575" y="165" text-anchor="middle" font-size="9" fill="#64748b">MS plaques · Encephalitis</text>
+
+  <!-- Row 3: DWI — highlighted -->
+  <rect x="16"  y="170" width="668" height="44" fill="#eff6ff"/>
+  <rect x="16"  y="170" width="104" height="44" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="68"  y="186" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">DWI ★</text>
+  <text x="68"  y="202" text-anchor="middle" font-size="9"  fill="#1d4ed8">Acute stroke</text>
+  <text x="225" y="181" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ef4444">CYTOTOXIC EDEMA</text>
+  <text x="225" y="195" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">= ACUTE ISCHEMIA (minutes)</text>
+  <text x="225" y="209" text-anchor="middle" font-size="9" fill="#64748b">Abscess · Epidermoid · CJD</text>
+  <text x="395" y="181" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Normal brain tissue</text>
+  <text x="395" y="195" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Vasogenic edema (tumors)</text>
+  <text x="575" y="181" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1d4ed8">ACUTE ISCHEMIA within minutes</text>
+  <text x="575" y="195" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Always pair with ADC to confirm</text>
+  <text x="575" y="209" text-anchor="middle" font-size="9" fill="#64748b">Infarct · Abscess cavity · CJD cortex</text>
+
+  <!-- Row 4: ADC -->
+  <rect x="16"  y="214" width="668" height="44" fill="#f8fafc"/>
+  <rect x="16"  y="214" width="104" height="44" fill="#e0f2fe"/>
+  <text x="68"  y="230" text-anchor="middle" font-size="11" font-weight="700" fill="#0369a1">ADC</text>
+  <text x="68"  y="246" text-anchor="middle" font-size="9"  fill="#64748b">Diffusion map</text>
+  <text x="225" y="225" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Vasogenic edema (high diffusion)</text>
+  <text x="225" y="239" text-anchor="middle" font-size="9.5" fill="#1e3a5f">T2 shine-through (if ADC bright)</text>
+  <text x="225" y="253" text-anchor="middle" font-size="9" fill="#64748b">Subacute infarct · Necrosis</text>
+  <text x="395" y="225" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ef4444">CYTOTOXIC (restricted diffusion)</text>
+  <text x="395" y="239" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">= DARK ADC = TRUE RESTRICTION</text>
+  <text x="575" y="225" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Confirms DWI: dark ADC = true stroke</text>
+  <text x="575" y="239" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Bright ADC = shine-through = NOT stroke</text>
+  <text x="575" y="253" text-anchor="middle" font-size="9" fill="#64748b">Always interpret DWI + ADC together</text>
+
+  <!-- Row 5: SWI/GRE -->
+  <rect x="16"  y="258" width="668" height="44" fill="white"/>
+  <rect x="16"  y="258" width="104" height="44" fill="#e0f2fe"/>
+  <text x="68"  y="274" text-anchor="middle" font-size="11" font-weight="700" fill="#0369a1">SWI / GRE</text>
+  <text x="68"  y="290" text-anchor="middle" font-size="9"  fill="#64748b">Susceptibility</text>
+  <text x="225" y="269" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Normal brain parenchyma</text>
+  <text x="225" y="283" text-anchor="middle" font-size="9.5" fill="#64748b">(used as background reference)</text>
+  <text x="395" y="269" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1e3a5f">Blood products · Hemosiderin</text>
+  <text x="395" y="283" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Calcium · Deoxyhemoglobin</text>
+  <text x="395" y="297" text-anchor="middle" font-size="9" fill="#64748b">Air · Metal (bloom artifact)</text>
+  <text x="575" y="269" text-anchor="middle" font-size="9.5" fill="#1e3a5f">Microbleeds (CAA/HTN) · Old ICH</text>
+  <text x="575" y="283" text-anchor="middle" font-size="9.5" fill="#1e3a5f">DAI/TBI shear injury · Cavernoma</text>
+  <text x="575" y="297" text-anchor="middle" font-size="9" fill="#64748b">Venous thrombus (loss of flow void)</text>
+
+  <!-- Table borders and dividers -->
+  <rect x="16"  y="60"  width="668" height="242" fill="none" stroke="#e2e8f0" stroke-width="1" rx="4"/>
+  <line x1="120" y1="60"  x2="120" y2="302" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="330" y1="60"  x2="330" y2="302" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="462" y1="60"  x2="462" y2="302" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="16"  y1="126" x2="684" y2="126" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16"  y1="170" x2="684" y2="170" stroke="#3b82f6" stroke-width="1"/>
+  <line x1="16"  y1="214" x2="684" y2="214" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16"  y1="258" x2="684" y2="258" stroke="#e2e8f0" stroke-width="0.75"/>
+
+  <!-- Big DWI/ADC callout box -->
+  <rect x="16"  y="312" width="668" height="96" fill="#1e3a5f" rx="8"/>
+  <text x="350" y="332" text-anchor="middle" font-size="13" font-weight="700" fill="#fde68a">⚡ DWI + ADC INTERPRETATION — MEMORIZE THIS</text>
+  <rect x="30"  y="340" width="310" height="56" fill="#ef4444" rx="6"/>
+  <text x="185" y="356" text-anchor="middle" font-size="11" font-weight="700" fill="white">DWI BRIGHT + ADC DARK</text>
+  <text x="185" y="370" text-anchor="middle" font-size="10" fill="white">= TRUE DIFFUSION RESTRICTION</text>
+  <text x="185" y="384" text-anchor="middle" font-size="10" fill="#fecaca">= ACUTE STROKE / ABSCESS / CJD</text>
+  <rect x="360" y="340" width="310" height="56" fill="#22c55e" rx="6"/>
+  <text x="515" y="356" text-anchor="middle" font-size="11" font-weight="700" fill="white">DWI BRIGHT + ADC BRIGHT</text>
+  <text x="515" y="370" text-anchor="middle" font-size="10" fill="white">= T2 SHINE-THROUGH</text>
+  <text x="515" y="384" text-anchor="middle" font-size="10" fill="#dcfce7">= NOT ACUTE ISCHEMIA (T2 artifact)</text>
+</svg>

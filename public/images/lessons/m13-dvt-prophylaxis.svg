@@ -1,0 +1,82 @@
+<svg width="700" height="360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="360" fill="#f8fafc" rx="12"/>
+
+  <!-- Title / Subtitle -->
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">DVT Prophylaxis Timing in the Neuro ICU</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Every neuro ICU patient gets SQH 5000 units q8h (&gt;110 kg: 7500 q8h). Timing depends on diagnosis.</text>
+  <line x1="16" y1="57" x2="684" y2="57" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Header row -->
+  <rect x="16" y="62" width="668" height="22" fill="#1e3a5f" rx="4"/>
+  <text x="175" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">Diagnosis</text>
+  <text x="530" y="76" text-anchor="middle" font-size="10" font-weight="700" fill="white">DVT Prophylaxis Timing</text>
+
+  <!-- Row 1: Ischemic Stroke -->
+  <rect x="16"  y="84" width="668" height="36" fill="#eff6ff"/>
+  <rect x="16"  y="84" width="320" height="36" fill="#dbeafe"/>
+  <!-- Diagnosis pill -->
+  <rect x="24"  y="90" width="168" height="22" fill="#3b82f6" rx="6"/>
+  <text x="108" y="104" text-anchor="middle" font-size="10" font-weight="700" fill="white">Ischemic Stroke</text>
+  <!-- No tPA indicator -->
+  <text x="210" y="104" font-size="9.5" fill="#64748b">No tPA given</text>
+  <!-- Timing -->
+  <rect x="344" y="90" width="332" height="22" fill="#22c55e" rx="6"/>
+  <text x="510" y="104" text-anchor="middle" font-size="10" font-weight="700" fill="white">24–48h after presentation</text>
+
+  <!-- Row 2: Spontaneous ICH -->
+  <rect x="16"  y="120" width="668" height="36" fill="white"/>
+  <rect x="16"  y="120" width="320" height="36" fill="#f1f5f9"/>
+  <rect x="24"  y="126" width="192" height="22" fill="#7c3aed" rx="6"/>
+  <text x="120" y="140" text-anchor="middle" font-size="10" font-weight="700" fill="white">Spontaneous ICH</text>
+  <text x="234" y="140" font-size="9.5" fill="#64748b">Hematoma stable on CT</text>
+  <rect x="344" y="126" width="332" height="22" fill="#22c55e" rx="6"/>
+  <text x="510" y="140" text-anchor="middle" font-size="10" font-weight="700" fill="white">24–48h after CT stability confirmed</text>
+
+  <!-- Row 3: Aneurysmal SAH -->
+  <rect x="16"  y="156" width="668" height="46" fill="#fffbeb"/>
+  <rect x="16"  y="156" width="320" height="46" fill="#fef3c7"/>
+  <rect x="24"  y="162" width="192" height="22" fill="#f59e0b" rx="6"/>
+  <text x="120" y="176" text-anchor="middle" font-size="10" font-weight="700" fill="white">Aneurysmal SAH</text>
+  <text x="234" y="172" font-size="9.5" fill="#92400e">Aneurysm must be secured first</text>
+  <!-- Two sub-timings -->
+  <rect x="344" y="159" width="156" height="20" fill="#22c55e" rx="4"/>
+  <text x="422" y="172" text-anchor="middle" font-size="9.5" font-weight="700" fill="white">Endovascular: IMMEDIATE</text>
+  <rect x="504" y="159" width="172" height="20" fill="#3b82f6" rx="4"/>
+  <text x="590" y="172" text-anchor="middle" font-size="9.5" font-weight="700" fill="white">Surgical: 24–48h post-op</text>
+  <text x="344" y="196" font-size="9" fill="#92400e">★ Coiling → SQH same day | Clipping → 24-48h per neurosurgery</text>
+
+  <!-- Row 4: Post-craniotomy -->
+  <rect x="16"  y="202" width="668" height="36" fill="#f8fafc"/>
+  <rect x="16"  y="202" width="320" height="36" fill="#f1f5f9"/>
+  <rect x="24"  y="208" width="192" height="22" fill="#64748b" rx="6"/>
+  <text x="120" y="222" text-anchor="middle" font-size="10" font-weight="700" fill="white">Post-Craniotomy (general)</text>
+  <text x="234" y="222" font-size="9.5" fill="#64748b">Tumor · AVM · Other</text>
+  <rect x="344" y="208" width="332" height="22" fill="#22c55e" rx="6"/>
+  <text x="510" y="222" text-anchor="middle" font-size="10" font-weight="700" fill="white">24–48h per neurosurgery order</text>
+
+  <!-- Row 5: Post-tPA -->
+  <rect x="16"  y="238" width="668" height="36" fill="#fef2f2"/>
+  <rect x="16"  y="238" width="320" height="36" fill="#fee2e2"/>
+  <rect x="24"  y="244" width="168" height="22" fill="#ef4444" rx="6"/>
+  <text x="108" y="258" text-anchor="middle" font-size="10" font-weight="700" fill="white">Post-tPA (IV thrombolysis)</text>
+  <text x="210" y="258" font-size="9" fill="#b91c1c" font-weight="600">No antithrombotics × 24h</text>
+  <rect x="344" y="244" width="332" height="22" fill="#ef4444" rx="6"/>
+  <text x="510" y="258" text-anchor="middle" font-size="10" font-weight="700" fill="white">SQH starts 24h after tPA completed</text>
+
+  <!-- Table borders and dividers -->
+  <rect x="16"  y="62"  width="668" height="212" fill="none" stroke="#e2e8f0" stroke-width="1" rx="4"/>
+  <line x1="336" y1="62"  x2="336" y2="274" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="16"  y1="120" x2="684" y2="120" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16"  y1="156" x2="684" y2="156" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16"  y1="202" x2="684" y2="202" stroke="#e2e8f0" stroke-width="0.75"/>
+  <line x1="16"  y1="238" x2="684" y2="238" stroke="#e2e8f0" stroke-width="0.75"/>
+
+  <!-- PREVAIL upgrade box -->
+  <rect x="16"  y="284" width="668" height="66" fill="#f0fdf4" rx="8" stroke="#22c55e" stroke-width="2"/>
+  <rect x="16"  y="284" width="668" height="24" fill="#22c55e" rx="8"/>
+  <rect x="16"  y="296" width="668" height="12" fill="#22c55e"/>
+  <text x="350" y="301" text-anchor="middle" font-size="12" font-weight="700" fill="white">✓ UPGRADE: PREVAIL Trial — Enoxaparin Superior to UFH</text>
+  <text x="30"  y="322" font-size="10" fill="#1e3a5f" font-weight="600">Per PREVAIL trial: Lovenox (enoxaparin) 40mg SQ daily is SUPERIOR to unfractionated heparin for</text>
+  <text x="30"  y="336" font-size="10" fill="#1e3a5f">eligible neuro ICU patients — use when anticoagulation has been cleared by neurosurgery</text>
+  <text x="30"  y="349" font-size="9.5" fill="#64748b">Contraindications: active bleeding, unsecured aneurysm, CrCl &lt;30, thrombocytopenia, anticipated procedure</text>
+</svg>

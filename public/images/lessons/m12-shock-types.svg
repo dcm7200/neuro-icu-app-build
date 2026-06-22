@@ -1,0 +1,106 @@
+<svg width="700" height="440" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+  <rect width="700" height="440" fill="#f8fafc" rx="12"/>
+
+  <!-- Title / Subtitle -->
+  <text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#1e3a5f">Four Types of Shock: Hemodynamic Profiles</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#64748b" font-style="italic">Bedside echo + clinical pattern identifies shock type before lab results return.</text>
+  <line x1="16" y1="57" x2="684" y2="57" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <text x="178" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#3b82f6">HYPOVOLEMIC</text>
+  <text x="522" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#ef4444">CARDIOGENIC</text>
+
+  <!-- ── CARD 1: Hypovolemic (Blue, top-left) ── -->
+  <rect x="16" y="78" width="326" height="168" fill="#eff6ff" rx="8" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Hemodynamics -->
+  <rect x="26" y="88" width="150" height="72" fill="#dbeafe" rx="6"/>
+  <text x="101" y="103" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Hemodynamics</text>
+  <text x="36" y="118" font-size="10" fill="#1e3a5f">CO/CI: <tspan font-weight="700" fill="#ef4444">↓ LOW</tspan></text>
+  <text x="36" y="132" font-size="10" fill="#1e3a5f">SVR:   <tspan font-weight="700" fill="#ef4444">↑ HIGH</tspan></text>
+  <text x="36" y="146" font-size="10" fill="#1e3a5f">PCWP: <tspan font-weight="700" fill="#ef4444">↓ LOW</tspan></text>
+  <text x="36" y="158" font-size="10" fill="#1e3a5f">CVP:   <tspan font-weight="700" fill="#ef4444">↓ LOW</tspan></text>
+  <!-- Clinical -->
+  <rect x="184" y="88" width="148" height="72" fill="#dbeafe" rx="6"/>
+  <text x="258" y="103" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Clinical Signs</text>
+  <text x="192" y="118" font-size="10" fill="#1e3a5f">Skin: <tspan font-weight="600">Cool, clammy</tspan></text>
+  <text x="192" y="132" font-size="10" fill="#1e3a5f">Neck veins: <tspan font-weight="600">FLAT</tspan></text>
+  <text x="192" y="146" font-size="10" fill="#1e3a5f">Echo: Small, hyperdynamic</text>
+  <text x="192" y="158" font-size="10" fill="#1e3a5f">Causes: Hemorrhage, GI loss</text>
+  <!-- Causes -->
+  <text x="26" y="182" font-size="10" fill="#1e3a5f" font-weight="600">Etiologies:</text>
+  <text x="26" y="196" font-size="10" fill="#64748b">Hemorrhage · Dehydration · Burns · Third spacing</text>
+  <!-- Vasopressor badge -->
+  <rect x="26" y="206" width="302" height="30" fill="#3b82f6" rx="6"/>
+  <text x="177" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="white">First-line: </text>
+  <text x="240" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="white">NE + Aggressive IVF Resuscitation</text>
+  <text x="177" y="232" text-anchor="middle" font-size="9" fill="#bfdbfe">Transfuse pRBC if hemorrhagic (goal Hgb &gt;7-8)</text>
+
+  <!-- ── CARD 2: Cardiogenic (Red, top-right) ── -->
+  <rect x="358" y="78" width="326" height="168" fill="#fef2f2" rx="8" stroke="#ef4444" stroke-width="2"/>
+  <rect x="368" y="88" width="150" height="72" fill="#fee2e2" rx="6"/>
+  <text x="443" y="103" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Hemodynamics</text>
+  <text x="378" y="118" font-size="10" fill="#1e3a5f">CO/CI: <tspan font-weight="700" fill="#ef4444">↓↓ VERY LOW</tspan></text>
+  <text x="378" y="132" font-size="10" fill="#1e3a5f">SVR:   <tspan font-weight="700" fill="#ef4444">↑↑ VERY HIGH</tspan></text>
+  <text x="378" y="146" font-size="10" fill="#1e3a5f">PCWP: <tspan font-weight="700" fill="#ef4444">↑ HIGH</tspan></text>
+  <text x="378" y="158" font-size="10" fill="#1e3a5f">CVP:   <tspan font-weight="700" fill="#ef4444">↑ HIGH</tspan></text>
+  <rect x="526" y="88" width="148" height="72" fill="#fee2e2" rx="6"/>
+  <text x="600" y="103" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Clinical Signs</text>
+  <text x="534" y="118" font-size="10" fill="#1e3a5f">Skin: <tspan font-weight="600">Cool, clammy</tspan></text>
+  <text x="534" y="132" font-size="10" fill="#1e3a5f">Neck veins: <tspan font-weight="600">DISTENDED</tspan></text>
+  <text x="534" y="146" font-size="10" fill="#1e3a5f">Echo: Dilated, ↓ EF</text>
+  <text x="534" y="158" font-size="10" fill="#1e3a5f">Rales, pulm edema</text>
+  <text x="368" y="182" font-size="10" fill="#1e3a5f" font-weight="600">Etiologies:</text>
+  <text x="368" y="196" font-size="10" fill="#64748b">STEMI · Decompensated HF · Myocarditis · Severe AS</text>
+  <rect x="368" y="206" width="302" height="30" fill="#ef4444" rx="6"/>
+  <text x="519" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="white">First-line: NE + Dobutamine (↑ inotropy)</text>
+  <text x="519" y="232" text-anchor="middle" font-size="9" fill="#fecaca">AVOID phenylephrine (↑ afterload → worsens pump)</text>
+
+  <!-- Row labels for bottom cards -->
+  <text x="178" y="262" text-anchor="middle" font-size="12" font-weight="700" fill="#22c55e">DISTRIBUTIVE</text>
+  <text x="522" y="262" text-anchor="middle" font-size="12" font-weight="700" fill="#f59e0b">OBSTRUCTIVE</text>
+
+  <!-- ── CARD 3: Distributive (Green, bottom-left) ── -->
+  <rect x="16" y="267" width="326" height="152" fill="#f0fdf4" rx="8" stroke="#22c55e" stroke-width="2"/>
+  <rect x="26" y="277" width="150" height="68" fill="#dcfce7" rx="6"/>
+  <text x="101" y="292" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Hemodynamics</text>
+  <text x="36" y="307" font-size="10" fill="#1e3a5f">CO/CI: <tspan font-weight="700" fill="#22c55e">↑↑ HIGH</tspan></text>
+  <text x="36" y="321" font-size="10" fill="#1e3a5f">SVR:   <tspan font-weight="700" fill="#ef4444">↓↓ VERY LOW</tspan></text>
+  <text x="36" y="335" font-size="10" fill="#1e3a5f">PCWP: <tspan font-weight="700">Normal/↓</tspan></text>
+  <text x="36" y="347" font-size="10" fill="#1e3a5f">CVP:   <tspan font-weight="700">Normal/↓</tspan></text>
+  <rect x="184" y="277" width="148" height="68" fill="#dcfce7" rx="6"/>
+  <text x="258" y="292" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Clinical Signs</text>
+  <text x="192" y="307" font-size="10" fill="#1e3a5f">Skin: <tspan font-weight="600">Warm, flushed</tspan></text>
+  <text x="192" y="321" font-size="10" fill="#1e3a5f">Neck veins: <tspan font-weight="600">FLAT</tspan></text>
+  <text x="192" y="335" font-size="10" fill="#1e3a5f">Echo: Hyperdynamic, flat IVC</text>
+  <text x="192" y="347" font-size="10" fill="#1e3a5f">Fever/tachycardia common</text>
+  <text x="26" y="367" font-size="10" fill="#64748b">Sepsis · Anaphylaxis · SIRS · Neurogenic shock · Adrenal crisis</text>
+  <rect x="26" y="379" width="302" height="30" fill="#22c55e" rx="6"/>
+  <text x="177" y="393" text-anchor="middle" font-size="10" font-weight="700" fill="white">First-line: NE + Source Control + Antibiotics</text>
+  <text x="177" y="405" text-anchor="middle" font-size="9" fill="#dcfce7">Epi for anaphylaxis; fluids cautiously in septic shock</text>
+
+  <!-- ── CARD 4: Obstructive (Amber, bottom-right) ── -->
+  <rect x="358" y="267" width="326" height="152" fill="#fffbeb" rx="8" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="368" y="277" width="150" height="68" fill="#fef3c7" rx="6"/>
+  <text x="443" y="292" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Hemodynamics</text>
+  <text x="378" y="307" font-size="10" fill="#1e3a5f">CO/CI: <tspan font-weight="700" fill="#ef4444">↓ LOW</tspan></text>
+  <text x="378" y="321" font-size="10" fill="#1e3a5f">SVR:   <tspan font-weight="700" fill="#ef4444">↑ HIGH</tspan></text>
+  <text x="378" y="335" font-size="10" fill="#1e3a5f">PCWP: <tspan font-weight="700">Variable</tspan></text>
+  <text x="378" y="347" font-size="10" fill="#1e3a5f">CVP:   <tspan font-weight="700" fill="#ef4444">↑ HIGH</tspan></text>
+  <rect x="526" y="277" width="148" height="68" fill="#fef3c7" rx="6"/>
+  <text x="600" y="292" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a5f">Clinical Signs</text>
+  <text x="534" y="307" font-size="10" fill="#1e3a5f">Skin: <tspan font-weight="600">Cool</tspan></text>
+  <text x="534" y="321" font-size="10" fill="#1e3a5f">Neck veins: <tspan font-weight="600">DISTENDED</tspan></text>
+  <text x="534" y="335" font-size="10" fill="#1e3a5f">PE: RV dilation on echo</text>
+  <text x="534" y="347" font-size="10" fill="#1e3a5f">Tamponade: pulsus paradoxus</text>
+  <text x="368" y="367" font-size="10" fill="#64748b">Massive PE · Cardiac tamponade · Tension pneumothorax</text>
+  <rect x="368" y="379" width="302" height="30" fill="#f59e0b" rx="6"/>
+  <text x="519" y="393" text-anchor="middle" font-size="10" font-weight="700" fill="white">First-line: NE + Treat underlying cause</text>
+  <text x="519" y="405" text-anchor="middle" font-size="9" fill="#fef3c7">PE: tPA/thrombectomy · Tamponade: pericardiocentesis</text>
+
+  <!-- Bottom bar -->
+  <rect x="16" y="427" width="668" height="7" fill="#e2e8f0" rx="3"/>
+  <rect x="16" y="427" width="167" height="7" fill="#3b82f6" rx="3"/>
+  <rect x="183" y="427" width="167" height="7" fill="#ef4444"/>
+  <rect x="350" y="427" width="167" height="7" fill="#22c55e"/>
+  <rect x="517" y="427" width="167" height="7" fill="#f59e0b" rx="3"/>
+</svg>
