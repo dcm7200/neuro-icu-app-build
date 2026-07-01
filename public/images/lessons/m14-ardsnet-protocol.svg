@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 580" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="800" height="580" fill="#f8fafc" rx="12"/>
+  <!-- Title -->
+  <rect width="800" height="56" fill="#1e3a5f" rx="12"/>
+  <rect y="44" width="800" height="12" fill="#1e3a5f"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-size="19" font-weight="bold">ARDSnet Lung-Protective Ventilation</text>
+
+  <!-- Left column: Targets -->
+  <rect x="20" y="68" width="360" height="300" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="20" y="68" width="360" height="36" fill="#1e40af" rx="8"/>
+  <rect x="20" y="92" width="360" height="12" fill="#1e40af"/>
+  <text x="200" y="91" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Ventilator Targets</text>
+
+  <!-- Targets list -->
+  <rect x="35" y="118" width="330" height="38" fill="#eff6ff" rx="6"/>
+  <text x="55" y="133" fill="#1e40af" font-size="12" font-weight="bold">Tidal Volume (VT)</text>
+  <text x="55" y="149" fill="#374151" font-size="12">4–8 mL/kg IBW (start at 6, can ↑ if Pplat OK)</text>
+
+  <rect x="35" y="162" width="330" height="38" fill="#f0fdf4" rx="6"/>
+  <text x="55" y="177" fill="#15803d" font-size="12" font-weight="bold">Plateau Pressure (Pplat)</text>
+  <text x="55" y="193" fill="#374151" font-size="12">≤30 cmH₂O — check with inspiratory hold q4h</text>
+
+  <rect x="35" y="206" width="330" height="38" fill="#fffbeb" rx="6"/>
+  <text x="55" y="221" fill="#b45309" font-size="12" font-weight="bold">PEEP</text>
+  <text x="55" y="237" fill="#374151" font-size="12">"Best PEEP" — titrate with FiO₂ per PEEP table</text>
+
+  <rect x="35" y="250" width="330" height="38" fill="#fdf4ff" rx="6"/>
+  <text x="55" y="265" fill="#7e22ce" font-size="12" font-weight="bold">SpO₂ / PaO₂ Target</text>
+  <text x="55" y="281" fill="#374151" font-size="12">SpO₂ 88–95% or PaO₂ 55–80 mmHg</text>
+
+  <rect x="35" y="294" width="330" height="38" fill="#fff1f2" rx="6"/>
+  <text x="55" y="309" fill="#be123c" font-size="12" font-weight="bold">pH / RR Management</text>
+  <text x="55" y="325" fill="#374151" font-size="12">Target pH 7.30–7.45; max RR 35; may use NaHCO₃</text>
+
+  <!-- Right column: PEEP/FiO2 table -->
+  <rect x="400" y="68" width="380" height="300" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="400" y="68" width="380" height="36" fill="#0f766e" rx="8"/>
+  <rect x="400" y="92" width="380" height="12" fill="#0f766e"/>
+  <text x="590" y="91" text-anchor="middle" fill="white" font-size="14" font-weight="bold">PEEP / FiO₂ Table (Lower PEEP)</text>
+
+  <!-- Table headers -->
+  <rect x="412" y="112" width="175" height="26" fill="#ccfbf1" rx="4"/>
+  <rect x="592" y="112" width="175" height="26" fill="#ccfbf1" rx="4"/>
+  <text x="499" y="130" text-anchor="middle" fill="#0f766e" font-size="12" font-weight="bold">FiO₂</text>
+  <text x="679" y="130" text-anchor="middle" fill="#0f766e" font-size="12" font-weight="bold">PEEP (cmH₂O)</text>
+
+  <!-- Table rows -->
+  <text x="499" y="155" text-anchor="middle" fill="#374151" font-size="11">0.30</text>
+  <text x="679" y="155" text-anchor="middle" fill="#374151" font-size="11">5</text>
+  <text x="499" y="175" text-anchor="middle" fill="#374151" font-size="11">0.40</text>
+  <text x="679" y="175" text-anchor="middle" fill="#374151" font-size="11">5 – 8</text>
+  <text x="499" y="195" text-anchor="middle" fill="#374151" font-size="11">0.50</text>
+  <text x="679" y="195" text-anchor="middle" fill="#374151" font-size="11">8 – 10</text>
+  <text x="499" y="215" text-anchor="middle" fill="#374151" font-size="11">0.60</text>
+  <text x="679" y="215" text-anchor="middle" fill="#374151" font-size="11">10</text>
+  <text x="499" y="235" text-anchor="middle" fill="#374151" font-size="11">0.70</text>
+  <text x="679" y="235" text-anchor="middle" fill="#374151" font-size="11">10 – 12</text>
+  <text x="499" y="255" text-anchor="middle" fill="#374151" font-size="11">0.80</text>
+  <text x="679" y="255" text-anchor="middle" fill="#374151" font-size="11">12 – 14</text>
+  <text x="499" y="275" text-anchor="middle" fill="#374151" font-size="11">0.90</text>
+  <text x="679" y="275" text-anchor="middle" fill="#374151" font-size="11">14 – 16</text>
+  <text x="499" y="295" text-anchor="middle" fill="#374151" font-size="11">1.00</text>
+  <text x="679" y="295" text-anchor="middle" fill="#374151" font-size="11">18 – 24</text>
+
+  <!-- Divider lines -->
+  <line x1="412" y1="140" x2="778" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="412" y1="160" x2="778" y2="160" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="412" y1="180" x2="778" y2="180" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="412" y1="200" x2="778" y2="200" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="412" y1="220" x2="778" y2="220" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="412" y1="240" x2="778" y2="240" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="412" y1="260" x2="778" y2="260" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="412" y1="280" x2="778" y2="280" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="587" y1="112" x2="587" y2="308" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- SBT Criteria section -->
+  <rect x="20" y="382" width="760" height="90" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="20" y="382" width="760" height="32" fill="#4f46e5" rx="8"/>
+  <rect x="20" y="402" width="760" height="12" fill="#4f46e5"/>
+  <text x="400" y="403" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Daily SBT Criteria (Spontaneous Breathing Trial)</text>
+  <text x="40" y="430" fill="#374151" font-size="11">✓ FiO₂ ≤0.40 and PEEP ≤8 cmH₂O  |  ✓ PEEP/FiO₂ ≤ previous day  |  ✓ SpO₂ ≥90%  |  ✓ Systolic BP ≥90 without vasopressors</text>
+  <text x="40" y="452" fill="#374151" font-size="11">✓ Patient effort present  |  ✗ No NMBAs active  |  Trial: T-piece or CPAP ≤5 + PS ≤5 for up to 120 min → if tolerated ≥30 min → consider extubation</text>
+
+  <!-- Proning box -->
+  <rect x="20" y="484" width="760" height="82" fill="#fff7ed" rx="8" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="40" y="505" fill="#c2410c" font-size="13" font-weight="bold">🫁 Prone Positioning Indication</text>
+  <text x="40" y="525" fill="#7c2d12" font-size="12">Indicated when: P/F &lt;150 mmHg despite ARDSnet settings on FiO₂ ≥0.60</text>
+  <text x="40" y="543" fill="#7c2d12" font-size="12">Duration: ≥16 hours/session | PROSEVA trial: 28-day mortality 16% vs 32.8% (p&lt;0.001)</text>
+  <text x="40" y="561" fill="#7c2d12" font-size="12">Monitor: pressure injuries, ETT/line security, hemodynamic stability. Avoid if unstable spine/recent sternotomy.</text>
+</svg>

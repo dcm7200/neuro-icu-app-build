@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="800" height="500" fill="#f8fafc" rx="12"/>
+  <rect width="800" height="56" fill="#1e3a5f" rx="12"/>
+  <rect y="44" width="800" height="12" fill="#1e3a5f"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-size="19" font-weight="bold">Sepsis-3 Definitions (Singer et al., JAMA 2016)</text>
+
+  <!-- Three nested boxes: Infection → Sepsis → Septic Shock -->
+  <!-- Outer: Infection -->
+  <rect x="20" y="72" width="760" height="390" fill="#fef9c3" rx="10" stroke="#fde047" stroke-width="2"/>
+  <text x="60" y="100" fill="#713f12" font-size="13" font-weight="bold">INFECTION</text>
+  <text x="60" y="118" fill="#92400e" font-size="11">Suspected or documented infection by pathogen (bacteria, virus, fungus, parasite)</text>
+
+  <!-- Middle: Sepsis -->
+  <rect x="40" y="128" width="720" height="230" fill="#dbeafe" rx="10" stroke="#93c5fd" stroke-width="2"/>
+  <text x="80" y="155" fill="#1e3a5f" font-size="13" font-weight="bold">SEPSIS</text>
+  <text x="80" y="173" fill="#1e40af" font-size="11" font-weight="bold">= Life-threatening organ dysfunction caused by dysregulated host response to infection</text>
+
+  <!-- qSOFA box -->
+  <rect x="60" y="183" width="320" height="120" fill="white" rx="8" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="220" y="201" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="bold">qSOFA Screen (≥2 = high risk)</text>
+  <text x="80" y="220" fill="#374151" font-size="11">• Altered mental status (GCS &lt;15)</text>
+  <text x="80" y="238" fill="#374151" font-size="11">• RR ≥22 breaths/min</text>
+  <text x="80" y="256" fill="#374151" font-size="11">• Systolic BP ≤100 mmHg</text>
+  <text x="220" y="290" text-anchor="middle" fill="#6b7280" font-size="10">Bedside screening tool (not diagnostic)</text>
+
+  <!-- SOFA box -->
+  <rect x="400" y="183" width="340" height="120" fill="white" rx="8" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="570" y="201" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="bold">SOFA Score (≥2 = organ dysfunction)</text>
+  <text x="415" y="220" fill="#374151" font-size="11">• Respiratory: PaO₂/FiO₂</text>
+  <text x="415" y="238" fill="#374151" font-size="11">• Coagulation: Platelets</text>
+  <text x="415" y="256" fill="#374151" font-size="11">• Liver: Bilirubin | Renal: Creatinine</text>
+  <text x="415" y="274" fill="#374151" font-size="11">• CNS: GCS | Cardiovascular: MAP/vasopressors</text>
+
+  <text x="400" y="325" text-anchor="middle" fill="#1e40af" font-size="11">Mortality: ~10%</text>
+
+  <!-- Inner: Septic Shock -->
+  <rect x="60" y="335" width="700" height="115" fill="#fee2e2" rx="10" stroke="#f87171" stroke-width="2"/>
+  <text x="100" y="358" fill="#7f1d1d" font-size="13" font-weight="bold">SEPTIC SHOCK</text>
+  <text x="100" y="376" fill="#991b1b" font-size="11" font-weight="bold">= Sepsis + vasopressor requirement to maintain MAP ≥65 mmHg + lactate &gt;2 mmol/L despite adequate fluids</text>
+
+  <!-- Mortality badges -->
+  <rect x="80" y="390" width="200" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1"/>
+  <text x="180" y="411" text-anchor="middle" fill="#7f1d1d" font-size="11" font-weight="bold">Vasopressors + Lactate &gt;2</text>
+  <text x="180" y="430" text-anchor="middle" fill="#dc2626" font-size="16" font-weight="bold">~42% mortality</text>
+
+  <rect x="300" y="390" width="200" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1"/>
+  <text x="400" y="411" text-anchor="middle" fill="#7f1d1d" font-size="11" font-weight="bold">Vasopressors only</text>
+  <text x="400" y="430" text-anchor="middle" fill="#dc2626" font-size="16" font-weight="bold">~30% mortality</text>
+
+  <rect x="520" y="390" width="200" height="50" fill="white" rx="6" stroke="#fca5a5" stroke-width="1"/>
+  <text x="620" y="411" text-anchor="middle" fill="#7f1d1d" font-size="11" font-weight="bold">Lactate &gt;2 only</text>
+  <text x="620" y="430" text-anchor="middle" fill="#dc2626" font-size="16" font-weight="bold">~25% mortality</text>
+
+  <text x="400" y="475" text-anchor="middle" fill="#6b7280" font-size="10">Source: Singer M, et al. JAMA 2016;315(8):801-810. Data from ~3 million patient records.</text>
+</svg>

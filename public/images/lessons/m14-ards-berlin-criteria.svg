@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="520" fill="#f8fafc" rx="12"/>
+  <!-- Title bar -->
+  <rect width="800" height="60" fill="#1e3a5f" rx="12"/>
+  <rect y="48" width="800" height="12" fill="#1e3a5f"/>
+  <text x="400" y="38" text-anchor="middle" fill="white" font-size="20" font-weight="bold">Berlin Definition of ARDS</text>
+
+  <!-- Column headers -->
+  <rect x="20" y="75" width="220" height="36" fill="#2d6a9f" rx="6"/>
+  <rect x="250" y="75" width="170" height="36" fill="#2563eb" rx="6"/>
+  <rect x="430" y="75" width="160" height="36" fill="#d97706" rx="6"/>
+  <rect x="600" y="75" width="180" height="36" fill="#dc2626" rx="6"/>
+
+  <text x="130" y="98" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Criteria</text>
+  <text x="335" y="92" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Mild</text>
+  <text x="335" y="106" text-anchor="middle" fill="white" font-size="11">P/F 201–300 + PEEP ≥5</text>
+  <text x="510" y="92" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Moderate</text>
+  <text x="510" y="106" text-anchor="middle" fill="white" font-size="11">P/F 101–200 + PEEP ≥5</text>
+  <text x="690" y="92" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Severe</text>
+  <text x="690" y="106" text-anchor="middle" fill="white" font-size="11">P/F ≤100 + PEEP ≥5</text>
+
+  <!-- Row 1: Timing -->
+  <rect x="20" y="120" width="760" height="50" fill="#e8f0fe" rx="4"/>
+  <text x="130" y="142" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="bold">Timing</text>
+  <text x="130" y="158" text-anchor="middle" fill="#374151" font-size="11">Within 1 week of insult</text>
+  <text x="530" y="150" text-anchor="middle" fill="#374151" font-size="12">Onset within 1 week of known clinical insult or new/worsening respiratory symptoms</text>
+
+  <!-- Row 2: Imaging -->
+  <rect x="20" y="178" width="760" height="50" fill="white" rx="4"/>
+  <text x="130" y="200" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="bold">Chest Imaging</text>
+  <text x="130" y="216" text-anchor="middle" fill="#374151" font-size="11">CXR or CT</text>
+  <text x="530" y="208" text-anchor="middle" fill="#374151" font-size="12">Bilateral opacities — not fully explained by effusions,</text>
+  <text x="530" y="222" text-anchor="middle" fill="#374151" font-size="12">lobar/lung collapse, or nodules</text>
+
+  <!-- Row 3: Origin of edema -->
+  <rect x="20" y="236" width="760" height="50" fill="#e8f0fe" rx="4"/>
+  <text x="130" y="255" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="bold">Origin of Edema</text>
+  <text x="130" y="271" text-anchor="middle" fill="#374151" font-size="11">Not cardiac/fluid</text>
+  <text x="530" y="263" text-anchor="middle" fill="#374151" font-size="12">Respiratory failure not fully explained by cardiac failure or fluid overload;</text>
+  <text x="530" y="277" text-anchor="middle" fill="#374151" font-size="12">Echo needed if no risk factor present</text>
+
+  <!-- P/F ratio visual bar -->
+  <text x="400" y="318" text-anchor="middle" fill="#1e3a5f" font-size="13" font-weight="bold">P/F Ratio (PaO₂/FiO₂) Severity Scale</text>
+  <!-- Bar background -->
+  <rect x="40" y="330" width="720" height="40" fill="#e5e7eb" rx="20"/>
+  <!-- Mild -->
+  <rect x="40" y="330" width="240" height="40" fill="#2563eb" rx="20"/>
+  <!-- Moderate -->
+  <rect x="280" y="330" width="240" height="40" fill="#d97706"/>
+  <!-- Severe -->
+  <rect x="520" y="330" width="240" height="40" fill="#dc2626" rx="20"/>
+  <!-- Overlap fixes -->
+  <rect x="280" y="330" width="10" height="40" fill="#2563eb"/>
+  <rect x="520" y="330" width="10" height="40" fill="#d97706"/>
+
+  <text x="160" y="356" text-anchor="middle" fill="white" font-size="13" font-weight="bold">201–300 mmHg</text>
+  <text x="400" y="356" text-anchor="middle" fill="white" font-size="13" font-weight="bold">101–200 mmHg</text>
+  <text x="640" y="356" text-anchor="middle" fill="white" font-size="13" font-weight="bold">≤100 mmHg</text>
+
+  <!-- Labels below bar -->
+  <text x="160" y="386" text-anchor="middle" fill="#2563eb" font-size="12" font-weight="bold">MILD</text>
+  <text x="400" y="386" text-anchor="middle" fill="#d97706" font-size="12" font-weight="bold">MODERATE</text>
+  <text x="640" y="386" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">SEVERE</text>
+
+  <!-- Mortality row -->
+  <rect x="40" y="400" width="720" height="40" fill="#fef2f2" rx="6" stroke="#fca5a5" stroke-width="1"/>
+  <text x="120" y="417" text-anchor="middle" fill="#7f1d1d" font-size="11" font-weight="bold">Mortality</text>
+  <text x="160" y="432" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="bold">~27%</text>
+  <text x="400" y="432" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="bold">~32%</text>
+  <text x="640" y="432" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="bold">~45%</text>
+
+  <!-- Key note -->
+  <rect x="40" y="458" width="720" height="48" fill="#fffbeb" rx="6" stroke="#fcd34d" stroke-width="1"/>
+  <text x="55" y="478" fill="#92400e" font-size="11" font-weight="bold">⚠ Key:</text>
+  <text x="55" y="494" fill="#78350f" font-size="11">All categories require PEEP ≥5 cmH₂O on mechanical ventilation. Proning indicated when P/F &lt;150 despite ARDSnet settings.</text>
+</svg>

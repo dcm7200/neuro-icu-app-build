@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="800" height="500" fill="#f8fafc" rx="12"/>
+  <rect width="800" height="56" fill="#1e3a5f" rx="12"/>
+  <rect y="44" width="800" height="12" fill="#1e3a5f"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-size="19" font-weight="bold">Acute Respiratory Failure — Key Concepts</text>
+
+  <!-- DO2 / VO2 box -->
+  <rect x="20" y="72" width="370" height="140" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="20" y="72" width="370" height="34" fill="#0f766e" rx="8"/>
+  <rect x="20" y="98" width="370" height="8" fill="#0f766e"/>
+  <text x="205" y="93" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Oxygen Delivery vs Demand</text>
+  <text x="35" y="122" fill="#134e4a" font-size="11" font-weight="bold">DO₂ = CO × CaO₂ × 10</text>
+  <text x="35" y="140" fill="#374151" font-size="11">CaO₂ = (Hgb × 1.34 × SaO₂) + (PaO₂ × 0.003)</text>
+  <text x="35" y="158" fill="#374151" font-size="11">Target DO₂ adequate when lactate normal, ScvO₂ &gt;70%</text>
+  <text x="35" y="178" fill="#0f766e" font-size="11" font-weight="bold">P/F Ratio = PaO₂ ÷ FiO₂</text>
+  <text x="35" y="196" fill="#374151" font-size="11">Normal: &gt;400 | Mild ARDS: 201-300 | Moderate: 101-200 | Severe: ≤100</text>
+
+  <!-- Hypoxemia causes -->
+  <rect x="410" y="72" width="370" height="140" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="410" y="72" width="370" height="34" fill="#7c3aed" rx="8"/>
+  <rect x="410" y="98" width="370" height="8" fill="#7c3aed"/>
+  <text x="595" y="93" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Mechanisms of Hypoxemia</text>
+  <text x="425" y="120" fill="#4c1d95" font-size="11" font-weight="bold">V/Q Mismatch</text>
+  <text x="425" y="136" fill="#374151" font-size="11">Most common; responds to supplemental O₂</text>
+  <text x="425" y="154" fill="#4c1d95" font-size="11" font-weight="bold">Shunt (V/Q = 0)</text>
+  <text x="425" y="170" fill="#374151" font-size="11">ARDS, pneumonia; does NOT respond to O₂ alone</text>
+  <text x="425" y="188" fill="#4c1d95" font-size="11" font-weight="bold">Diffusion impairment / hypoventilation / low FiO₂</text>
+
+  <!-- Ventilator assessment -->
+  <rect x="20" y="224" width="760" height="100" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="20" y="224" width="760" height="34" fill="#1d4ed8" rx="8"/>
+  <rect x="20" y="250" width="760" height="8" fill="#1d4ed8"/>
+  <text x="400" y="245" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Ventilator Waveform Assessment</text>
+  <text x="40" y="278" fill="#1e40af" font-size="11" font-weight="bold">PIP (Peak Inspiratory Pressure):</text>
+  <text x="220" y="278" fill="#374151" font-size="11">Reflects airway resistance + compliance | High PIP + normal Pplat = ↑ resistance (bronchospasm, mucus)</text>
+  <text x="40" y="296" fill="#1e40af" font-size="11" font-weight="bold">Pplat (Plateau Pressure):</text>
+  <text x="210" y="296" fill="#374151" font-size="11">Reflects lung/chest wall compliance alone | High Pplat = stiff lungs (ARDS) | Target &lt;30 cmH₂O</text>
+  <text x="40" y="314" fill="#1e40af" font-size="11" font-weight="bold">Compliance = VT ÷ (Pplat − PEEP):</text>
+  <text x="260" y="314" fill="#374151" font-size="11">Normal 60-80 mL/cmH₂O | ARDS typically &lt;40 | Case: 20 mL/cmH₂O = severe</text>
+
+  <!-- NIV candidates -->
+  <rect x="20" y="336" width="370" height="150" fill="white" rx="8" stroke="#fcd34d" stroke-width="1.5"/>
+  <rect x="20" y="336" width="370" height="34" fill="#b45309" rx="8"/>
+  <rect x="20" y="362" width="370" height="8" fill="#b45309"/>
+  <text x="205" y="357" text-anchor="middle" fill="white" font-size="13" font-weight="bold">NIV/HFNC — Who Benefits?</text>
+  <text x="35" y="386" fill="#78350f" font-size="11" font-weight="bold">HFNC (High-Flow Nasal Cannula) — consider first for:</text>
+  <text x="35" y="403" fill="#374151" font-size="11">• Mild hypoxemia (SpO₂ &lt;94% on standard O₂)</text>
+  <text x="35" y="419" fill="#374151" font-size="11">• Immunocompromised patients</text>
+  <text x="35" y="435" fill="#374151" font-size="11">• Post-extubation support</text>
+  <text x="35" y="453" fill="#78350f" font-size="11" font-weight="bold">Intubate if: SpO₂ &lt;88% on HFNC, ↑ WOB, altered MS, airway protection concern</text>
+  <text x="35" y="471" fill="#dc2626" font-size="10">⚠ Avoid NIV in ARDS — masks rapid deterioration</text>
+
+  <!-- ARDS common causes -->
+  <rect x="410" y="336" width="370" height="150" fill="white" rx="8" stroke="#fca5a5" stroke-width="1.5"/>
+  <rect x="410" y="336" width="370" height="34" fill="#dc2626" rx="8"/>
+  <rect x="410" y="362" width="370" height="8" fill="#dc2626"/>
+  <text x="595" y="357" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Common ARDS Precipitants</text>
+  <text x="425" y="386" fill="#7f1d1d" font-size="11" font-weight="bold">Direct Lung Injury:</text>
+  <text x="425" y="403" fill="#374151" font-size="11">Pneumonia (most common), aspiration, inhalation injury, near-drowning</text>
+  <text x="425" y="423" fill="#7f1d1d" font-size="11" font-weight="bold">Indirect (Extra-pulmonary):</text>
+  <text x="425" y="440" fill="#374151" font-size="11">Sepsis, pancreatitis, massive transfusion, major trauma</text>
+  <text x="425" y="458" fill="#374151" font-size="11">Burns, cardiopulmonary bypass</text>
+  <text x="595" y="478" text-anchor="middle" fill="#6b7280" font-size="10">Pathophysiology: diffuse alveolar damage → edema → shunt → hypoxemia</text>
+</svg>

@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# iOS/Apple files — keep LF
+*.plist text eol=lf
+*.xcconfig text eol=lf

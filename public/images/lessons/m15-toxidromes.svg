@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="800" height="560" fill="#f8fafc" rx="12"/>
+  <rect width="800" height="56" fill="#1e3a5f" rx="12"/>
+  <rect y="44" width="800" height="12" fill="#1e3a5f"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-size="19" font-weight="bold">Common Toxic Syndromes (Toxidromes)</text>
+
+  <!-- CHOLINERGIC -->
+  <rect x="20" y="72" width="370" height="210" fill="white" rx="8" stroke="#86efac" stroke-width="2"/>
+  <rect x="20" y="72" width="370" height="36" fill="#15803d" rx="8"/>
+  <rect x="20" y="100" width="370" height="8" fill="#15803d"/>
+  <text x="205" y="95" text-anchor="middle" fill="white" font-size="14" font-weight="bold">☠ Cholinergic Syndrome</text>
+  <text x="35" y="126" fill="#14532d" font-size="11" font-weight="bold">Causes:</text>
+  <text x="35" y="142" fill="#374151" font-size="11">Organophosphates, nerve agents, carbamates, physostigmine</text>
+  <text x="35" y="162" fill="#14532d" font-size="11" font-weight="bold">SLUDGE / DUMBELS Mnemonics:</text>
+  <text x="35" y="180" fill="#374151" font-size="11">Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis</text>
+  <text x="35" y="198" fill="#374151" font-size="11">+ Bradycardia, Bronchospasm, Copious secretions, Miosis</text>
+  <text x="35" y="218" fill="#14532d" font-size="11" font-weight="bold">Treatment:</text>
+  <text x="35" y="236" fill="#374151" font-size="11">Atropine (titrate to dry secretions) + Pralidoxime (2-PAM)</text>
+  <text x="35" y="254" fill="#374151" font-size="11">Airway management, decontamination (remove clothing/skin wash)</text>
+  <text x="35" y="272" fill="#6b7280" font-size="10">⚡ HR 35, copious secretions, bronchospasm → think cholinergic first</text>
+
+  <!-- SYMPATHOMIMETIC -->
+  <rect x="410" y="72" width="370" height="210" fill="white" rx="8" stroke="#fca5a5" stroke-width="2"/>
+  <rect x="410" y="72" width="370" height="36" fill="#dc2626" rx="8"/>
+  <rect x="410" y="100" width="370" height="8" fill="#dc2626"/>
+  <text x="595" y="95" text-anchor="middle" fill="white" font-size="14" font-weight="bold">💊 Sympathomimetic Syndrome</text>
+  <text x="425" y="126" fill="#7f1d1d" font-size="11" font-weight="bold">Causes:</text>
+  <text x="425" y="142" fill="#374151" font-size="11">Cocaine, amphetamines, MDMA, pseudoephedrine, caffeine</text>
+  <text x="425" y="162" fill="#7f1d1d" font-size="11" font-weight="bold">Signs:</text>
+  <text x="425" y="180" fill="#374151" font-size="11">Tachycardia, hypertension, hyperthermia, diaphoresis</text>
+  <text x="425" y="198" fill="#374151" font-size="11">Mydriasis, agitation, seizures, dysrhythmias</text>
+  <text x="425" y="218" fill="#7f1d1d" font-size="11" font-weight="bold">Treatment:</text>
+  <text x="425" y="236" fill="#374151" font-size="11">Benzodiazepines (first-line for agitation/seizures)</text>
+  <text x="425" y="254" fill="#374151" font-size="11">Cooling, supportive care; avoid beta-blockers (unopposed alpha)</text>
+
+  <!-- TOXIC ALCOHOL -->
+  <rect x="20" y="294" width="370" height="200" fill="white" rx="8" stroke="#c4b5fd" stroke-width="2"/>
+  <rect x="20" y="294" width="370" height="36" fill="#7c3aed" rx="8"/>
+  <rect x="20" y="322" width="370" height="8" fill="#7c3aed"/>
+  <text x="205" y="317" text-anchor="middle" fill="white" font-size="14" font-weight="bold">🧪 Toxic Alcohol Poisoning</text>
+  <text x="35" y="348" fill="#4c1d95" font-size="11" font-weight="bold">Agents: Methanol, Ethylene glycol, Isopropanol</text>
+  <text x="35" y="368" fill="#4c1d95" font-size="11" font-weight="bold">Pattern to recognize:</text>
+  <text x="35" y="386" fill="#374151" font-size="11">Anion gap metabolic acidosis + ↓HCO₃ + elevated osmolar gap</text>
+  <text x="35" y="402" fill="#374151" font-size="11">Osmolar gap = measured − calculated Osm (normal &lt;10)</text>
+  <text x="35" y="420" fill="#374151" font-size="11">Calculated Osm = 2(Na) + BUN/2.8 + Glucose/18 + EtOH/4.6</text>
+  <text x="35" y="440" fill="#4c1d95" font-size="11" font-weight="bold">Treatment:</text>
+  <text x="35" y="458" fill="#374151" font-size="11">Fomepizole (antidote) or ethanol; HD for severe cases</text>
+  <text x="35" y="476" fill="#374151" font-size="11">Check ethanol level when calculating osmolar gap</text>
+
+  <!-- SALICYLATE -->
+  <rect x="410" y="294" width="370" height="200" fill="white" rx="8" stroke="#fed7aa" stroke-width="2"/>
+  <rect x="410" y="294" width="370" height="36" fill="#ea580c" rx="8"/>
+  <rect x="410" y="322" width="370" height="8" fill="#ea580c"/>
+  <text x="595" y="317" text-anchor="middle" fill="white" font-size="14" font-weight="bold">💊 Salicylate Toxicity</text>
+  <text x="425" y="348" fill="#7c2d12" font-size="11" font-weight="bold">Causes: ASA overdose, topical salicylates</text>
+  <text x="425" y="368" fill="#7c2d12" font-size="11" font-weight="bold">Classic triad:</text>
+  <text x="425" y="386" fill="#374151" font-size="11">Tinnitus • GI upset • Hyperpnea (tachypnea)</text>
+  <text x="425" y="404" fill="#374151" font-size="11">Mixed acid-base: primary resp alkalosis + metabolic acidosis</text>
+  <text x="425" y="422" fill="#374151" font-size="11">Severe: altered mental status, hyperthermia, pulmonary edema</text>
+  <text x="425" y="442" fill="#7c2d12" font-size="11" font-weight="bold">Treatment:</text>
+  <text x="425" y="460" fill="#374151" font-size="11">Urine alkalinization (NaHCO₃) → ion trapping in urine</text>
+  <text x="425" y="478" fill="#374151" font-size="11">HD for levels &gt;100 mg/dL or severe toxicity</text>
+
+  <!-- Bottom: General approach -->
+  <rect x="20" y="506" width="760" height="42" fill="#f1f5f9" rx="6" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="400" y="522" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="bold">General Approach to All Poisonings</text>
+  <text x="400" y="540" text-anchor="middle" fill="#374151" font-size="11">Ensure safety → Decontamination → Identify toxidrome → Antidote if available → Supportive care → Poison Control (1-800-222-1222)</text>
+</svg>

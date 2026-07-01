@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="800" height="540" fill="#f8fafc" rx="12"/>
+  <rect width="800" height="56" fill="#1e3a5f" rx="12"/>
+  <rect y="44" width="800" height="12" fill="#1e3a5f"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-size="19" font-weight="bold">ICU Sedation &amp; Analgesia Assessment Scales</text>
+
+  <!-- RASS left -->
+  <rect x="20" y="72" width="380" height="310" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="20" y="72" width="380" height="36" fill="#4f46e5" rx="8"/>
+  <rect x="20" y="100" width="380" height="8" fill="#4f46e5"/>
+  <text x="210" y="95" text-anchor="middle" fill="white" font-size="14" font-weight="bold">RASS — Richmond Agitation-Sedation Scale</text>
+
+  <!-- RASS rows -->
+  <rect x="30" y="116" width="60" height="24" fill="#7f1d1d" rx="3"/>
+  <text x="60" y="133" text-anchor="middle" fill="white" font-size="12" font-weight="bold">+4</text>
+  <text x="105" y="133" fill="#374151" font-size="11">Combative — violent, immediate danger</text>
+
+  <rect x="30" y="144" width="60" height="24" fill="#dc2626" rx="3"/>
+  <text x="60" y="161" text-anchor="middle" fill="white" font-size="12" font-weight="bold">+3</text>
+  <text x="105" y="161" fill="#374151" font-size="11">Very agitated — pulls/removes tubes</text>
+
+  <rect x="30" y="172" width="60" height="24" fill="#ef4444" rx="3"/>
+  <text x="60" y="189" text-anchor="middle" fill="white" font-size="12" font-weight="bold">+2</text>
+  <text x="105" y="189" fill="#374151" font-size="11">Agitated — frequent non-purposeful movement</text>
+
+  <rect x="30" y="200" width="60" height="24" fill="#f97316" rx="3"/>
+  <text x="60" y="217" text-anchor="middle" fill="white" font-size="12" font-weight="bold">+1</text>
+  <text x="105" y="217" fill="#374151" font-size="11">Restless — anxious but movements purposeful</text>
+
+  <rect x="30" y="228" width="60" height="24" fill="#16a34a" rx="3"/>
+  <text x="60" y="245" text-anchor="middle" fill="white" font-size="12" font-weight="bold">0</text>
+  <text x="105" y="245" fill="#374151" font-size="11">Alert and calm — TARGET GOAL</text>
+
+  <rect x="30" y="256" width="60" height="24" fill="#0891b2" rx="3"/>
+  <text x="60" y="273" text-anchor="middle" fill="white" font-size="12" font-weight="bold">−1</text>
+  <text x="105" y="273" fill="#374151" font-size="11">Drowsy — not fully alert, eye opening &gt;10s</text>
+
+  <rect x="30" y="284" width="60" height="24" fill="#0284c7" rx="3"/>
+  <text x="60" y="301" text-anchor="middle" fill="white" font-size="12" font-weight="bold">−2</text>
+  <text x="105" y="301" fill="#374151" font-size="11">Light sedation — briefly awakens to voice</text>
+
+  <rect x="30" y="312" width="60" height="24" fill="#1d4ed8" rx="3"/>
+  <text x="60" y="329" text-anchor="middle" fill="white" font-size="12" font-weight="bold">−3</text>
+  <text x="105" y="329" fill="#374151" font-size="11">Moderate sedation — movement to voice, no eye contact</text>
+
+  <rect x="30" y="340" width="60" height="24" fill="#1e40af" rx="3"/>
+  <text x="60" y="357" text-anchor="middle" fill="white" font-size="12" font-weight="bold">−4</text>
+  <text x="105" y="357" fill="#374151" font-size="11">Deep sedation — movement to physical stimulation only</text>
+
+  <rect x="30" y="368" width="60" height="24" fill="#312e81" rx="3"/>
+  <text x="60" y="384" text-anchor="middle" fill="white" font-size="12" font-weight="bold">−5</text>
+  <text x="105" y="384" fill="#374151" font-size="11">Unarousable — no response to any stimulation</text>
+
+  <!-- Right panel: CPOT + strategies -->
+  <rect x="420" y="72" width="360" height="160" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="420" y="72" width="360" height="36" fill="#b45309" rx="8"/>
+  <rect x="420" y="100" width="360" height="8" fill="#b45309"/>
+  <text x="600" y="95" text-anchor="middle" fill="white" font-size="14" font-weight="bold">CPOT — Pain Assessment</text>
+  <text x="435" y="120" fill="#78350f" font-size="11" font-weight="bold">Critical Care Pain Observation Tool (0-8 scale)</text>
+  <text x="435" y="138" fill="#374151" font-size="11">• Facial expression (0-2): relaxed → grimacing</text>
+  <text x="435" y="156" fill="#374151" font-size="11">• Body movements (0-2): no movement → agitated</text>
+  <text x="435" y="174" fill="#374151" font-size="11">• Muscle tension (0-2): relaxed → very tense</text>
+  <text x="435" y="192" fill="#374151" font-size="11">• Ventilator compliance or vocalization (0-2)</text>
+  <text x="600" y="218" text-anchor="middle" fill="#92400e" font-size="11">Score ≥3 = pain present → treat before sedation</text>
+
+  <!-- eCASH -->
+  <rect x="420" y="244" width="360" height="138" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="420" y="244" width="360" height="36" fill="#0f766e" rx="8"/>
+  <rect x="420" y="272" width="360" height="8" fill="#0f766e"/>
+  <text x="600" y="267" text-anchor="middle" fill="white" font-size="14" font-weight="bold">eCASH Strategy</text>
+  <text x="435" y="295" fill="#134e4a" font-size="12" font-weight="bold">Early Comfort Using Analgesia, minimal Sedation, maximal Humane Care</text>
+  <text x="435" y="315" fill="#374151" font-size="11">1. Analgesia First — treat pain before sedation</text>
+  <text x="435" y="333" fill="#374151" font-size="11">2. Minimize sedation — lightest level compatible with safety</text>
+  <text x="435" y="351" fill="#374151" font-size="11">3. Daily Awakening Trials (SAT) + SBT → reduce vent days</text>
+  <text x="435" y="369" fill="#374151" font-size="11">4. Target RASS 0 to −2 for most patients</text>
+
+  <!-- Bottom: Sedation ladder -->
+  <rect x="20" y="394" width="760" height="132" fill="white" rx="8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="20" y="394" width="760" height="32" fill="#6d28d9" rx="8"/>
+  <rect x="20" y="414" width="760" height="12" fill="#6d28d9"/>
+  <text x="400" y="415" text-anchor="middle" fill="white" font-size="13" font-weight="bold">Sedation &amp; Analgesia Agent Ladder</text>
+
+  <!-- Analgesia -->
+  <rect x="30" y="438" width="220" height="78" fill="#f0fdf4" rx="6"/>
+  <text x="140" y="455" text-anchor="middle" fill="#15803d" font-size="11" font-weight="bold">Analgesia (First)</text>
+  <text x="140" y="471" text-anchor="middle" fill="#374151" font-size="10">Fentanyl (IV): fast onset</text>
+  <text x="140" y="486" text-anchor="middle" fill="#374151" font-size="10">Morphine: longer duration</text>
+  <text x="140" y="501" text-anchor="middle" fill="#374151" font-size="10">Hydromorphone: high-potency</text>
+
+  <!-- Sedation -->
+  <rect x="265" y="438" width="240" height="78" fill="#eff6ff" rx="6"/>
+  <text x="385" y="455" text-anchor="middle" fill="#1e40af" font-size="11" font-weight="bold">Sedation (Adjunct)</text>
+  <text x="385" y="471" text-anchor="middle" fill="#374151" font-size="10">Propofol: rapid on/off, lipid-based</text>
+  <text x="385" y="486" text-anchor="middle" fill="#374151" font-size="10">Dexmedetomidine: arousable, no resp depression</text>
+  <text x="385" y="501" text-anchor="middle" fill="#374151" font-size="10">Midazolam: avoid &gt;48h (delirium risk)</text>
+
+  <!-- NMBAs -->
+  <rect x="520" y="438" width="250" height="78" fill="#fff7ed" rx="6"/>
+  <text x="645" y="455" text-anchor="middle" fill="#c2410c" font-size="11" font-weight="bold">NMBAs (Last Resort)</text>
+  <text x="645" y="471" text-anchor="middle" fill="#374151" font-size="10">Cisatracurium: preferred in ARDS</text>
+  <text x="645" y="486" text-anchor="middle" fill="#374151" font-size="10">Vecuronium/Rocuronium: shorter term</text>
+  <text x="645" y="501" text-anchor="middle" fill="#dc2626" font-size="10">⚠ Monitor TOF; daily holiday trial</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="800" height="540" fill="#f8fafc" rx="12"/>
+  <!-- Title -->
+  <rect width="800" height="56" fill="#1e3a5f" rx="12"/>
+  <rect y="44" width="800" height="12" fill="#1e3a5f"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-size="19" font-weight="bold">4 Types of Shock — Shubin-Weill Classification</text>
+
+  <!-- Shared definition -->
+  <rect x="20" y="68" width="760" height="36" fill="#e8f0fe" rx="6"/>
+  <text x="400" y="91" text-anchor="middle" fill="#1e3a5f" font-size="12">Shock = inadequate tissue oxygen delivery (DO₂) relative to demand → cellular hypoxia → organ dysfunction</text>
+
+  <!-- 4 boxes -->
+  <!-- HYPOVOLEMIC -->
+  <rect x="20" y="116" width="175" height="310" fill="white" rx="8" stroke="#93c5fd" stroke-width="2"/>
+  <rect x="20" y="116" width="175" height="40" fill="#2563eb" rx="8"/>
+  <rect x="20" y="148" width="175" height="8" fill="#2563eb"/>
+  <text x="107" y="141" text-anchor="middle" fill="white" font-size="13" font-weight="bold">HYPOVOLEMIC</text>
+  <text x="107" y="178" text-anchor="middle" fill="#1e40af" font-size="11" font-weight="bold">Mechanism</text>
+  <text x="107" y="194" text-anchor="middle" fill="#374151" font-size="10">↓ Preload → ↓ CO</text>
+  <text x="107" y="222" text-anchor="middle" fill="#1e40af" font-size="11" font-weight="bold">Causes</text>
+  <text x="107" y="238" text-anchor="middle" fill="#374151" font-size="10">• Hemorrhage</text>
+  <text x="107" y="252" text-anchor="middle" fill="#374151" font-size="10">• GI losses</text>
+  <text x="107" y="266" text-anchor="middle" fill="#374151" font-size="10">• Burns / third-spacing</text>
+  <text x="107" y="298" text-anchor="middle" fill="#1e40af" font-size="11" font-weight="bold">Hemodynamics</text>
+  <text x="107" y="314" text-anchor="middle" fill="#374151" font-size="10">↓ CVP, ↓ PCWP</text>
+  <text x="107" y="328" text-anchor="middle" fill="#374151" font-size="10">↓ CO, ↑ SVR</text>
+  <text x="107" y="354" text-anchor="middle" fill="#1e40af" font-size="11" font-weight="bold">Treatment</text>
+  <text x="107" y="370" text-anchor="middle" fill="#374151" font-size="10">• Volume resuscitation</text>
+  <text x="107" y="384" text-anchor="middle" fill="#374151" font-size="10">• Control hemorrhage</text>
+  <text x="107" y="398" text-anchor="middle" fill="#374151" font-size="10">• Blood products (trauma)</text>
+
+  <!-- CARDIOGENIC -->
+  <rect x="205" y="116" width="185" height="310" fill="white" rx="8" stroke="#f9a8d4" stroke-width="2"/>
+  <rect x="205" y="116" width="185" height="40" fill="#be185d" rx="8"/>
+  <rect x="205" y="148" width="185" height="8" fill="#be185d"/>
+  <text x="297" y="141" text-anchor="middle" fill="white" font-size="13" font-weight="bold">CARDIOGENIC</text>
+  <text x="297" y="178" text-anchor="middle" fill="#9d174d" font-size="11" font-weight="bold">Mechanism</text>
+  <text x="297" y="194" text-anchor="middle" fill="#374151" font-size="10">↓ Contractility → ↓ CO</text>
+  <text x="297" y="222" text-anchor="middle" fill="#9d174d" font-size="11" font-weight="bold">Causes</text>
+  <text x="297" y="238" text-anchor="middle" fill="#374151" font-size="10">• AMI / cardiomyopathy</text>
+  <text x="297" y="252" text-anchor="middle" fill="#374151" font-size="10">• Severe arrhythmia</text>
+  <text x="297" y="266" text-anchor="middle" fill="#374151" font-size="10">• Myocarditis / contusion</text>
+  <text x="297" y="298" text-anchor="middle" fill="#9d174d" font-size="11" font-weight="bold">Hemodynamics</text>
+  <text x="297" y="314" text-anchor="middle" fill="#374151" font-size="10">↑ CVP, ↑ PCWP</text>
+  <text x="297" y="328" text-anchor="middle" fill="#374151" font-size="10">↓ CO, ↑ SVR</text>
+  <text x="297" y="354" text-anchor="middle" fill="#9d174d" font-size="11" font-weight="bold">Treatment</text>
+  <text x="297" y="370" text-anchor="middle" fill="#374151" font-size="10">• Inotropes (dobutamine)</text>
+  <text x="297" y="384" text-anchor="middle" fill="#374151" font-size="10">• Revascularization (AMI)</text>
+  <text x="297" y="398" text-anchor="middle" fill="#374151" font-size="10">• Mechanical support (IABP)</text>
+
+  <!-- OBSTRUCTIVE -->
+  <rect x="400" y="116" width="185" height="310" fill="white" rx="8" stroke="#86efac" stroke-width="2"/>
+  <rect x="400" y="116" width="185" height="40" fill="#15803d" rx="8"/>
+  <rect x="400" y="148" width="185" height="8" fill="#15803d"/>
+  <text x="492" y="141" text-anchor="middle" fill="white" font-size="13" font-weight="bold">OBSTRUCTIVE</text>
+  <text x="492" y="178" text-anchor="middle" fill="#14532d" font-size="11" font-weight="bold">Mechanism</text>
+  <text x="492" y="194" text-anchor="middle" fill="#374151" font-size="10">Mechanical obstruction → ↓ CO</text>
+  <text x="492" y="222" text-anchor="middle" fill="#14532d" font-size="11" font-weight="bold">Causes</text>
+  <text x="492" y="238" text-anchor="middle" fill="#374151" font-size="10">• Massive PE</text>
+  <text x="492" y="252" text-anchor="middle" fill="#374151" font-size="10">• Tension pneumothorax</text>
+  <text x="492" y="266" text-anchor="middle" fill="#374151" font-size="10">• Cardiac tamponade</text>
+  <text x="492" y="298" text-anchor="middle" fill="#14532d" font-size="11" font-weight="bold">Hemodynamics</text>
+  <text x="492" y="314" text-anchor="middle" fill="#374151" font-size="10">↑ CVP (tamponade/PE)</text>
+  <text x="492" y="328" text-anchor="middle" fill="#374151" font-size="10">↓ CO, ↑ SVR</text>
+  <text x="492" y="354" text-anchor="middle" fill="#14532d" font-size="11" font-weight="bold">Treatment</text>
+  <text x="492" y="370" text-anchor="middle" fill="#374151" font-size="10">• PE: anticoag/thrombolysis</text>
+  <text x="492" y="384" text-anchor="middle" fill="#374151" font-size="10">• PTX: needle/tube thorax</text>
+  <text x="492" y="398" text-anchor="middle" fill="#374151" font-size="10">• Tamponade: pericardiocentesis</text>
+
+  <!-- DISTRIBUTIVE -->
+  <rect x="595" y="116" width="185" height="310" fill="white" rx="8" stroke="#fcd34d" stroke-width="2"/>
+  <rect x="595" y="116" width="185" height="40" fill="#b45309" rx="8"/>
+  <rect x="595" y="148" width="185" height="8" fill="#b45309"/>
+  <text x="687" y="141" text-anchor="middle" fill="white" font-size="13" font-weight="bold">DISTRIBUTIVE</text>
+  <text x="687" y="178" text-anchor="middle" fill="#78350f" font-size="11" font-weight="bold">Mechanism</text>
+  <text x="687" y="194" text-anchor="middle" fill="#374151" font-size="10">↓ SVR → maldistribution</text>
+  <text x="687" y="222" text-anchor="middle" fill="#78350f" font-size="11" font-weight="bold">Causes</text>
+  <text x="687" y="238" text-anchor="middle" fill="#374151" font-size="10">• Septic shock</text>
+  <text x="687" y="252" text-anchor="middle" fill="#374151" font-size="10">• Anaphylaxis</text>
+  <text x="687" y="266" text-anchor="middle" fill="#374151" font-size="10">• Neurogenic shock</text>
+  <text x="687" y="298" text-anchor="middle" fill="#78350f" font-size="11" font-weight="bold">Hemodynamics</text>
+  <text x="687" y="314" text-anchor="middle" fill="#374151" font-size="10">↓ CVP, ↓ PCWP</text>
+  <text x="687" y="328" text-anchor="middle" fill="#374151" font-size="10">↑ CO (early), ↓ SVR</text>
+  <text x="687" y="354" text-anchor="middle" fill="#78350f" font-size="11" font-weight="bold">Treatment</text>
+  <text x="687" y="370" text-anchor="middle" fill="#374151" font-size="10">• Volume resuscitation</text>
+  <text x="687" y="384" text-anchor="middle" fill="#374151" font-size="10">• Vasopressors (NE first-line)</text>
+  <text x="687" y="398" text-anchor="middle" fill="#374151" font-size="10">• Treat underlying cause</text>
+
+  <!-- Common to all -->
+  <rect x="20" y="438" width="760" height="88" fill="#f1f5f9" rx="8" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="400" y="457" text-anchor="middle" fill="#1e3a5f" font-size="12" font-weight="bold">Common Clinical Features of Shock (All Types)</text>
+  <text x="40" y="477" fill="#374151" font-size="11">• Hypotension (SBP &lt;90 or MAP &lt;65 mmHg)    • Tachycardia    • Cool/mottled extremities (except distributive)    • Altered mental status</text>
+  <text x="40" y="496" fill="#374151" font-size="11">• Oliguria (&lt;0.5 mL/kg/hr)    • Elevated lactate (&gt;2 mmol/L = tissue hypoperfusion)    • Narrow pulse pressure (cardiogenic/hypovolemic)</text>
+  <text x="40" y="515" fill="#374151" font-size="11">📋 Differentiation: Bedside echo + CVP + clinical context → identify type → guide targeted resuscitation</text>
+</svg>
